@@ -1,27 +1,102 @@
 [
   {
-    "question": "Giá trị của đa thức x^2 + 2x + 1 tại x=2 là bao nhiêu?",
-    "options": ["9", "8", "7", "6"],
-    "answer": "9"
+    "question": "Đơn thức nào sau đây là bậc 4?",
+    "options": ["3x²y²", "5xy", "7x³", "2"],
+    "answer": "3x²y²"
   },
   {
-    "question": "Đơn thức nào sau đây có bậc 3?",
-    "options": ["5x", "2xy", "3x^2y", "7"],
-    "answer": "3x^2y"
+    "question": "Bậc của đơn thức -7x³y² là bao nhiêu?",
+    "options": ["3", "2", "5", "6"],
+    "answer": "5"
   },
   {
-    "question": "Kết quả rút gọn (x + y)^2 là:",
-    "options": ["x^2 + y^2", "x^2 + 2xy + y^2", "x^2 - 2xy + y^2", "2x + y^2"],
-    "answer": "x^2 + 2xy + y^2"
+    "question": "Kết quả rút gọn: (x²)³ bằng?",
+    "options": ["x⁵", "x⁶", "x<sup>23</sup>", "x²³"],
+    "answer": "x⁶"
   },
   {
-    "question": "Bậc của đa thức 4x^3 + 2x^2y + y là:",
-    "options": ["3", "2", "1", "4"],
+    "question": "Cho đa thức P(x) = x³ + 2x² - 5x + 7. Bậc của đa thức là?",
+    "options": ["1", "2", "3", "7"],
     "answer": "3"
   },
   {
-    "question": "Kết quả rút gọn (x - y)(x + y) là:",
-    "options": ["x^2 + y^2", "x^2 - y^2", "2xy", "y^2 - x^2"],
-    "answer": "x^2 - y^2"
+    "question": "Tổng của hai đơn thức đồng dạng 5x²y và -3x²y là?",
+    "options": ["2x²y", "8x²y", "15x²y", "5x²y - 3x²y"],
+    "answer": "2x²y"
+  },
+  {
+    "question": "Đơn thức nào dưới đây đồng dạng với -4x³y?",
+    "options": ["x³y", "x²y²", "xy³", "y³x"],
+    "answer": "x³y"
+  },
+  {
+    "question": "Kết quả nhân: (2x²).(3x³) là?",
+    "options": ["6x⁵", "5x⁶", "6x<sup>23</sup>", "x² + x³"],
+    "answer": "6x⁵"
+  },
+  {
+    "question": "Bậc của đa thức 7x²y³ - 5xy + 4 là?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "5"
+  },
+  {
+    "question": "Kết quả thu gọn: (x³y²).(-2xy³) là?",
+    "options": ["-2x³y⁵", "-2x⁴y⁵", "-2x⁴y⁶", "-2x²y³"],
+    "answer": "-2x⁴y⁵"
+  },
+  {
+    "question": "Trong các đơn thức sau, đơn thức nào có hệ số âm?",
+    "options": ["7x²", "-3x³", "5xy", "9"],
+    "answer": "-3x³"
+  },
+  {
+    "question": "Đa thức P(x) = 5x⁴ - 3x² + 7 có số hạng nào?",
+    "options": ["5x⁴, -3x², 7", "5x⁴, 7", "x⁴, x², 7", "5, -3, 7"],
+    "answer": "5x⁴, -3x², 7"
+  },
+  {
+    "question": "Kết quả rút gọn: (x²y)² là?",
+    "options": ["x⁴y²", "x²y²", "x²y³", "x³y²"],
+    "answer": "x⁴y²"
+  },
+  {
+    "question": "Trong đa thức 2x³ - x² + 5x - 7, hạng tử tự do là?",
+    "options": ["2x³", "-x²", "5x", "-7"],
+    "answer": "-7"
+  },
+  {
+    "question": "Bậc của đa thức -x⁶ + 3x² - 4 là?",
+    "options": ["2", "3", "6", "4"],
+    "answer": "6"
+  },
+  {
+    "question": "Giá trị của đa thức P(x) = x² - 3x + 2 tại x = 2 là?",
+    "options": ["0", "4", "2", "6"],
+    "answer": "0"
+  },
+  {
+    "question": "Kết quả phép cộng: (2x² + 3x) + (x² - 5x) là?",
+    "options": ["3x² - 2x", "x² - 2x", "2x² - 2x", "3x² + 2x"],
+    "answer": "3x² - 2x"
+  },
+  {
+    "question": "Kết quả: (x² - 1)(x² + 1) = ?",
+    "options": ["x⁴ + 1", "x⁴ - 1", "x² + 1", "x² - 1"],
+    "answer": "x⁴ - 1"
+  },
+  {
+    "question": "Rút gọn: (3x²y)(-2xy²) = ?",
+    "options": ["-6x³y³", "6x³y²", "-5x²y³", "-6x²y²"],
+    "answer": "-6x³y³"
+  },
+  {
+    "question": "Tính giá trị: P(x) = x² + 2x + 1 tại x = -1",
+    "options": ["0", "2", "1", "-2"],
+    "answer": "0"
+  },
+  {
+    "question": "Biểu thức (x - 2)(x + 2) bằng?",
+    "options": ["x² - 4", "x² + 4", "x² - 2x", "x² + 2x"],
+    "answer": "x² - 4"
   }
 ]
