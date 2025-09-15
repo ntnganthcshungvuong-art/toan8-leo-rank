@@ -1,132 +1,254 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Game Toán 8 - Leo Rank</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    h1 {
-      margin-bottom: 10px;
-      color: #ffeb3b;
-    }
-    form {
-      background: rgba(255,255,255,0.1);
-      padding: 20px;
-      border-radius: 10px;
-      display: inline-block;
-      margin-bottom: 20px;
-    }
-    input, select, button {
-      margin: 8px;
-      padding: 10px;
-      border-radius: 6px;
-      border: none;
-      font-size: 16px;
-    }
-    input, select {
-      width: 200px;
-    }
-    button {
-      background: #ff9800;
-      color: white;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #e68900;
-    }
-    table {
-      margin: 20px auto;
-      border-collapse: collapse;
-      width: 80%;
-      background: white;
-      color: black;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background: #2196f3;
-      color: white;
-    }
-    tr:nth-child(2) { background: #ffd700; } /* Top 1 vàng */
-    tr:nth-child(3) { background: #c0c0c0; } /* Top 2 bạc */
-    tr:nth-child(4) { background: #cd7f32; } /* Top 3 đồng */
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Game Toán 8 – Thi & BXH</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0b0f1a;color:#e7f5ff;margin:0;padding:20px}
+  .wrap{max-width:980px;margin:0 auto}
+  .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px 24px;box-shadow:0 10px 40px rgba(0,0,0,.3);margin-bottom:16px}
+  h1{margin:6px 0 12px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  label{display:block;margin:8px 0 4px;font-weight:600}
+  input,select,button{width:100%;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.06);color:#fff;outline:none;font-size:16px}
+  input:focus,select:focus{border-color:#54e1ff;box-shadow:0 0 0 2px rgba(84,225,255,.15)}
+  button{background:linear-gradient(90deg,#00c2ff,#ff7a18);color:#0b0f1a;font-weight:800;border:none;cursor:pointer}
+  button:hover{filter:brightness(1.08)}
+  .row{display:flex;gap:12px;flex-wrap:wrap}
+  .hidden{display:none}
+  .qcard{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:12px;margin:10px 0}
+  .opt{display:block;background:rgba(255,255,255,.06);padding:6px 8px;border-radius:8px;margin:6px 0;cursor:pointer}
+  .topbar{display:flex;align-items:center;justify-content:space-between}
+  table{width:100%;border-collapse:collapse;margin-top:10px;color:#fff}
+  th,td{border:1px solid rgba(255,255,255,.15);padding:8px;text-align:center}
+  th{background:#0ea5e9}
+  tbody tr:nth-child(1){background:gold;color:#111;font-weight:800}
+  tbody tr:nth-child(2){background:silver;color:#111;font-weight:800}
+  tbody tr:nth-child(3){background:#cd7f32;color:#111;font-weight:800}
+  .note{opacity:.85}
+</style>
 </head>
 <body>
+<div class="wrap">
 
-  <h1>🏆 Game Toán 8 - Leo Rank</h1>
-  <form id="scoreForm">
-    <input type="text" id="name" placeholder="Họ và tên" required>
-    <select id="class" required>
-      <option value="" disabled selected>LỚP</option>
-      <option value="8A1">8A1</option>
-      <option value="8A2">8A2</option>
-      <option value="8A3">8A3</option>
-      <option value="8A4">8A4</option>
-      <option value="8A5">8A5</option>
-      <option value="8A6">8A6</option>
-      <option value="8A7">8A7</option>
-    </select>
-    <input type="text" id="nickname" placeholder="Nickname" required>
-    <input type="number" id="score" placeholder="Điểm" required>
-    <input type="text" id="duration" placeholder="Thời gian (phút:giây)" required>
-    <br>
-    <button type="submit">Gửi điểm</button>
-    <button type="button" onclick="getRanking()">Xem BXH</button>
-  </form>
+  <!-- Đăng nhập / thông tin -->
+  <div class="card" id="loginCard">
+    <h1>🎮 Game Toán 8 – Thi & Lên Rank</h1>
+    <p class="note">Nhập thông tin để bắt đầu thi. Điểm sẽ tính tự động – không cần “nhập điểm” thủ công.</p>
+    <div class="grid">
+      <div>
+        <label>Họ và tên</label>
+        <input id="name" placeholder="VD: Nguyễn Văn A" required>
+        <label>Lớp</label>
+        <select id="class" required>
+          <option value="" disabled selected>LỚP</option>
+          <option>8A1</option><option>8A2</option><option>8A3</option><option>8A4</option>
+          <option>8A5</option><option>8A6</option><option>8A7</option>
+        </select>
+        <label>Nickname (hiển thị BXH)</label>
+        <input id="nickname" placeholder="VD: MathKing" required>
+      </div>
+      <div>
+        <label>Thời lượng bài thi</label>
+        <input id="durationLimit" type="number" value="10" min="3" max="30">
+        <p class="note">Mặc định 10 phút / 10 câu. Có thể đổi 3–30 phút.</p>
+      </div>
+    </div>
+    <div class="row">
+      <button id="startBtn">🚩 BẮT ĐẦU THI</button>
+      <button id="seeRankBtn">📊 Xem BXH</button>
+    </div>
+  </div>
 
-  <div id="message"></div>
-  <div id="ranking"></div>
+  <!-- Khu thi -->
+  <div class="card hidden" id="examCard">
+    <div class="topbar">
+      <h2>🚩 Đang thi: 10 câu</h2>
+      <div id="timer">⏳ 10:00</div>
+    </div>
+    <div id="quizBox"></div>
+    <div class="row">
+      <button id="submitBtn">Nộp bài</button>
+      <button id="cancelBtn" type="button">Huỷ & Về trang đầu</button>
+    </div>
+  </div>
 
-  <script>
-    const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
+  <!-- Bảng xếp hạng -->
+  <div class="card" id="rankCard">
+    <div class="topbar">
+      <h2>🏆 Bảng Xếp Hạng Top 10</h2>
+      <button id="refreshRankBtn">Làm mới</button>
+    </div>
+    <table>
+      <thead><tr><th>Hạng</th><th>Nickname</th><th>Lớp</th><th>Điểm</th><th>Thời gian</th></tr></thead>
+      <tbody id="rankBody"><tr><td colspan="5">Chưa tải…</td></tr></tbody>
+    </table>
+  </div>
 
-    document.getElementById("scoreForm").addEventListener("submit", async function(e) {
-      e.preventDefault();
-      const data = {
-        name: document.getElementById("name").value,
-        class: document.getElementById("class").value,
-        nickname: document.getElementById("nickname").value,
-        score: document.getElementById("score").value,
-        duration: document.getElementById("duration").value,
-      };
+</div>
 
-      try {
-        const res = await fetch(API_URL, {
-          method: "POST",
-          body: JSON.stringify(data),
-          headers: { "Content-Type": "application/json" }
-        });
-        const text = await res.text();
-        document.getElementById("message").innerHTML = "✅ Gửi thành công!";
-      } catch (err) {
-        document.getElementById("message").innerHTML = "❌ Lỗi gửi: " + err;
-      }
+<script>
+// 👉 THAY API_URL nếu bạn vừa redeploy Apps Script ra URL mới
+const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
+
+// ====== Câu hỏi mẫu (10 câu) – Có thể thay bằng bộ câu hỏi riêng ======
+const QUESTION_BANK = [
+  {q:"Giá trị 2^3 =", a:["6","8","9","12"], r:1},
+  {q:"Đơn thức là:", a:["Biểu thức không có biến","Tổng nhiều hạng tử","Tích giữa số và biến lũy thừa nguyên không âm","Thương hai đa thức"], r:2},
+  {q:"Bậc của đơn thức 5x^2y là:", a:["2","3","1","5"], r:1},
+  {q:"(x)(x^2) =", a:["x^2","x^3","x^4","2x^2"], r:1},
+  {q:"(a+b)^2 =", a:["a^2+b^2","a^2+2ab+b^2","2a^2+b^2","a^2-2ab+b^2"], r:1},
+  {q:"Đa thức là tổng của:", a:["Các đơn thức","Các số nguyên","Các phân số","Các phương trình"], r:0},
+  {q:"Hệ số của -7x trong -7x+3:", a:["-7","7","-3","3"], r:0},
+  {q:"(x+y)+(x-y) =", a:["2x","2y","x","0"], r:0},
+  {q:"Nếu 3a=12 thì a =", a:["2","3","4","6"], r:2},
+  {q:"Giá trị x trong 2x+4=10:", a:["2","3","4","5"], r:1}
+];
+
+// ====== Trạng thái & tiện ích ======
+let picked = [];      // 10 câu đã chọn
+let answers = {};     // đáp án HS tick
+let timeLeft = 0;     // giây
+let timerId = null;
+
+const $ = (id)=>document.getElementById(id);
+
+function mmss(s){
+  const m = Math.floor(s/60), sec = s%60;
+  return `${m}:${String(sec).padStart(2,'0')}`;
+}
+function shuffle(arr){return arr.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(p=>p[1]);}
+
+// ====== API ======
+async function sendResult(payload){
+  try{
+    const res = await fetch(API_URL, {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify(payload)
     });
+    const j = await res.json();
+    return j && j.result === "success";
+  }catch(e){ console.error(e); return false; }
+}
 
-    async function getRanking() {
-      try {
-        const res = await fetch(API_URL + "?action=getRanking");
-        const data = await res.json();
-        let html = "<h2>Top 10 Bảng Xếp Hạng</h2><table><tr><th>Hạng</th><th>Tên</th><th>Lớp</th><th>Nickname</th><th>Điểm</th><th>Thời gian</th></tr>";
-        data.forEach((row, i) => {
-          html += `<tr><td>${i+1}</td><td>${row.name}</td><td>${row.class}</td><td>${row.nickname}</td><td>${row.score}</td><td>${row.duration}</td></tr>`;
-        });
-        html += "</table>";
-        document.getElementById("ranking").innerHTML = html;
-      } catch (err) {
-        document.getElementById("ranking").innerHTML = "❌ Lỗi BXH: " + err;
-      }
-    }
-  </script>
+async function getRanking(){
+  try{
+    const res = await fetch(API_URL + "?action=getRanking");
+    return await res.json();
+  }catch(e){ console.error(e); return []; }
+}
+
+function renderRank(list){
+  const tb = $("rankBody");
+  tb.innerHTML = "";
+  if(!list.length){ tb.innerHTML = `<tr><td colspan="5">Chưa có dữ liệu</td></tr>`; return; }
+  list.forEach((r,i)=>{
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${i+1}</td><td>${r.nickname||""}</td><td>${r.class||""}</td><td>${r.score||0}</td><td>${r.duration||""}</td>`;
+    tb.appendChild(tr);
+  });
+}
+
+// ====== Luồng thi ======
+$("startBtn").onclick = ()=>{
+  const name = $("name").value.trim();
+  const cls = $("class").value.trim();
+  const nick = $("nickname").value.trim();
+  const limitMin = Math.max(3, Math.min(30, parseInt($("durationLimit").value||10)));
+
+  if(!name || !cls || !nick){ alert("Vui lòng nhập đủ Họ tên, Lớp, Nickname."); return; }
+
+  // Lưu tạm trên máy để nộp bài
+  localStorage.setItem("name", name);
+  localStorage.setItem("class", cls);
+  localStorage.setItem("nickname", nick);
+
+  // chọn 10 câu, render
+  picked = shuffle(QUESTION_BANK).slice(0,10);
+  answers = {};
+  const box = $("quizBox");
+  box.innerHTML = "";
+  picked.forEach((q,idx)=>{
+    const div = document.createElement("div");
+    div.className = "qcard";
+    div.innerHTML = `<div><b>Câu ${idx+1}:</b> ${q.q}</div>
+      ${q.a.map((op,i)=>`
+        <label class="opt">
+          <input type="radio" name="q${idx}" value="${i}"> ${op}
+        </label>
+      `).join("")}`;
+    box.appendChild(div);
+  });
+  document.querySelectorAll('#quizBox input[type="radio"]').forEach(inp=>{
+    inp.addEventListener("change", e=>{
+      const idx = Number(e.target.name.replace("q",""));
+      answers[idx] = Number(e.target.value);
+    });
+  });
+
+  // hiển thị khu thi
+  $("loginCard").classList.add("hidden");
+  $("examCard").classList.remove("hidden");
+
+  // timer
+  timeLeft = limitMin*60;
+  $("timer").textContent = "⏳ " + mmss(timeLeft);
+  clearInterval(timerId);
+  timerId = setInterval(()=>{
+    timeLeft--;
+    $("timer").textContent = "⏳ " + mmss(timeLeft);
+    if(timeLeft<=0){ clearInterval(timerId); submitExam(); }
+  },1000);
+};
+
+$("submitBtn").onclick = submitExam;
+$("cancelBtn").onclick = ()=>{
+  clearInterval(timerId);
+  $("examCard").classList.add("hidden");
+  $("loginCard").classList.remove("hidden");
+};
+
+async function submitExam(){
+  clearInterval(timerId);
+
+  // chấm điểm
+  let score = 0;
+  picked.forEach((q,i)=>{ if(answers[i]===q.r) score++; });
+
+  const name = localStorage.getItem("name")||"";
+  const cls = localStorage.getItem("class")||"";
+  const nick = localStorage.getItem("nickname")||"";
+  const durationUsed = (parseInt($("durationLimit").value||10)*60 - Math.max(0,timeLeft)); // giây đã dùng
+  const durText = mmss(durationUsed);
+
+  // gửi lên Sheets
+  const ok = await sendResult({
+    name, class: cls, nickname: nick,
+    score, duration: durText
+  });
+
+  if(ok){
+    alert(`✅ Đã nộp bài: ${score}/10 câu • Thời gian ${durText}`);
+    $("examCard").classList.add("hidden");
+    $("loginCard").classList.remove("hidden");
+    loadRank();
+  }else{
+    alert("❌ Không gửi được điểm. Kiểm tra lại API_URL hoặc redeploy Web app (Anyone).");
+  }
+}
+
+// ====== BXH ======
+async function loadRank(){
+  const data = await getRanking();
+  renderRank(data);
+}
+$("refreshRankBtn").onclick = loadRank;
+$("seeRankBtn").onclick = loadRank;
+
+// Tải BXH khi mở trang
+loadRank();
+</script>
 </body>
 </html>
