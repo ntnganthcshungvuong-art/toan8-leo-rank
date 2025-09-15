@@ -1,55 +1,71 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, red, yellow, green);
-  animation: gradientMove 6s ease infinite;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(135deg, #ff4e50, #f9d423, #24c6dc);
   background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
 
-@keyframes gradientMove {
+@keyframes gradientBG {
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
 }
 
-h1.glow {
-  font-size: 2.5em;
-  color: white;
-  text-align: center;
-  text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #f00;
-  animation: pulse 2s infinite;
-}
+h1, h2 { color: white; text-shadow: 2px 2px 5px black; }
 
-@keyframes pulse {
-  0%,100% { text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #f00; }
-  50% { text-shadow: 0 0 20px #0f0, 0 0 40px #0ff, 0 0 60px #00f; }
-}
-
-#menu {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.btn {
-  padding: 15px 30px;
+button {
+  margin: 10px;
+  padding: 12px 25px;
   font-size: 18px;
   border: none;
   border-radius: 8px;
+  background: #222;
+  color: white;
   cursor: pointer;
-  color: #fff;
-  background: linear-gradient(45deg, #ff6b6b, #feca57);
-  transition: all 0.3s ease;
+  transition: transform 0.2s, background 0.3s;
+}
+button:hover { transform: scale(1.1); background: orange; }
+
+.screen { padding: 20px; }
+.hidden { display: none; }
+
+#quiz-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 20px;
 }
 
-.btn:hover {
-  transform: scale(1.1);
-  background: linear-gradient(45deg, #48dbfb, #1dd1a1);
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+.question-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: left;
 }
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+table td, table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+tr:nth-child(1) { background: gold; }
+tr:nth-child(2) { background: silver; }
+tr:nth-child(3) { background: #cd7f32; }
