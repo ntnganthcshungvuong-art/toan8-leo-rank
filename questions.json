@@ -1,0 +1,28 @@
+[
+  {
+    "question": "Đơn thức nào sau đây có bậc 3?",
+    "options": ["2x", "5x²y", "3x³", "x²y²"],
+    "answer": "3x³"
+  },
+  {
+    "question": "Bậc của đa thức 2x²y + 3xy² là bao nhiêu?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "Kết quả phép tính (x + 2) + (3x – 5) bằng:",
+    "options": ["4x – 3", "4x + 3", "2x – 7", "2x – 3"],
+    "answer": "4x – 3"
+  },
+  {
+    "question": "Kết quả của (x + 1)(x – 1) là:",
+    "options": ["x² – 1", "x² + 1", "x² – x + 1", "x² – 2x + 1"],
+    "answer": "x² – 1"
+  },
+  {
+    "question": "Giá trị của đa thức 2x² – 3x + 1 tại x = 2 là:",
+    "options": ["3", "5", "7", "9"],
+    "answer": "3"
+  }
+]
+
