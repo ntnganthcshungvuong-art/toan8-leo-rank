@@ -1,4 +1,4 @@
-const API_URL = "YOUR_API_URL_HERE"; // dán link Google Apps Script /exec vào đây
+const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec"; // dán link Google Apps Script /exec vào đây
 let currentUser = null;
 let questions = [];
 let currentQuestionIndex = 0;
