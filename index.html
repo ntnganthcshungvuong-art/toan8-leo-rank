@@ -6,39 +6,47 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="home-screen" class="screen active">
-    <h1 class="glow">🎮 Game Toán 8 - Leo Rank 🎮</h1>
-    <!-- Đếm ngược -->
-    <div id="countdown-box">
-      <p id="countdown"></p>
+  <div id="login-screen" class="screen active">
+    <h1>Game Toán 8 - Leo Rank</h1>
+    <div class="login-form">
+      <input type="text" id="name" placeholder="Họ và tên">
+      <select id="class">
+        <option value="">Chọn lớp</option>
+        <option>8A1</option><option>8A2</option><option>8A3</option>
+        <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
+      </select>
+      <input type="text" id="nickname" placeholder="Biệt danh">
+      <button onclick="login()">Vào Game</button>
     </div>
-    <div class="menu">
-      <button onclick="startPractice()">Luyện Tập</button>
-      <button onclick="startArena()">Đấu Trường</button>
-      <button onclick="showLeaderboard()">Bảng Xếp Hạng</button>
-    </div>
+  </div>
+
+  <div id="menu-screen" class="screen">
+    <button onclick="startQuiz('practice')">Luyện Tập</button>
+    <button onclick="startQuiz('arena')">Đấu Trường</button>
+    <button onclick="showLeaderboard()">Bảng Xếp Hạng</button>
+    <button onclick="logout()" class="logout-btn">Đăng xuất</button>
   </div>
 
   <div id="quiz-screen" class="screen">
-    <div id="quiz-container"></div>
     <div id="timer-bar"><div id="timer-progress"></div></div>
+    <div id="question-container"></div>
     <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
   </div>
 
-  <div id="result-popup" class="popup">
-    <div class="popup-content">
-      <h2>Kết quả</h2>
-      <p id="score-text"></p>
-      <button onclick="goHome()">Về trang chủ</button>
-      <button onclick="restart()">Làm lại</button>
-    </div>
+  <div id="result-screen" class="screen">
+    <h2>Kết quả</h2>
+    <p id="result-text"></p>
+    <button onclick="goHome()">Về trang chủ</button>
   </div>
 
   <div id="leaderboard-screen" class="screen">
-    <h2>🏆 Bảng Xếp Hạng Top 10 🏆</h2>
-    <table id="leaderboard"></table>
+    <h2>Bảng xếp hạng Top 10</h2>
+    <table id="leaderboard-table"></table>
     <button onclick="goHome()">Về trang chủ</button>
   </div>
+
+  <!-- Nút bật/tắt âm thanh -->
+  <button id="sound-toggle" onclick="toggleSound()">🔊</button>
 
   <script src="script.js"></script>
 </body>
