@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Toán 8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Game Toán 8 - Gửi điểm & Xem BXH</h1>
+  <div class="form">
+    <input id="name" placeholder="Họ và tên">
+    <input id="class" placeholder="Lớp">
+    <input id="nickname" placeholder="Nickname">
+    <input id="score" type="number" placeholder="Điểm">
+    <button onclick="sendResult()">Gửi điểm</button>
+  </div>
+  <button onclick="getRanking()">Xem BXH</button>
+  <div id="leaderboard"></div>
+  <script src="script.js"></script>
+</body>
+</html>
