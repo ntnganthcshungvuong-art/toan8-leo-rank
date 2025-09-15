@@ -2,20 +2,131 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Game Toán 8</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Game Toán 8 - Leo Rank</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      color: #ffeb3b;
+    }
+    form {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    input, select, button {
+      margin: 8px;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 16px;
+    }
+    input, select {
+      width: 200px;
+    }
+    button {
+      background: #ff9800;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e68900;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+      background: white;
+      color: black;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background: #2196f3;
+      color: white;
+    }
+    tr:nth-child(2) { background: #ffd700; } /* Top 1 vàng */
+    tr:nth-child(3) { background: #c0c0c0; } /* Top 2 bạc */
+    tr:nth-child(4) { background: #cd7f32; } /* Top 3 đồng */
+  </style>
 </head>
 <body>
-  <h1>Game Toán 8 - Gửi điểm & Xem BXH</h1>
-  <div class="form">
-    <input id="name" placeholder="Họ và tên">
-    <input id="class" placeholder="Lớp">
-    <input id="nickname" placeholder="Nickname">
-    <input id="score" type="number" placeholder="Điểm">
-    <button onclick="sendResult()">Gửi điểm</button>
-  </div>
-  <button onclick="getRanking()">Xem BXH</button>
-  <div id="leaderboard"></div>
-  <script src="script.js"></script>
+
+  <h1>🏆 Game Toán 8 - Leo Rank</h1>
+  <form id="scoreForm">
+    <input type="text" id="name" placeholder="Họ và tên" required>
+    <select id="class" required>
+      <option value="" disabled selected>LỚP</option>
+      <option value="8A1">8A1</option>
+      <option value="8A2">8A2</option>
+      <option value="8A3">8A3</option>
+      <option value="8A4">8A4</option>
+      <option value="8A5">8A5</option>
+      <option value="8A6">8A6</option>
+      <option value="8A7">8A7</option>
+    </select>
+    <input type="text" id="nickname" placeholder="Nickname" required>
+    <input type="number" id="score" placeholder="Điểm" required>
+    <input type="text" id="duration" placeholder="Thời gian (phút:giây)" required>
+    <br>
+    <button type="submit">Gửi điểm</button>
+    <button type="button" onclick="getRanking()">Xem BXH</button>
+  </form>
+
+  <div id="message"></div>
+  <div id="ranking"></div>
+
+  <script>
+    const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
+
+    document.getElementById("scoreForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const data = {
+        name: document.getElementById("name").value,
+        class: document.getElementById("class").value,
+        nickname: document.getElementById("nickname").value,
+        score: document.getElementById("score").value,
+        duration: document.getElementById("duration").value,
+      };
+
+      try {
+        const res = await fetch(API_URL, {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: { "Content-Type": "application/json" }
+        });
+        const text = await res.text();
+        document.getElementById("message").innerHTML = "✅ Gửi thành công!";
+      } catch (err) {
+        document.getElementById("message").innerHTML = "❌ Lỗi gửi: " + err;
+      }
+    });
+
+    async function getRanking() {
+      try {
+        const res = await fetch(API_URL + "?action=getRanking");
+        const data = await res.json();
+        let html = "<h2>Top 10 Bảng Xếp Hạng</h2><table><tr><th>Hạng</th><th>Tên</th><th>Lớp</th><th>Nickname</th><th>Điểm</th><th>Thời gian</th></tr>";
+        data.forEach((row, i) => {
+          html += `<tr><td>${i+1}</td><td>${row.name}</td><td>${row.class}</td><td>${row.nickname}</td><td>${row.score}</td><td>${row.duration}</td></tr>`;
+        });
+        html += "</table>";
+        document.getElementById("ranking").innerHTML = html;
+      } catch (err) {
+        document.getElementById("ranking").innerHTML = "❌ Lỗi BXH: " + err;
+      }
+    }
+  </script>
 </body>
 </html>
