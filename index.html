@@ -2,16 +2,47 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game Toán 8 - Leo Rank</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="glow">🎮 Game Toán 8 - Leo Rank 🎮</h1>
-  
-  <div id="menu">
-    <button class="btn">Đấu Trường</button>
-    <button class="btn">Luyện Tập</button>
-    <button class="btn">Bảng Xếp Hạng</button>
+  <div id="login-screen" class="screen">
+    <h1>Đăng nhập</h1>
+    <input type="text" id="name" placeholder="Họ và tên">
+    <select id="class">
+      <option value="" disabled selected>LỚP</option>
+      <option>8A1</option><option>8A2</option><option>8A3</option>
+      <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
+    </select>
+    <input type="text" id="nickname" placeholder="Nickname">
+    <button onclick="login()">Vào game</button>
+  </div>
+
+  <div id="menu-screen" class="screen hidden">
+    <h1>Game Toán 8 - Leo Rank</h1>
+    <button onclick="startArena()">Đấu Trường</button>
+    <button onclick="startPractice()">Luyện Tập</button>
+    <button onclick="showLeaderboard()">Bảng Xếp Hạng</button>
+    <button onclick="logout()">Đăng xuất</button>
+  </div>
+
+  <div id="quiz-screen" class="screen hidden">
+    <h2 id="quiz-title"></h2>
+    <div id="quiz-container"></div>
+    <button onclick="submitQuiz()">Nộp bài</button>
+  </div>
+
+  <div id="result-screen" class="screen hidden">
+    <h2>Kết quả</h2>
+    <p id="result-text"></p>
+    <button onclick="backToMenu()">Quay lại Menu</button>
+  </div>
+
+  <div id="leaderboard-screen" class="screen hidden">
+    <h2>Bảng Xếp Hạng Top 10</h2>
+    <table id="leaderboard-table"></table>
+    <button onclick="backToMenu()">Quay lại Menu</button>
   </div>
 
   <script src="script.js"></script>
