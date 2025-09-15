@@ -2,9 +2,18 @@ const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr8
 
 // Hàm load câu hỏi từ 2 chương
 async function loadQuestions() {
-  const chap1 = await fetch('questions_chap1.json').then(r => r.json());
-  const chap3 = await fetch('questions_chap3.json').then(r => r.json());
-  return [...chap1, ...chap3];  // ghép 2 chương lại
+  const chap1 = await fetch("questions_chap1.json").then(r => r.json());
+  const chap3 = await fetch("questions_chap3.json").then(r => r.json());
+
+  // gộp cả 2 chương
+  let allQuestions = [...chap1, ...chap3];
+
+  // xáo trộn và chọn 20 câu
+  allQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
+
+  return allQuestions;
+}
+  // ghép 2 chương lại
 }
 
 // Hàm chọn ngẫu nhiên theo rank
