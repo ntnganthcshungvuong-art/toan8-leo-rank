@@ -8,47 +8,46 @@
 <body>
   <!-- Màn hình đăng nhập -->
   <div id="login-screen" class="screen">
-    <h1>Game Toán 8 - Leo Rank</h1>
-    <input type="text" id="fullname" placeholder="Họ và tên">
-    <select id="classSelect">
+    <h1>🎮 Game Toán 8 - Leo Rank 🎮</h1>
+    <input type="text" id="name" placeholder="Họ và tên">
+    <select id="class">
       <option value="">LỚP</option>
-      <option>8A1</option><option>8A2</option><option>8A3</option>
-      <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
+      <option>8A1</option><option>8A2</option>
+      <option>8A3</option><option>8A4</option>
+      <option>8A5</option><option>8A6</option>
+      <option>8A7</option>
     </select>
     <input type="text" id="nickname" placeholder="Biệt danh">
-    <button onclick="login()">Vào Game</button>
+    <button onclick="login()">Vào game</button>
   </div>
 
   <!-- Màn hình menu -->
   <div id="menu-screen" class="screen hidden">
-    <h2>Xin chào, <span id="showName"></span>!</h2>
-    <button onclick="startQuiz('arena')">Đấu Trường</button>
-    <button onclick="startQuiz('practice')">Luyện Tập</button>
-    <button onclick="showLeaderboard()">Bảng Xếp Hạng</button>
+    <h2>Xin chào <span id="player-name"></span>!</h2>
+    <button onclick="startQuiz('arena')">Đấu Trường ⚔️</button>
+    <button onclick="startQuiz('practice')">Luyện Tập 📘</button>
+    <button onclick="showRanking()">Bảng Xếp Hạng 🏆</button>
     <button onclick="logout()">Đăng xuất</button>
   </div>
 
   <!-- Màn hình quiz -->
   <div id="quiz-screen" class="screen hidden">
-    <div id="question-container"></div>
-    <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
+    <div id="quiz-container"></div>
+    <button id="submit-btn" onclick="submitQuiz()">Nộp bài</button>
   </div>
 
   <!-- Màn hình kết quả -->
   <div id="result-screen" class="screen hidden">
     <h2>Kết quả</h2>
     <p id="result-text"></p>
-    <button onclick="backToMenu()">Về menu</button>
+    <button onclick="backToMenu()">Về Menu</button>
   </div>
 
-  <!-- Bảng xếp hạng -->
-  <div id="leaderboard-screen" class="screen hidden">
-    <h2>Top 10</h2>
-    <table id="leaderboard">
-      <thead><tr><th>Hạng</th><th>Tên</th><th>Lớp</th><th>Điểm</th><th>Rank</th></tr></thead>
-      <tbody></tbody>
-    </table>
-    <button onclick="backToMenu()">Về menu</button>
+  <!-- Màn hình BXH -->
+  <div id="ranking-screen" class="screen hidden">
+    <h2>🏆 Top 10 Bảng Xếp Hạng</h2>
+    <table id="ranking-table"></table>
+    <button onclick="backToMenu()">Về Menu</button>
   </div>
 
   <script src="script.js"></script>
