@@ -1,27 +1,27 @@
 [
   {
-    "question": "Giá trị của (x+y)^2 là gì?",
-    "options": ["x^2+y^2", "x^2+2xy+y^2", "2x+2y", "x^2+y"],
-    "answer": "x^2+2xy+y^2"
+    "question": "Giá trị của đa thức x^2 + 2x + 1 tại x=2 là bao nhiêu?",
+    "options": ["9", "8", "7", "6"],
+    "answer": "9"
   },
   {
-    "question": "Đơn thức nào dưới đây đồng dạng với 3x^2y?",
-    "options": ["x^2y^2", "-5x^2y", "2xy^2", "x^3y"],
-    "answer": "-5x^2y"
+    "question": "Đơn thức nào sau đây có bậc 3?",
+    "options": ["5x", "2xy", "3x^2y", "7"],
+    "answer": "3x^2y"
   },
   {
-    "question": "Khi x=2, giá trị của x^2+3x là?",
-    "options": ["7", "10", "14", "16"],
-    "answer": "10"
+    "question": "Kết quả rút gọn (x + y)^2 là:",
+    "options": ["x^2 + y^2", "x^2 + 2xy + y^2", "x^2 - 2xy + y^2", "2x + y^2"],
+    "answer": "x^2 + 2xy + y^2"
   },
   {
-    "question": "Hệ số của đơn thức -7x^2y là?",
-    "options": ["7", "-7", "x^2", "y"],
-    "answer": "-7"
-  },
-  {
-    "question": "Bậc của đa thức 3x^2y+5xy^2 là?",
-    "options": ["2", "3", "4", "5"],
+    "question": "Bậc của đa thức 4x^3 + 2x^2y + y là:",
+    "options": ["3", "2", "1", "4"],
     "answer": "3"
+  },
+  {
+    "question": "Kết quả rút gọn (x - y)(x + y) là:",
+    "options": ["x^2 + y^2", "x^2 - y^2", "2xy", "y^2 - x^2"],
+    "answer": "x^2 - y^2"
   }
 ]
