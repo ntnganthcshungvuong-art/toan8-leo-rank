@@ -6,48 +6,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Màn hình đăng nhập -->
-  <div id="login-screen" class="screen">
-    <h1>🎮 Game Toán 8 - Leo Rank 🎮</h1>
-    <input type="text" id="name" placeholder="Họ và tên">
-    <select id="class">
-      <option value="">LỚP</option>
-      <option>8A1</option><option>8A2</option>
-      <option>8A3</option><option>8A4</option>
-      <option>8A5</option><option>8A6</option>
-      <option>8A7</option>
-    </select>
-    <input type="text" id="nickname" placeholder="Biệt danh">
-    <button onclick="login()">Vào game</button>
+  <div id="home-screen" class="screen active">
+    <h1 class="glow">🎮 Game Toán 8 - Leo Rank 🎮</h1>
+    <!-- Đếm ngược -->
+    <div id="countdown-box">
+      <p id="countdown"></p>
+    </div>
+    <div class="menu">
+      <button onclick="startPractice()">Luyện Tập</button>
+      <button onclick="startArena()">Đấu Trường</button>
+      <button onclick="showLeaderboard()">Bảng Xếp Hạng</button>
+    </div>
   </div>
 
-  <!-- Màn hình menu -->
-  <div id="menu-screen" class="screen hidden">
-    <h2>Xin chào <span id="player-name"></span>!</h2>
-    <button onclick="startQuiz('arena')">Đấu Trường ⚔️</button>
-    <button onclick="startQuiz('practice')">Luyện Tập 📘</button>
-    <button onclick="showRanking()">Bảng Xếp Hạng 🏆</button>
-    <button onclick="logout()">Đăng xuất</button>
-  </div>
-
-  <!-- Màn hình quiz -->
-  <div id="quiz-screen" class="screen hidden">
+  <div id="quiz-screen" class="screen">
     <div id="quiz-container"></div>
-    <button id="submit-btn" onclick="submitQuiz()">Nộp bài</button>
+    <div id="timer-bar"><div id="timer-progress"></div></div>
+    <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
   </div>
 
-  <!-- Màn hình kết quả -->
-  <div id="result-screen" class="screen hidden">
-    <h2>Kết quả</h2>
-    <p id="result-text"></p>
-    <button onclick="backToMenu()">Về Menu</button>
+  <div id="result-popup" class="popup">
+    <div class="popup-content">
+      <h2>Kết quả</h2>
+      <p id="score-text"></p>
+      <button onclick="goHome()">Về trang chủ</button>
+      <button onclick="restart()">Làm lại</button>
+    </div>
   </div>
 
-  <!-- Màn hình BXH -->
-  <div id="ranking-screen" class="screen hidden">
-    <h2>🏆 Top 10 Bảng Xếp Hạng</h2>
-    <table id="ranking-table"></table>
-    <button onclick="backToMenu()">Về Menu</button>
+  <div id="leaderboard-screen" class="screen">
+    <h2>🏆 Bảng Xếp Hạng Top 10 🏆</h2>
+    <table id="leaderboard"></table>
+    <button onclick="goHome()">Về trang chủ</button>
   </div>
 
   <script src="script.js"></script>
