@@ -1,25 +1,25 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f0f6ff;
   text-align: center;
+  background: #f5f5f5;
 }
-h1 {
-  color: #0066cc;
-}
-.form input {
-  display: block;
-  margin: 8px auto;
-  padding: 6px;
-  width: 200px;
+.hidden { display: none; }
+input, select, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
 }
 button {
-  margin: 10px;
-  padding: 8px 15px;
-  background: #0066cc;
+  background: #007bff;
   color: white;
   border: none;
-  cursor: pointer;
+  border-radius: 5px;
 }
-#leaderboard {
-  margin-top: 20px;
+button:hover { background: #0056b3; cursor: pointer; }
+#leaderboard { width: 80%; margin: 0 auto; border-collapse: collapse; }
+#leaderboard td, #leaderboard th {
+  border: 1px solid #ccc; padding: 8px;
 }
+#leaderboard tr:nth-child(1) { background: gold; }
+#leaderboard tr:nth-child(2) { background: silver; }
+#leaderboard tr:nth-child(3) { background: #cd7f32; }
