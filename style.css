@@ -1,71 +1,24 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  background: linear-gradient(135deg, #ff4e50, #f9d423, #24c6dc);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  margin: 0; font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, red, yellow, green);
+  min-height: 100vh; display: flex; justify-content: center; align-items: center;
 }
-
-@keyframes gradientBG {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-
-h1, h2 { color: white; text-shadow: 2px 2px 5px black; }
-
-button {
-  margin: 10px;
-  padding: 12px 25px;
-  font-size: 18px;
-  border: none;
-  border-radius: 8px;
-  background: #222;
-  color: white;
-  cursor: pointer;
-  transition: transform 0.2s, background 0.3s;
-}
-button:hover { transform: scale(1.1); background: orange; }
-
-.screen { padding: 20px; }
+.screen { text-align: center; padding: 20px; background: rgba(255,255,255,0.9); border-radius: 15px; width: 90%; max-width: 500px; }
 .hidden { display: none; }
+input, select, button { padding: 10px; margin: 10px; width: 80%; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; }
+button { cursor: pointer; background: #007bff; color: white; transition: 0.3s; }
+button:hover { background: #0056b3; transform: scale(1.05); }
 
-#quiz-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  margin: 20px;
-}
-
+#question-container { margin: 20px 0; }
 .question-card {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  text-align: left;
+  background: #f4f4f4; padding: 15px; margin: 10px auto;
+  border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+.question-card h3 { margin-bottom: 10px; }
+.option { display: block; margin: 8px 0; text-align: left; }
 
-input, select {
-  padding: 10px;
-  margin: 5px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 80%;
-}
-
-table {
-  width: 80%;
-  margin: auto;
-  border-collapse: collapse;
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-}
-table td, table th {
-  border: 1px solid #ccc;
-  padding: 8px;
-}
-tr:nth-child(1) { background: gold; }
-tr:nth-child(2) { background: silver; }
-tr:nth-child(3) { background: #cd7f32; }
+#leaderboard { width: 100%; border-collapse: collapse; margin-top: 15px; }
+#leaderboard th, #leaderboard td { border: 1px solid #ccc; padding: 8px; }
+#leaderboard tr:nth-child(1) { background: gold; }
+#leaderboard tr:nth-child(2) { background: silver; }
+#leaderboard tr:nth-child(3) { background: #cd7f32; color: white; }
