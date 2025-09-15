@@ -1,118 +1,128 @@
 const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
 
+let user = {};
 let questions = [];
-let current = 0;
-let score = 0;
-let timer;
-let timeLeft = 59;
-let mode = "practice";
+let currentQuestion = 0, score = 0, mode = "practice", timer, timeLeft;
+let soundOn = true;
 
-// Countdown trên trang chủ
-function startCountdown() {
-  const target = new Date("2025-11-11T12:00:00").getTime();
-  setInterval(() => {
-    const now = new Date().getTime();
-    const diff = target - now;
-    if (diff <= 0) {
-      document.getElementById("countdown").innerText = "🎉 Đã đến giờ trao thưởng Top 10!";
-      return;
-    }
-    const d = Math.floor(diff / (1000*60*60*24));
-    const h = Math.floor((diff % (1000*60*60*24))/(1000*60*60));
-    const m = Math.floor((diff % (1000*60*60))/(1000*60));
-    const s = Math.floor((diff % (1000*60))/1000);
-    document.getElementById("countdown").innerText = 
-      `Còn ${d} ngày ${h}h ${m}m ${s}s đến trao thưởng Top 10`;
-  }, 1000);
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
 }
 
-// Bắt đầu
-function startPractice() { mode="practice"; startQuiz(); }
-function startArena() { mode="arena"; startQuiz(); }
+function login() {
+  const name = document.getElementById("name").value.trim();
+  const cls = document.getElementById("class").value;
+  const nickname = document.getElementById("nickname").value.trim();
+  if (!name || !cls || !nickname) return alert("Điền đủ thông tin!");
 
-function startQuiz() {
-  fetch("questions.json")
-    .then(r => r.json())
-    .then(data => {
-      questions = data.sort(() => 0.5 - Math.random()).slice(0,10);
-      current=0; score=0;
-      document.getElementById("home-screen").classList.remove("active");
-      document.getElementById("quiz-screen").classList.add("active");
-      showQuestion();
-    });
+  user = { name, class: cls, nickname };
+  localStorage.setItem("user", JSON.stringify(user));
+  showScreen("menu-screen");
+}
+
+function logout() {
+  localStorage.removeItem("user");
+  location.reload();
+}
+
+window.onload = () => {
+  const saved = localStorage.getItem("user");
+  if (saved) { user = JSON.parse(saved); showScreen("menu-screen"); }
+};
+
+async function startQuiz(m) {
+  mode = m;
+  const res = await fetch("questions.json");
+  questions = await res.json();
+  questions = shuffle(questions).slice(0,10);
+  currentQuestion = 0; score = 0;
+  showQuestion();
+  showScreen("quiz-screen");
 }
 
 function showQuestion() {
-  if(current>=questions.length) return endQuiz();
-  const q = questions[current];
-  let html = `<h3>${q.question}</h3>`;
-  q.options.forEach(opt=>{
-    html+=`<div class="answer" onclick="chooseAnswer('${opt}')">${opt}</div>`;
-  });
-  document.getElementById("quiz-container").innerHTML = html;
-  startTimer();
+  const q = questions[currentQuestion];
+  const container = document.getElementById("question-container");
+  container.innerHTML = `
+    <div class="question-card">
+      <h3><b>Câu ${currentQuestion+1}:</b> ${q.question}</h3>
+      ${q.options.map(o => `<div class="answer-card" onclick="selectAnswer(this, '${o}')">${o}</div>`).join("")}
+    </div>`;
+  startTimer(59);
 }
 
-function chooseAnswer(opt){
-  if(opt===questions[current].answer) score++;
-  nextQuestion();
+function selectAnswer(el, choice) {
+  document.querySelectorAll(".answer-card").forEach(a => a.classList.remove("selected"));
+  el.classList.add("selected");
+  el.dataset.choice = choice;
 }
 
-function nextQuestion(){
-  current++;
-  if(current<questions.length) showQuestion();
+function nextQuestion() {
+  const selected = document.querySelector(".answer-card.selected");
+  if (selected) {
+    const choice = selected.dataset.choice;
+    if (choice === questions[currentQuestion].answer) {
+      score++; if (soundOn) correctSound.play();
+    } else if (soundOn) wrongSound.play();
+  } else if (soundOn) timeoutSound.play();
+
+  clearInterval(timer);
+  currentQuestion++;
+  if (currentQuestion < questions.length) showQuestion();
   else endQuiz();
 }
 
-function startTimer(){
-  clearInterval(timer);
-  timeLeft=59;
-  const progress = document.getElementById("timer-progress");
-  timer = setInterval(()=>{
+function startTimer(sec) {
+  timeLeft = sec;
+  const bar = document.getElementById("timer-progress");
+  timer = setInterval(() => {
     timeLeft--;
-    progress.style.width = (timeLeft/59*100)+"%";
-    progress.style.background = timeLeft<20?"red":timeLeft<40?"orange":"green";
-    if(timeLeft<=0){ clearInterval(timer); nextQuestion(); }
+    let percent = (timeLeft/sec)*100;
+    bar.style.width = percent+"%";
+    bar.style.background = timeLeft<20 ? "red" : timeLeft<40 ? "orange" : "green";
+    if (timeLeft<=0) { clearInterval(timer); nextQuestion(); }
   },1000);
 }
 
-function endQuiz(){
-  clearInterval(timer);
-  document.getElementById("quiz-screen").classList.remove("active");
-  document.getElementById("result-popup").style.display="block";
-  document.getElementById("score-text").innerText = `Bạn đạt ${score}/${questions.length} điểm`;
-  if(mode==="arena"){
-    // Gửi điểm lên API
-    fetch(API_URL,{
+function endQuiz() {
+  showScreen("result-screen");
+  document.getElementById("result-text").innerText = `Bạn đúng ${score}/${questions.length} câu.`;
+  if (mode==="arena") {
+    fetch(API_URL, {
       method:"POST",
-      body:JSON.stringify({name:"HS",class:"8A1",nickname:"test",score:score,duration:questions.length*59})
+      body: JSON.stringify({
+        name:user.name, class:user.class,
+        nickname:user.nickname, score, duration: questions.length*59
+      })
     });
   }
 }
 
-function goHome(){
-  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
-  document.getElementById("result-popup").style.display="none";
-  document.getElementById("home-screen").classList.add("active");
+function goHome(){ showScreen("menu-screen"); }
+
+async function showLeaderboard() {
+  const res = await fetch(API_URL+"?action=getRanking");
+  const data = await res.json();
+  const table = document.getElementById("leaderboard-table");
+  table.innerHTML = "<tr><th>Hạng</th><th>Tên</th><th>Lớp</th><th>Điểm</th></tr>";
+  data.forEach((r,i)=>{
+    let style = i===0?"style='color:gold;font-weight:bold'":
+                i===1?"style='color:silver;font-weight:bold'":
+                i===2?"style='color:#cd7f32;font-weight:bold'":"";
+    table.innerHTML += `<tr ${style}><td>${i+1}</td><td>${r.nickname}</td><td>${r.class}</td><td>${r.score}</td></tr>`;
+  });
+  showScreen("leaderboard-screen");
 }
 
-function restart(){
-  document.getElementById("result-popup").style.display="none";
-  startQuiz();
+// Âm thanh
+const correctSound = new Audio("https://www.soundjay.com/buttons/sounds/button-4.mp3");
+const wrongSound = new Audio("https://www.soundjay.com/buttons/sounds/button-10.mp3");
+const timeoutSound = new Audio("https://www.soundjay.com/button/beep-07.wav");
+
+function toggleSound(){
+  soundOn=!soundOn;
+  document.getElementById("sound-toggle").innerText = soundOn?"🔊":"🔇";
 }
 
-function showLeaderboard(){
-  fetch(API_URL+"?action=getRanking")
-    .then(r=>r.json())
-    .then(rows=>{
-      let html="<tr><th>STT</th><th>Tên</th><th>Lớp</th><th>Nick</th><th>Điểm</th></tr>";
-      rows.forEach((r,i)=>{
-        html+=`<tr><td>${i+1}</td><td>${r.name}</td><td>${r.class}</td><td>${r.nickname}</td><td>${r.score}</td></tr>`;
-      });
-      document.getElementById("leaderboard").innerHTML=html;
-      document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
-      document.getElementById("leaderboard-screen").classList.add("active");
-    });
-}
-
-window.onload=startCountdown;
+function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
