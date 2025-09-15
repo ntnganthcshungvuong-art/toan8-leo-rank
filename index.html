@@ -3,142 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Game Toán 8 - Leo Rank</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    form, .leaderboard {
-      background: #ffffff22;
-      padding: 20px;
-      border-radius: 10px;
-      margin: 20px auto;
-      width: 90%;
-      max-width: 500px;
-    }
-    input, select, button {
-      padding: 10px;
-      margin: 8px;
-      border-radius: 8px;
-      border: none;
-      width: 90%;
-      font-size: 16px;
-    }
-    select:invalid {
-      color: gray;
-    }
-    button {
-      cursor: pointer;
-      background: #ff9800;
-      color: #fff;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    button:hover {
-      background: #e68900;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 15px;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: center;
-      background: #fff;
-      color: #000;
-    }
-    th {
-      background: #2a5298;
-      color: #fff;
-    }
-    tr:nth-child(1) { background: gold; font-weight: bold; }
-    tr:nth-child(2) { background: silver; font-weight: bold; }
-    tr:nth-child(3) { background: #cd7f32; font-weight: bold; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🏆 Game Toán 8 - Leo Rank 🏆</h1>
-
-  <form id="scoreForm">
+  <!-- Màn hình đăng nhập -->
+  <div id="loginScreen">
+    <h2>Đăng nhập</h2>
     <input type="text" id="name" placeholder="Họ và tên" required>
     <select id="class" required>
       <option value="" disabled selected>LỚP</option>
-      <option value="8A1">8A1</option>
-      <option value="8A2">8A2</option>
-      <option value="8A3">8A3</option>
-      <option value="8A4">8A4</option>
-      <option value="8A5">8A5</option>
-      <option value="8A6">8A6</option>
-      <option value="8A7">8A7</option>
+      <option>8A1</option><option>8A2</option><option>8A3</option>
+      <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
     </select>
     <input type="text" id="nickname" placeholder="Nickname" required>
-    <input type="number" id="score" placeholder="Điểm" required>
-    <input type="text" id="duration" placeholder="Thời gian (phút:giây)" required>
-    <button type="submit">Gửi điểm</button>
-  </form>
-
-  <button onclick="loadRanking()">📊 Xem BXH</button>
-
-  <div class="leaderboard">
-    <h2>Bảng Xếp Hạng Top 10</h2>
-    <div id="ranking"></div>
+    <button onclick="login()">Bắt đầu</button>
   </div>
 
-  <script>
-    const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec"; 
+  <!-- Màn hình menu chính -->
+  <div id="menuScreen" class="hidden">
+    <h2>Xin chào <span id="userNick"></span>!</h2>
+    <button onclick="startQuiz('arena')">Đấu Trường</button>
+    <button onclick="startQuiz('practice')">Luyện Tập</button>
+    <button onclick="showLeaderboard()">Xem BXH</button>
+    <button onclick="logout()">Đăng xuất</button>
+  </div>
 
-    document.getElementById("scoreForm").addEventListener("submit", async function(e) {
-      e.preventDefault();
-      const data = {
-        name: document.getElementById("name").value,
-        class: document.getElementById("class").value,
-        nickname: document.getElementById("nickname").value,
-        score: document.getElementById("score").value,
-        duration: document.getElementById("duration").value,
-      };
+  <!-- Màn hình Quiz -->
+  <div id="quizScreen" class="hidden">
+    <h2 id="modeTitle"></h2>
+    <div id="timer"></div>
+    <div id="quizContainer"></div>
+    <button onclick="submitQuiz()">Nộp bài</button>
+  </div>
 
-      try {
-        const res = await fetch(API_URL, {
-          method: "POST",
-          body: JSON.stringify(data),
-        });
-        const result = await res.json();
-        alert("✅ Gửi thành công!");
-        console.log(result);
-      } catch (err) {
-        alert("❌ Lỗi gửi điểm: " + err);
-      }
-    });
+  <!-- Màn hình BXH -->
+  <div id="leaderboardScreen" class="hidden">
+    <h2>Bảng xếp hạng</h2>
+    <table id="leaderboard"></table>
+    <button onclick="backToMenu()">Về menu</button>
+  </div>
 
-    async function loadRanking() {
-      try {
-        const res = await fetch(API_URL + "?action=getRanking");
-        const ranking = await res.json();
-        let html = "<table><tr><th>Hạng</th><th>Tên</th><th>Lớp</th><th>Nickname</th><th>Điểm</th><th>Thời gian</th></tr>";
-        ranking.forEach((r, i) => {
-          html += `<tr>
-            <td>${i+1}</td>
-            <td>${r.name}</td>
-            <td>${r.class}</td>
-            <td>${r.nickname}</td>
-            <td>${r.score}</td>
-            <td>${r.duration}</td>
-          </tr>`;
-        });
-        html += "</table>";
-        document.getElementById("ranking").innerHTML = html;
-      } catch (err) {
-        document.getElementById("ranking").innerText = "❌ Lỗi tải BXH: " + err;
-      }
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
