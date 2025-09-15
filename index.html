@@ -6,41 +6,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Màn hình đăng nhập -->
-  <div id="loginScreen">
-    <h2>Đăng nhập</h2>
-    <input type="text" id="name" placeholder="Họ và tên" required>
-    <select id="class" required>
-      <option value="" disabled selected>LỚP</option>
-      <option>8A1</option><option>8A2</option><option>8A3</option>
-      <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
-    </select>
-    <input type="text" id="nickname" placeholder="Nickname" required>
-    <button onclick="login()">Bắt đầu</button>
-  </div>
-
-  <!-- Màn hình menu chính -->
-  <div id="menuScreen" class="hidden">
-    <h2>Xin chào <span id="userNick"></span>!</h2>
-    <button onclick="startQuiz('arena')">Đấu Trường</button>
-    <button onclick="startQuiz('practice')">Luyện Tập</button>
-    <button onclick="showLeaderboard()">Xem BXH</button>
-    <button onclick="logout()">Đăng xuất</button>
-  </div>
-
-  <!-- Màn hình Quiz -->
-  <div id="quizScreen" class="hidden">
-    <h2 id="modeTitle"></h2>
-    <div id="timer"></div>
-    <div id="quizContainer"></div>
-    <button onclick="submitQuiz()">Nộp bài</button>
-  </div>
-
-  <!-- Màn hình BXH -->
-  <div id="leaderboardScreen" class="hidden">
-    <h2>Bảng xếp hạng</h2>
-    <table id="leaderboard"></table>
-    <button onclick="backToMenu()">Về menu</button>
+  <h1 class="glow">🎮 Game Toán 8 - Leo Rank 🎮</h1>
+  
+  <div id="menu">
+    <button class="btn">Đấu Trường</button>
+    <button class="btn">Luyện Tập</button>
+    <button class="btn">Bảng Xếp Hạng</button>
   </div>
 
   <script src="script.js"></script>
