@@ -45,8 +45,12 @@ function play(audio) {
 function toggleAudio(){
   audioOn = !audioOn;
   const symbol = audioOn ? "🔊" : "🔈";
-  document.querySelectorAll("#audioBtn,#audioBtnTop").forEach(b=> b.textContent = symbol);
-  if(audioOn){ play(snd.click); }   // test ngay khi bật
+  document.querySelector("#audioBtn").textContent = symbol;
+  if(audioOn){
+    snd.click.play().catch(e=>console.log("Âm thanh cần thao tác chạm:", e));
+  }
+}
+
 }
 
 // ========== TIỆN ÍCH ==========
