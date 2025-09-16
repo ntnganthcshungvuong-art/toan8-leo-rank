@@ -1,102 +1,4402 @@
 [
   {
-    "question": "Đơn thức nào sau đây là bậc 4?",
-    "options": ["3x²y²", "5xy", "7x³", "2"],
-    "answer": "3x²y²"
+    "question": "Bậc của đơn thức 5x<sup>1</sup>y<sup>1</sup> là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
   },
   {
-    "question": "Bậc của đơn thức -7x³y² là bao nhiêu?",
-    "options": ["3", "2", "5", "6"],
-    "answer": "5"
+    "question": "Bậc của đơn thức 5x²y<sup>1</sup> là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
   },
   {
-    "question": "Kết quả rút gọn: (x²)³ bằng?",
-    "options": ["x⁵", "x⁶", "x<sup>23</sup>", "x²³"],
-    "answer": "x⁶"
+    "question": "Bậc của đơn thức 5x<sup>0</sup>y² là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
   },
   {
-    "question": "Cho đa thức P(x) = x³ + 2x² - 5x + 7. Bậc của đa thức là?",
-    "options": ["1", "2", "3", "7"],
-    "answer": "3"
+    "question": "Bậc của đơn thức 4x<sup>0</sup>y<sup>4</sup> là:",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "0"
+    ],
+    "answer": "4",
+    "level": "NB"
   },
   {
-    "question": "Tổng của hai đơn thức đồng dạng 5x²y và -3x²y là?",
-    "options": ["2x²y", "8x²y", "15x²y", "5x²y - 3x²y"],
-    "answer": "2x²y"
+    "question": "Bậc của đơn thức 1x²y<sup>0</sup> là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
   },
   {
-    "question": "Đơn thức nào dưới đây đồng dạng với -4x³y?",
-    "options": ["x³y", "x²y²", "xy³", "y³x"],
-    "answer": "x³y"
+    "question": "Bậc của đơn thức 5x<sup>4</sup>y<sup>1</sup> là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
   },
   {
-    "question": "Kết quả nhân: (2x²).(3x³) là?",
-    "options": ["6x⁵", "5x⁶", "6x<sup>23</sup>", "x² + x³"],
-    "answer": "6x⁵"
+    "question": "Bậc của đơn thức 3x<sup>0</sup>y³ là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
   },
   {
-    "question": "Bậc của đa thức 7x²y³ - 5xy + 4 là?",
-    "options": ["2", "3", "4", "5"],
-    "answer": "5"
+    "question": "Bậc của đơn thức 2x<sup>0</sup>y² là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
   },
   {
-    "question": "Kết quả thu gọn: (x³y²).(-2xy³) là?",
-    "options": ["-2x³y⁵", "-2x⁴y⁵", "-2x⁴y⁶", "-2x²y³"],
-    "answer": "-2x⁴y⁵"
+    "question": "Bậc của đơn thức 2x<sup>1</sup>y<sup>4</sup> là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
   },
   {
-    "question": "Trong các đơn thức sau, đơn thức nào có hệ số âm?",
-    "options": ["7x²", "-3x³", "5xy", "9"],
-    "answer": "-3x³"
+    "question": "Bậc của đơn thức 1x²y³ là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
   },
   {
-    "question": "Đa thức P(x) = 5x⁴ - 3x² + 7 có số hạng nào?",
-    "options": ["5x⁴, -3x², 7", "5x⁴, 7", "x⁴, x², 7", "5, -3, 7"],
-    "answer": "5x⁴, -3x², 7"
+    "question": "Bậc của đơn thức 3x<sup>4</sup>y<sup>0</sup> là:",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "0"
+    ],
+    "answer": "4",
+    "level": "NB"
   },
   {
-    "question": "Kết quả rút gọn: (x²y)² là?",
-    "options": ["x⁴y²", "x²y²", "x²y³", "x³y²"],
-    "answer": "x⁴y²"
+    "question": "Bậc của đơn thức 4x²y<sup>1</sup> là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
   },
   {
-    "question": "Trong đa thức 2x³ - x² + 5x - 7, hạng tử tự do là?",
-    "options": ["2x³", "-x²", "5x", "-7"],
-    "answer": "-7"
+    "question": "Bậc của đơn thức 1x<sup>1</sup>y² là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
   },
   {
-    "question": "Bậc của đa thức -x⁶ + 3x² - 4 là?",
-    "options": ["2", "3", "6", "4"],
-    "answer": "6"
+    "question": "Bậc của đơn thức 3x<sup>4</sup>y² là:",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "NB"
   },
   {
-    "question": "Giá trị của đa thức P(x) = x² - 3x + 2 tại x = 2 là?",
-    "options": ["0", "4", "2", "6"],
-    "answer": "0"
+    "question": "Bậc của đơn thức 5x³y<sup>0</sup> là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
   },
   {
-    "question": "Kết quả phép cộng: (2x² + 3x) + (x² - 5x) là?",
-    "options": ["3x² - 2x", "x² - 2x", "2x² - 2x", "3x² + 2x"],
-    "answer": "3x² - 2x"
+    "question": "Bậc của đơn thức 1x³y³ là:",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "NB"
   },
   {
-    "question": "Kết quả: (x² - 1)(x² + 1) = ?",
-    "options": ["x⁴ + 1", "x⁴ - 1", "x² + 1", "x² - 1"],
-    "answer": "x⁴ - 1"
+    "question": "Bậc của đơn thức 3x<sup>1</sup>y<sup>0</sup> là:",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "0"
+    ],
+    "answer": "1",
+    "level": "NB"
   },
   {
-    "question": "Rút gọn: (3x²y)(-2xy²) = ?",
-    "options": ["-6x³y³", "6x³y²", "-5x²y³", "-6x²y²"],
-    "answer": "-6x³y³"
+    "question": "Bậc của đơn thức 5x<sup>0</sup>y² là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
   },
   {
-    "question": "Tính giá trị: P(x) = x² + 2x + 1 tại x = -1",
-    "options": ["0", "2", "1", "-2"],
-    "answer": "0"
+    "question": "Bậc của đơn thức 3x²y³ là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
   },
   {
-    "question": "Biểu thức (x - 2)(x + 2) bằng?",
-    "options": ["x² - 4", "x² + 4", "x² - 2x", "x² + 2x"],
-    "answer": "x² - 4"
+    "question": "Bậc của đơn thức 3x³y³ là:",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 2x³y² là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 5x<sup>4</sup>y<sup>4</sup> là:",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "0"
+    ],
+    "answer": "8",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 1x<sup>1</sup>y<sup>4</sup> là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x<sup>0</sup>y² là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x<sup>1</sup>y² là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 2x²y² là:",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "0"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 1x²y<sup>1</sup> là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x²y<sup>0</sup> là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 5x<sup>1</sup>y<sup>1</sup> là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 1 là:",
+    "options": [
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "answer": "0",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x³y² là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x<sup>4</sup>y<sup>4</sup> là:",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "0"
+    ],
+    "answer": "8",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 5x<sup>1</sup>y<sup>4</sup> là:",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "0"
+    ],
+    "answer": "5",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 2x<sup>4</sup>y<sup>4</sup> là:",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "0"
+    ],
+    "answer": "8",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x³y<sup>0</sup> là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 5x<sup>0</sup>y<sup>1</sup> là:",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "0"
+    ],
+    "answer": "1",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x²y<sup>0</sup> là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 3x<sup>1</sup>y<sup>1</sup> là:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 4x²y<sup>4</sup> là:",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "NB"
+  },
+  {
+    "question": "Bậc của đơn thức 1x³y<sup>0</sup> là:",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "answer": "3",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 5)(x + 1) = ?",
+    "options": [
+      "x² + 6x + 5",
+      "x² + 5x + 6",
+      "x² + 6x + 6",
+      "x² + 5x + 1"
+    ],
+    "answer": "x² + 6x + 5",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 5)(x + 4) = ?",
+    "options": [
+      "x² + 9x + 20",
+      "x² + 20x + 9",
+      "x² + 9x + 9",
+      "x² + 5x + 4"
+    ],
+    "answer": "x² + 9x + 20",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 4)(x + 2) = ?",
+    "options": [
+      "x² + 6x + 8",
+      "x² + 8x + 6",
+      "x² + 6x + 6",
+      "x² + 4x + 2"
+    ],
+    "answer": "x² + 6x + 8",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 2)(x + 4) = ?",
+    "options": [
+      "x² + 6x + 8",
+      "x² + 8x + 6",
+      "x² + 6x + 6",
+      "x² + 2x + 4"
+    ],
+    "answer": "x² + 6x + 8",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 2)(x + 2) = ?",
+    "options": [
+      "x² + 4x + 4",
+      "x² + 4x + 4",
+      "x² + 4x + 4",
+      "x² + 2x + 2"
+    ],
+    "answer": "x² + 4x + 4",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 3)(x + 5) = ?",
+    "options": [
+      "x² + 8x + 15",
+      "x² + 15x + 8",
+      "x² + 8x + 8",
+      "x² + 3x + 5"
+    ],
+    "answer": "x² + 8x + 15",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 1)(x + 3) = ?",
+    "options": [
+      "x² + 4x + 3",
+      "x² + 3x + 4",
+      "x² + 4x + 4",
+      "x² + 1x + 3"
+    ],
+    "answer": "x² + 4x + 3",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 5)(x + 3) = ?",
+    "options": [
+      "x² + 8x + 15",
+      "x² + 15x + 8",
+      "x² + 8x + 8",
+      "x² + 5x + 3"
+    ],
+    "answer": "x² + 8x + 15",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 2)(x + 5) = ?",
+    "options": [
+      "x² + 7x + 10",
+      "x² + 10x + 7",
+      "x² + 7x + 7",
+      "x² + 2x + 5"
+    ],
+    "answer": "x² + 7x + 10",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 4)(x + 2) = ?",
+    "options": [
+      "x² + 6x + 8",
+      "x² + 8x + 6",
+      "x² + 6x + 6",
+      "x² + 4x + 2"
+    ],
+    "answer": "x² + 6x + 8",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 1)(x + 1) = ?",
+    "options": [
+      "x² + 2x + 1",
+      "x² + 1x + 2",
+      "x² + 2x + 2",
+      "x² + 1x + 1"
+    ],
+    "answer": "x² + 2x + 1",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 3)(x + 3) = ?",
+    "options": [
+      "x² + 6x + 9",
+      "x² + 9x + 6",
+      "x² + 6x + 6",
+      "x² + 3x + 3"
+    ],
+    "answer": "x² + 6x + 9",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 5)(x + 1) = ?",
+    "options": [
+      "x² + 6x + 5",
+      "x² + 5x + 6",
+      "x² + 6x + 6",
+      "x² + 5x + 1"
+    ],
+    "answer": "x² + 6x + 5",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 2)(x + 4) = ?",
+    "options": [
+      "x² + 6x + 8",
+      "x² + 8x + 6",
+      "x² + 6x + 6",
+      "x² + 2x + 4"
+    ],
+    "answer": "x² + 6x + 8",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 5)(x + 4) = ?",
+    "options": [
+      "x² + 9x + 20",
+      "x² + 20x + 9",
+      "x² + 9x + 9",
+      "x² + 5x + 4"
+    ],
+    "answer": "x² + 9x + 20",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 1)(x + 4) = ?",
+    "options": [
+      "x² + 5x + 4",
+      "x² + 4x + 5",
+      "x² + 5x + 5",
+      "x² + 1x + 4"
+    ],
+    "answer": "x² + 5x + 4",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 5)(x + 2) = ?",
+    "options": [
+      "x² + 7x + 10",
+      "x² + 10x + 7",
+      "x² + 7x + 7",
+      "x² + 5x + 2"
+    ],
+    "answer": "x² + 7x + 10",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 1)(x + 3) = ?",
+    "options": [
+      "x² + 4x + 3",
+      "x² + 3x + 4",
+      "x² + 4x + 4",
+      "x² + 1x + 3"
+    ],
+    "answer": "x² + 4x + 3",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 1)(x + 1) = ?",
+    "options": [
+      "x² + 2x + 1",
+      "x² + 1x + 2",
+      "x² + 2x + 2",
+      "x² + 1x + 1"
+    ],
+    "answer": "x² + 2x + 1",
+    "level": "NB"
+  },
+  {
+    "question": "Thu gọn: (x + 1)(x + 4) = ?",
+    "options": [
+      "x² + 5x + 4",
+      "x² + 4x + 5",
+      "x² + 5x + 5",
+      "x² + 1x + 4"
+    ],
+    "answer": "x² + 5x + 4",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 6 là:",
+    "options": [
+      "49",
+      "48",
+      "50",
+      "37"
+    ],
+    "answer": "49",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 3 là:",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "10"
+    ],
+    "answer": "16",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 5 là:",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "26"
+    ],
+    "answer": "36",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 6 là:",
+    "options": [
+      "49",
+      "48",
+      "50",
+      "37"
+    ],
+    "answer": "49",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 3 là:",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "10"
+    ],
+    "answer": "16",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 2 là:",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "5"
+    ],
+    "answer": "9",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 4 là:",
+    "options": [
+      "25",
+      "24",
+      "26",
+      "17"
+    ],
+    "answer": "25",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 5 là:",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "26"
+    ],
+    "answer": "36",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 1 là:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 1 là:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 3 là:",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "10"
+    ],
+    "answer": "16",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 4 là:",
+    "options": [
+      "25",
+      "24",
+      "26",
+      "17"
+    ],
+    "answer": "25",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 5 là:",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "26"
+    ],
+    "answer": "36",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 3 là:",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "10"
+    ],
+    "answer": "16",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 1 là:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 1 là:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 5 là:",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "26"
+    ],
+    "answer": "36",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 1 là:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 5 là:",
+    "options": [
+      "36",
+      "35",
+      "37",
+      "26"
+    ],
+    "answer": "36",
+    "level": "NB"
+  },
+  {
+    "question": "Giá trị của x² + 2x + 1 tại x = 1 là:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 1 = ?",
+    "options": [
+      "(x − 1)(x + 1)",
+      "(x − 1)(x − 1)",
+      "(x + 1)(x + 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x + 1)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 36 = ?",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)(x − 6)",
+      "(x + 6)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 6)(x + 6)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 25 = ?",
+    "options": [
+      "(x − 5)(x + 5)",
+      "(x − 5)(x − 5)",
+      "(x + 5)(x + 5)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 5)(x + 5)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 1 = ?",
+    "options": [
+      "(x − 1)(x + 1)",
+      "(x − 1)(x − 1)",
+      "(x + 1)(x + 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x + 1)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 25 = ?",
+    "options": [
+      "(x − 5)(x + 5)",
+      "(x − 5)(x − 5)",
+      "(x + 5)(x + 5)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 5)(x + 5)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 36 = ?",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)(x − 6)",
+      "(x + 6)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 6)(x + 6)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 36 = ?",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)(x − 6)",
+      "(x + 6)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 6)(x + 6)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 36 = ?",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)(x − 6)",
+      "(x + 6)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 6)(x + 6)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 9 = ?",
+    "options": [
+      "(x − 3)(x + 3)",
+      "(x − 3)(x − 3)",
+      "(x + 3)(x + 3)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 3)(x + 3)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 36 = ?",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)(x − 6)",
+      "(x + 6)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 6)(x + 6)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 1 = ?",
+    "options": [
+      "(x − 1)(x + 1)",
+      "(x − 1)(x − 1)",
+      "(x + 1)(x + 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x + 1)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 25 = ?",
+    "options": [
+      "(x − 5)(x + 5)",
+      "(x − 5)(x − 5)",
+      "(x + 5)(x + 5)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 5)(x + 5)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 16 = ?",
+    "options": [
+      "(x − 4)(x + 4)",
+      "(x − 4)(x − 4)",
+      "(x + 4)(x + 4)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 4)(x + 4)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 4 = ?",
+    "options": [
+      "(x − 2)(x + 2)",
+      "(x − 2)(x − 2)",
+      "(x + 2)(x + 2)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 2)(x + 2)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 25 = ?",
+    "options": [
+      "(x − 5)(x + 5)",
+      "(x − 5)(x − 5)",
+      "(x + 5)(x + 5)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 5)(x + 5)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 1 = ?",
+    "options": [
+      "(x − 1)(x + 1)",
+      "(x − 1)(x − 1)",
+      "(x + 1)(x + 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x + 1)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 1 = ?",
+    "options": [
+      "(x − 1)(x + 1)",
+      "(x − 1)(x − 1)",
+      "(x + 1)(x + 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x + 1)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 36 = ?",
+    "options": [
+      "(x − 6)(x + 6)",
+      "(x − 6)(x − 6)",
+      "(x + 6)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 6)(x + 6)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 4 = ?",
+    "options": [
+      "(x − 2)(x + 2)",
+      "(x − 2)(x − 2)",
+      "(x + 2)(x + 2)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 2)(x + 2)",
+    "level": "NB"
+  },
+  {
+    "question": "Hiệu hai bình phương: x² − 1 = ?",
+    "options": [
+      "(x − 1)(x + 1)",
+      "(x − 1)(x − 1)",
+      "(x + 1)(x + 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x + 1)",
+    "level": "NB"
+  },
+  {
+    "question": "Khai triển: (x + 5)² = ?",
+    "options": [
+      "x² + 10x + 25",
+      "x² + 5x + 25",
+      "x² + 10x + 5",
+      "x² + 25"
+    ],
+    "answer": "x² + 10x + 25",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 4x² + 2x − 5, hệ số của x là:",
+    "options": [
+      "2",
+      "4",
+      "-5",
+      "0"
+    ],
+    "answer": "2",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (6x + 2) + (5x − 2)",
+    "options": [
+      "11x + 0",
+      "11x − 0",
+      "10x + 1",
+      "6x + 2 + 5x − 2"
+    ],
+    "answer": "11x + 0",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 2)² = ?",
+    "options": [
+      "x² + 4x + 4",
+      "x² + 2x + 4",
+      "x² + 4x + 2",
+      "x² + 4"
+    ],
+    "answer": "x² + 4x + 4",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 5x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "5",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (4x + 1) + (4x − 4)",
+    "options": [
+      "8x + -3",
+      "8x − -3",
+      "7x + -2",
+      "4x + 1 + 4x − 4"
+    ],
+    "answer": "8x + -3",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 1)² = ?",
+    "options": [
+      "x² + 2x + 1",
+      "x² + 1x + 1",
+      "x² + 2x + 1",
+      "x² + 1"
+    ],
+    "answer": "x² + 2x + 1",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 4x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "4",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (5x + 2) + (4x − 6)",
+    "options": [
+      "9x + -4",
+      "9x − -4",
+      "8x + -3",
+      "5x + 2 + 4x − 6"
+    ],
+    "answer": "9x + -4",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 6)² = ?",
+    "options": [
+      "x² + 12x + 36",
+      "x² + 6x + 36",
+      "x² + 12x + 6",
+      "x² + 36"
+    ],
+    "answer": "x² + 12x + 36",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 2x² + 4x − 5, hệ số của x là:",
+    "options": [
+      "4",
+      "2",
+      "-5",
+      "0"
+    ],
+    "answer": "4",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (3x + 6) + (4x − 1)",
+    "options": [
+      "7x + 5",
+      "7x − 5",
+      "6x + 6",
+      "3x + 6 + 4x − 1"
+    ],
+    "answer": "7x + 5",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 4)² = ?",
+    "options": [
+      "x² + 8x + 16",
+      "x² + 4x + 16",
+      "x² + 8x + 4",
+      "x² + 16"
+    ],
+    "answer": "x² + 8x + 16",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 1x² + 4x − 5, hệ số của x là:",
+    "options": [
+      "4",
+      "1",
+      "-5",
+      "0"
+    ],
+    "answer": "4",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (2x + 4) + (5x − 6)",
+    "options": [
+      "7x + -2",
+      "7x − -2",
+      "6x + -1",
+      "2x + 4 + 5x − 6"
+    ],
+    "answer": "7x + -2",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 4)² = ?",
+    "options": [
+      "x² + 8x + 16",
+      "x² + 4x + 16",
+      "x² + 8x + 4",
+      "x² + 16"
+    ],
+    "answer": "x² + 8x + 16",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 6x² + 3x − 5, hệ số của x là:",
+    "options": [
+      "3",
+      "6",
+      "-5",
+      "0"
+    ],
+    "answer": "3",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (1x + 6) + (1x − 1)",
+    "options": [
+      "2x + 5",
+      "2x − 5",
+      "1x + 6",
+      "1x + 6 + 1x − 1"
+    ],
+    "answer": "2x + 5",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 6)² = ?",
+    "options": [
+      "x² + 12x + 36",
+      "x² + 6x + 36",
+      "x² + 12x + 6",
+      "x² + 36"
+    ],
+    "answer": "x² + 12x + 36",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 1x² + 5x − 5, hệ số của x là:",
+    "options": [
+      "5",
+      "1",
+      "-5",
+      "0"
+    ],
+    "answer": "5",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (6x + 3) + (1x − 4)",
+    "options": [
+      "7x + -1",
+      "7x − -1",
+      "6x + 0",
+      "6x + 3 + 1x − 4"
+    ],
+    "answer": "7x + -1",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 4)² = ?",
+    "options": [
+      "x² + 8x + 16",
+      "x² + 4x + 16",
+      "x² + 8x + 4",
+      "x² + 16"
+    ],
+    "answer": "x² + 8x + 16",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 1x² + 5x − 5, hệ số của x là:",
+    "options": [
+      "5",
+      "1",
+      "-5",
+      "0"
+    ],
+    "answer": "5",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (1x + 1) + (4x − 1)",
+    "options": [
+      "5x + 0",
+      "5x − 0",
+      "4x + 1",
+      "1x + 1 + 4x − 1"
+    ],
+    "answer": "5x + 0",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 2)² = ?",
+    "options": [
+      "x² + 4x + 4",
+      "x² + 2x + 4",
+      "x² + 4x + 2",
+      "x² + 4"
+    ],
+    "answer": "x² + 4x + 4",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 4x² + 3x − 5, hệ số của x là:",
+    "options": [
+      "3",
+      "4",
+      "-5",
+      "0"
+    ],
+    "answer": "3",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (3x + 5) + (4x − 2)",
+    "options": [
+      "7x + 3",
+      "7x − 3",
+      "6x + 4",
+      "3x + 5 + 4x − 2"
+    ],
+    "answer": "7x + 3",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 6)² = ?",
+    "options": [
+      "x² + 12x + 36",
+      "x² + 6x + 36",
+      "x² + 12x + 6",
+      "x² + 36"
+    ],
+    "answer": "x² + 12x + 36",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 6x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "6",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (6x + 4) + (2x − 5)",
+    "options": [
+      "8x + -1",
+      "8x − -1",
+      "7x + 0",
+      "6x + 4 + 2x − 5"
+    ],
+    "answer": "8x + -1",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 5)² = ?",
+    "options": [
+      "x² + 10x + 25",
+      "x² + 5x + 25",
+      "x² + 10x + 5",
+      "x² + 25"
+    ],
+    "answer": "x² + 10x + 25",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 2x² + 3x − 5, hệ số của x là:",
+    "options": [
+      "3",
+      "2",
+      "-5",
+      "0"
+    ],
+    "answer": "3",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (2x + 5) + (5x − 4)",
+    "options": [
+      "7x + 1",
+      "7x − 1",
+      "6x + 2",
+      "2x + 5 + 5x − 4"
+    ],
+    "answer": "7x + 1",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 2)² = ?",
+    "options": [
+      "x² + 4x + 4",
+      "x² + 2x + 4",
+      "x² + 4x + 2",
+      "x² + 4"
+    ],
+    "answer": "x² + 4x + 4",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 1x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "1",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (1x + 6) + (4x − 4)",
+    "options": [
+      "5x + 2",
+      "5x − 2",
+      "4x + 3",
+      "1x + 6 + 4x − 4"
+    ],
+    "answer": "5x + 2",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 3)² = ?",
+    "options": [
+      "x² + 6x + 9",
+      "x² + 3x + 9",
+      "x² + 6x + 3",
+      "x² + 9"
+    ],
+    "answer": "x² + 6x + 9",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 4x² + 4x − 5, hệ số của x là:",
+    "options": [
+      "4",
+      "4",
+      "-5",
+      "0"
+    ],
+    "answer": "4",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (5x + 4) + (3x − 6)",
+    "options": [
+      "8x + -2",
+      "8x − -2",
+      "7x + -1",
+      "5x + 4 + 3x − 6"
+    ],
+    "answer": "8x + -2",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 3)² = ?",
+    "options": [
+      "x² + 6x + 9",
+      "x² + 3x + 9",
+      "x² + 6x + 3",
+      "x² + 9"
+    ],
+    "answer": "x² + 6x + 9",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 3x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "3",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (6x + 6) + (3x − 3)",
+    "options": [
+      "9x + 3",
+      "9x − 3",
+      "8x + 4",
+      "6x + 6 + 3x − 3"
+    ],
+    "answer": "9x + 3",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 5)² = ?",
+    "options": [
+      "x² + 10x + 25",
+      "x² + 5x + 25",
+      "x² + 10x + 5",
+      "x² + 25"
+    ],
+    "answer": "x² + 10x + 25",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 3x² + 1x − 5, hệ số của x là:",
+    "options": [
+      "1",
+      "3",
+      "-5",
+      "0"
+    ],
+    "answer": "1",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (1x + 1) + (6x − 2)",
+    "options": [
+      "7x + -1",
+      "7x − -1",
+      "6x + 0",
+      "1x + 1 + 6x − 2"
+    ],
+    "answer": "7x + -1",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 4)² = ?",
+    "options": [
+      "x² + 8x + 16",
+      "x² + 4x + 16",
+      "x² + 8x + 4",
+      "x² + 16"
+    ],
+    "answer": "x² + 8x + 16",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 1x² + 2x − 5, hệ số của x là:",
+    "options": [
+      "2",
+      "1",
+      "-5",
+      "0"
+    ],
+    "answer": "2",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (3x + 3) + (1x − 3)",
+    "options": [
+      "4x + 0",
+      "4x − 0",
+      "3x + 1",
+      "3x + 3 + 1x − 3"
+    ],
+    "answer": "4x + 0",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 3)² = ?",
+    "options": [
+      "x² + 6x + 9",
+      "x² + 3x + 9",
+      "x² + 6x + 3",
+      "x² + 9"
+    ],
+    "answer": "x² + 6x + 9",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 5x² + 3x − 5, hệ số của x là:",
+    "options": [
+      "3",
+      "5",
+      "-5",
+      "0"
+    ],
+    "answer": "3",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (3x + 1) + (5x − 5)",
+    "options": [
+      "8x + -4",
+      "8x − -4",
+      "7x + -3",
+      "3x + 1 + 5x − 5"
+    ],
+    "answer": "8x + -4",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 1)² = ?",
+    "options": [
+      "x² + 2x + 1",
+      "x² + 1x + 1",
+      "x² + 2x + 1",
+      "x² + 1"
+    ],
+    "answer": "x² + 2x + 1",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 6x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "6",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (6x + 2) + (4x − 6)",
+    "options": [
+      "10x + -4",
+      "10x − -4",
+      "9x + -3",
+      "6x + 2 + 4x − 6"
+    ],
+    "answer": "10x + -4",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 4)² = ?",
+    "options": [
+      "x² + 8x + 16",
+      "x² + 4x + 16",
+      "x² + 8x + 4",
+      "x² + 16"
+    ],
+    "answer": "x² + 8x + 16",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 4x² + 6x − 5, hệ số của x là:",
+    "options": [
+      "6",
+      "4",
+      "-5",
+      "0"
+    ],
+    "answer": "6",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (6x + 1) + (6x − 5)",
+    "options": [
+      "12x + -4",
+      "12x − -4",
+      "11x + -3",
+      "6x + 1 + 6x − 5"
+    ],
+    "answer": "12x + -4",
+    "level": "TH"
+  },
+  {
+    "question": "Khai triển: (x + 4)² = ?",
+    "options": [
+      "x² + 8x + 16",
+      "x² + 4x + 16",
+      "x² + 8x + 4",
+      "x² + 16"
+    ],
+    "answer": "x² + 8x + 16",
+    "level": "TH"
+  },
+  {
+    "question": "Trong đa thức 4x² + 2x − 5, hệ số của x là:",
+    "options": [
+      "2",
+      "4",
+      "-5",
+      "0"
+    ],
+    "answer": "2",
+    "level": "TH"
+  },
+  {
+    "question": "Thu gọn: (1x + 5) + (4x − 3)",
+    "options": [
+      "5x + 2",
+      "5x − 2",
+      "4x + 3",
+      "1x + 5 + 4x − 3"
+    ],
+    "answer": "5x + 2",
+    "level": "TH"
+  },
+  {
+    "question": "Phân tích: x² + 8x + 15 = ?",
+    "options": [
+      "(x + 5)(x + 3)",
+      "(x − 5)(x − 3)",
+      "(x + 15)(x + 8)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 5)(x + 3)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 8 = ?",
+    "options": [
+      "(x − 2)(x² + 2x + 4)",
+      "(x + 2)(x² − 2x + 4)",
+      "(x − 2)(x² − 2x − 4)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 2)(x² + 2x + 4)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 1)(x² − 1x + 1) = ?",
+    "options": [
+      "x³ + 1",
+      "x³ − 1",
+      "x³ + 1x² + 1x + 1",
+      "(x + 1)³"
+    ],
+    "answer": "x³ + 1",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 4x + 4 = ?",
+    "options": [
+      "(x + 2)(x + 2)",
+      "(x − 2)(x − 2)",
+      "(x + 4)(x + 4)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 2)(x + 2)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 1 = ?",
+    "options": [
+      "(x − 1)(x² + 1x + 1)",
+      "(x + 1)(x² − 1x + 1)",
+      "(x − 1)(x² − 1x − 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x² + 1x + 1)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 2)(x² − 2x + 4) = ?",
+    "options": [
+      "x³ + 8",
+      "x³ − 8",
+      "x³ + 2x² + 4x + 8",
+      "(x + 2)³"
+    ],
+    "answer": "x³ + 8",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 6x + 9 = ?",
+    "options": [
+      "(x + 3)(x + 3)",
+      "(x − 3)(x − 3)",
+      "(x + 9)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 3)(x + 3)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 64 = ?",
+    "options": [
+      "(x − 4)(x² + 4x + 16)",
+      "(x + 4)(x² − 4x + 16)",
+      "(x − 4)(x² − 4x − 16)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 4)(x² + 4x + 16)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 5)(x² − 5x + 25) = ?",
+    "options": [
+      "x³ + 125",
+      "x³ − 125",
+      "x³ + 5x² + 25x + 125",
+      "(x + 5)³"
+    ],
+    "answer": "x³ + 125",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 6x + 5 = ?",
+    "options": [
+      "(x + 1)(x + 5)",
+      "(x − 1)(x − 5)",
+      "(x + 5)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 1)(x + 5)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 125 = ?",
+    "options": [
+      "(x − 5)(x² + 5x + 25)",
+      "(x + 5)(x² − 5x + 25)",
+      "(x − 5)(x² − 5x − 25)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 5)(x² + 5x + 25)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 2)(x² − 2x + 4) = ?",
+    "options": [
+      "x³ + 8",
+      "x³ − 8",
+      "x³ + 2x² + 4x + 8",
+      "(x + 2)³"
+    ],
+    "answer": "x³ + 8",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 5x + 4 = ?",
+    "options": [
+      "(x + 1)(x + 4)",
+      "(x − 1)(x − 4)",
+      "(x + 4)(x + 5)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 1)(x + 4)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 64 = ?",
+    "options": [
+      "(x − 4)(x² + 4x + 16)",
+      "(x + 4)(x² − 4x + 16)",
+      "(x − 4)(x² − 4x − 16)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 4)(x² + 4x + 16)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 2)(x² − 2x + 4) = ?",
+    "options": [
+      "x³ + 8",
+      "x³ − 8",
+      "x³ + 2x² + 4x + 8",
+      "(x + 2)³"
+    ],
+    "answer": "x³ + 8",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 4x + 3 = ?",
+    "options": [
+      "(x + 3)(x + 1)",
+      "(x − 3)(x − 1)",
+      "(x + 3)(x + 4)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 3)(x + 1)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 125 = ?",
+    "options": [
+      "(x − 5)(x² + 5x + 25)",
+      "(x + 5)(x² − 5x + 25)",
+      "(x − 5)(x² − 5x − 25)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 5)(x² + 5x + 25)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 2)(x² − 2x + 4) = ?",
+    "options": [
+      "x³ + 8",
+      "x³ − 8",
+      "x³ + 2x² + 4x + 8",
+      "(x + 2)³"
+    ],
+    "answer": "x³ + 8",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 6x + 8 = ?",
+    "options": [
+      "(x + 4)(x + 2)",
+      "(x − 4)(x − 2)",
+      "(x + 8)(x + 6)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 4)(x + 2)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 64 = ?",
+    "options": [
+      "(x − 4)(x² + 4x + 16)",
+      "(x + 4)(x² − 4x + 16)",
+      "(x − 4)(x² − 4x − 16)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 4)(x² + 4x + 16)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 4)(x² − 4x + 16) = ?",
+    "options": [
+      "x³ + 64",
+      "x³ − 64",
+      "x³ + 4x² + 16x + 64",
+      "(x + 4)³"
+    ],
+    "answer": "x³ + 64",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 7x + 12 = ?",
+    "options": [
+      "(x + 3)(x + 4)",
+      "(x − 3)(x − 4)",
+      "(x + 12)(x + 7)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 3)(x + 4)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 1 = ?",
+    "options": [
+      "(x − 1)(x² + 1x + 1)",
+      "(x + 1)(x² − 1x + 1)",
+      "(x − 1)(x² − 1x − 1)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 1)(x² + 1x + 1)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 2)(x² − 2x + 4) = ?",
+    "options": [
+      "x³ + 8",
+      "x³ − 8",
+      "x³ + 2x² + 4x + 8",
+      "(x + 2)³"
+    ],
+    "answer": "x³ + 8",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 7x + 12 = ?",
+    "options": [
+      "(x + 4)(x + 3)",
+      "(x − 4)(x − 3)",
+      "(x + 12)(x + 7)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 4)(x + 3)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 64 = ?",
+    "options": [
+      "(x − 4)(x² + 4x + 16)",
+      "(x + 4)(x² − 4x + 16)",
+      "(x − 4)(x² − 4x − 16)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 4)(x² + 4x + 16)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 2)(x² − 2x + 4) = ?",
+    "options": [
+      "x³ + 8",
+      "x³ − 8",
+      "x³ + 2x² + 4x + 8",
+      "(x + 2)³"
+    ],
+    "answer": "x³ + 8",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x² + 7x + 12 = ?",
+    "options": [
+      "(x + 3)(x + 4)",
+      "(x − 3)(x − 4)",
+      "(x + 12)(x + 7)",
+      "Không phân tích được"
+    ],
+    "answer": "(x + 3)(x + 4)",
+    "level": "VD"
+  },
+  {
+    "question": "Phân tích: x³ − 27 = ?",
+    "options": [
+      "(x − 3)(x² + 3x + 9)",
+      "(x + 3)(x² − 3x + 9)",
+      "(x − 3)(x² − 3x − 9)",
+      "Không phân tích được"
+    ],
+    "answer": "(x − 3)(x² + 3x + 9)",
+    "level": "VD"
+  },
+  {
+    "question": "Rút gọn: (x + 3)(x² − 3x + 9) = ?",
+    "options": [
+      "x³ + 27",
+      "x³ − 27",
+      "x³ + 3x² + 9x + 27",
+      "(x + 3)³"
+    ],
+    "answer": "x³ + 27",
+    "level": "VD"
+  },
+  {
+    "question": "Tính nhanh: (a + b)² + (a − b)² bằng:",
+    "options": [
+      "2a² + 2b²",
+      "a² + b²",
+      "4ab",
+      "2ab"
+    ],
+    "answer": "2a² + 2b²",
+    "level": "VDC"
+  },
+  {
+    "question": "Cho (x − 6)(x − 7) = 0. Giá trị của x là:",
+    "options": [
+      "x = 6 hoặc x = 7",
+      "x = 6",
+      "x = 7",
+      "Không có nghiệm"
+    ],
+    "answer": "x = 6 hoặc x = 7",
+    "level": "VDC"
+  },
+  {
+    "question": "Tính nhanh: (a + b)² + (a − b)² bằng:",
+    "options": [
+      "2a² + 2b²",
+      "a² + b²",
+      "4ab",
+      "2ab"
+    ],
+    "answer": "2a² + 2b²",
+    "level": "VDC"
+  },
+  {
+    "question": "Cho (x − 2)(x − 3) = 0. Giá trị của x là:",
+    "options": [
+      "x = 2 hoặc x = 3",
+      "x = 2",
+      "x = 3",
+      "Không có nghiệm"
+    ],
+    "answer": "x = 2 hoặc x = 3",
+    "level": "VDC"
+  },
+  {
+    "question": "Tính nhanh: (a + b)² + (a − b)² bằng:",
+    "options": [
+      "2a² + 2b²",
+      "a² + b²",
+      "4ab",
+      "2ab"
+    ],
+    "answer": "2a² + 2b²",
+    "level": "VDC"
+  },
+  {
+    "question": "Cho (x − 1)(x − 2) = 0. Giá trị của x là:",
+    "options": [
+      "x = 1 hoặc x = 2",
+      "x = 1",
+      "x = 2",
+      "Không có nghiệm"
+    ],
+    "answer": "x = 1 hoặc x = 2",
+    "level": "VDC"
+  },
+  {
+    "question": "Tính nhanh: (a + b)² + (a − b)² bằng:",
+    "options": [
+      "2a² + 2b²",
+      "a² + b²",
+      "4ab",
+      "2ab"
+    ],
+    "answer": "2a² + 2b²",
+    "level": "VDC"
+  },
+  {
+    "question": "Cho (x − 4)(x − 5) = 0. Giá trị của x là:",
+    "options": [
+      "x = 4 hoặc x = 5",
+      "x = 4",
+      "x = 5",
+      "Không có nghiệm"
+    ],
+    "answer": "x = 4 hoặc x = 5",
+    "level": "VDC"
+  },
+  {
+    "question": "Tính nhanh: (a + b)² + (a − b)² bằng:",
+    "options": [
+      "2a² + 2b²",
+      "a² + b²",
+      "4ab",
+      "2ab"
+    ],
+    "answer": "2a² + 2b²",
+    "level": "VDC"
+  },
+  {
+    "question": "Cho (x − 2)(x − 3) = 0. Giá trị của x là:",
+    "options": [
+      "x = 2 hoặc x = 3",
+      "x = 2",
+      "x = 3",
+      "Không có nghiệm"
+    ],
+    "answer": "x = 2 hoặc x = 3",
+    "level": "VDC"
+  },
+  {
+    "question": "Tổng số đo bốn góc của tứ giác bằng:",
+    "options": [
+      "180°",
+      "270°",
+      "360°",
+      "90°"
+    ],
+    "answer": "360°",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có hai cặp cạnh đối song song là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có hai cặp cạnh đối song song là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Tổng số đo bốn góc của tứ giác bằng:",
+    "options": [
+      "180°",
+      "270°",
+      "360°",
+      "90°"
+    ],
+    "answer": "360°",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tổng số đo bốn góc của tứ giác bằng:",
+    "options": [
+      "180°",
+      "270°",
+      "360°",
+      "90°"
+    ],
+    "answer": "360°",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có hai cặp cạnh đối song song là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thoi là tứ giác có:",
+    "options": [
+      "Bốn cạnh bằng nhau",
+      "Bốn góc vuông",
+      "Hai đường chéo bằng nhau",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn cạnh bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Tổng số đo bốn góc của tứ giác bằng:",
+    "options": [
+      "180°",
+      "270°",
+      "360°",
+      "90°"
+    ],
+    "answer": "360°",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có hai cặp cạnh đối song song là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "NB"
+  },
+  {
+    "question": "Hình chữ nhật là tứ giác có:",
+    "options": [
+      "Bốn góc vuông",
+      "Bốn cạnh bằng nhau",
+      "Hai đường chéo vuông góc",
+      "Hai cạnh đối song song"
+    ],
+    "answer": "Bốn góc vuông",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có một cặp cạnh đối song song là:",
+    "options": [
+      "Hình thang",
+      "Hình bình hành",
+      "Hình vuông",
+      "Hình thoi"
+    ],
+    "answer": "Hình thang",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình chữ nhật, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, các cạnh đối:",
+    "options": [
+      "Song song và bằng nhau",
+      "Song song và không bằng nhau",
+      "Vuông góc",
+      "Không liên hệ"
+    ],
+    "answer": "Song song và bằng nhau",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình thoi, hai đường chéo:",
+    "options": [
+      "Vuông góc và cắt nhau tại trung điểm",
+      "Chỉ bằng nhau",
+      "Chỉ vuông góc",
+      "Không đặc biệt"
+    ],
+    "answer": "Vuông góc và cắt nhau tại trung điểm",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Tứ giác có hai cặp cạnh đối song song là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình vuông, hai đường chéo:",
+    "options": [
+      "Bằng nhau và vuông góc",
+      "Chỉ vuông góc",
+      "Chỉ bằng nhau",
+      "Không đặc biệt"
+    ],
+    "answer": "Bằng nhau và vuông góc",
+    "level": "NB"
+  },
+  {
+    "question": "Hình thang cân là hình thang có:",
+    "options": [
+      "Hai góc kề một đáy bằng nhau",
+      "Hai cạnh bên bằng nhau",
+      "Hai đường chéo bằng nhau",
+      "Tất cả đều đúng"
+    ],
+    "answer": "Tất cả đều đúng",
+    "level": "NB"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 60° thì góc kề với nó bằng:",
+    "options": [
+      "120°",
+      "60°",
+      "90°",
+      "30°"
+    ],
+    "answer": "120°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 100° thì góc kề với nó bằng:",
+    "options": [
+      "80°",
+      "100°",
+      "90°",
+      "70°"
+    ],
+    "answer": "80°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 70° thì góc kề với nó bằng:",
+    "options": [
+      "110°",
+      "70°",
+      "90°",
+      "40°"
+    ],
+    "answer": "110°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 100° thì góc kề với nó bằng:",
+    "options": [
+      "80°",
+      "100°",
+      "90°",
+      "70°"
+    ],
+    "answer": "80°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 60° thì góc kề với nó bằng:",
+    "options": [
+      "120°",
+      "60°",
+      "90°",
+      "30°"
+    ],
+    "answer": "120°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 110° thì góc kề với nó bằng:",
+    "options": [
+      "70°",
+      "110°",
+      "90°",
+      "80°"
+    ],
+    "answer": "70°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 70° thì góc kề với nó bằng:",
+    "options": [
+      "110°",
+      "70°",
+      "90°",
+      "40°"
+    ],
+    "answer": "110°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 60° thì góc kề với nó bằng:",
+    "options": [
+      "120°",
+      "60°",
+      "90°",
+      "30°"
+    ],
+    "answer": "120°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 110° thì góc kề với nó bằng:",
+    "options": [
+      "70°",
+      "110°",
+      "90°",
+      "80°"
+    ],
+    "answer": "70°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 50° thì góc kề với nó bằng:",
+    "options": [
+      "130°",
+      "50°",
+      "90°",
+      "20°"
+    ],
+    "answer": "130°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 70° thì góc kề với nó bằng:",
+    "options": [
+      "110°",
+      "70°",
+      "90°",
+      "40°"
+    ],
+    "answer": "110°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 110° thì góc kề với nó bằng:",
+    "options": [
+      "70°",
+      "110°",
+      "90°",
+      "80°"
+    ],
+    "answer": "70°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 100° thì góc kề với nó bằng:",
+    "options": [
+      "80°",
+      "100°",
+      "90°",
+      "70°"
+    ],
+    "answer": "80°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 110° thì góc kề với nó bằng:",
+    "options": [
+      "70°",
+      "110°",
+      "90°",
+      "80°"
+    ],
+    "answer": "70°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 60° thì góc kề với nó bằng:",
+    "options": [
+      "120°",
+      "60°",
+      "90°",
+      "30°"
+    ],
+    "answer": "120°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 100° thì góc kề với nó bằng:",
+    "options": [
+      "80°",
+      "100°",
+      "90°",
+      "70°"
+    ],
+    "answer": "80°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 110° thì góc kề với nó bằng:",
+    "options": [
+      "70°",
+      "110°",
+      "90°",
+      "80°"
+    ],
+    "answer": "70°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 100° thì góc kề với nó bằng:",
+    "options": [
+      "80°",
+      "100°",
+      "90°",
+      "70°"
+    ],
+    "answer": "80°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 80° thì góc kề với nó bằng:",
+    "options": [
+      "100°",
+      "80°",
+      "90°",
+      "50°"
+    ],
+    "answer": "100°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, hai đường chéo:",
+    "options": [
+      "Cắt nhau tại trung điểm mỗi đường",
+      "Bằng nhau",
+      "Vuông góc",
+      "Song song"
+    ],
+    "answer": "Cắt nhau tại trung điểm mỗi đường",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang cân, hai đường chéo:",
+    "options": [
+      "Bằng nhau",
+      "Vuông góc",
+      "Không bằng nhau",
+      "Song song"
+    ],
+    "answer": "Bằng nhau",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình bình hành, nếu một góc bằng 50° thì góc kề với nó bằng:",
+    "options": [
+      "130°",
+      "50°",
+      "90°",
+      "20°"
+    ],
+    "answer": "130°",
+    "level": "TH"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 5 và 12, độ dài đường trung bình bằng:",
+    "options": [
+      "8.5",
+      "17",
+      "3.5",
+      "12"
+    ],
+    "answer": "8.5",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 70°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 7 và 8, độ dài đường trung bình bằng:",
+    "options": [
+      "7.5",
+      "15",
+      "0.5",
+      "8"
+    ],
+    "answer": "7.5",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 60°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 11 và 12, độ dài đường trung bình bằng:",
+    "options": [
+      "11.5",
+      "23",
+      "0.5",
+      "12"
+    ],
+    "answer": "11.5",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 50°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 9 và 9, độ dài đường trung bình bằng:",
+    "options": [
+      "9.0",
+      "18",
+      "0.0",
+      "9"
+    ],
+    "answer": "9.0",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 80°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 8 và 10, độ dài đường trung bình bằng:",
+    "options": [
+      "9.0",
+      "18",
+      "1.0",
+      "10"
+    ],
+    "answer": "9.0",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 80°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 6 và 10, độ dài đường trung bình bằng:",
+    "options": [
+      "8.0",
+      "16",
+      "2.0",
+      "10"
+    ],
+    "answer": "8.0",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 40°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 4 và 9, độ dài đường trung bình bằng:",
+    "options": [
+      "6.5",
+      "13",
+      "2.5",
+      "9"
+    ],
+    "answer": "6.5",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 50°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 4 và 4, độ dài đường trung bình bằng:",
+    "options": [
+      "4.0",
+      "8",
+      "0.0",
+      "4"
+    ],
+    "answer": "4.0",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 80°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 5 và 4, độ dài đường trung bình bằng:",
+    "options": [
+      "4.5",
+      "9",
+      "0.5",
+      "5"
+    ],
+    "answer": "4.5",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 40°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình thang có hai đáy dài 5 và 8, độ dài đường trung bình bằng:",
+    "options": [
+      "6.5",
+      "13",
+      "1.5",
+      "8"
+    ],
+    "answer": "6.5",
+    "level": "VD"
+  },
+  {
+    "question": "Trong hình chữ nhật, một góc bằng 70°. Kết luận đúng?",
+    "options": [
+      "Mọi góc đều bằng 90°",
+      "Các góc đối bằng nhau nhưng không vuông",
+      "Hai góc kề bù nhau 120°",
+      "Không kết luận được"
+    ],
+    "answer": "Mọi góc đều bằng 90°",
+    "level": "VD"
+  },
+  {
+    "question": "Hình vuông là trường hợp đặc biệt của:",
+    "options": [
+      "Hình chữ nhật và hình thoi",
+      "Hình bình hành và hình thang",
+      "Hình thang và hình thoi",
+      "Chỉ hình chữ nhật"
+    ],
+    "answer": "Hình chữ nhật và hình thoi",
+    "level": "VD"
+  },
+  {
+    "question": "Một tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường. Tứ giác đó là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có bốn góc vuông và bốn cạnh bằng nhau. Đó là:",
+    "options": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình bình hành"
+    ],
+    "answer": "Hình vuông",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường. Tứ giác đó là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có bốn góc vuông và bốn cạnh bằng nhau. Đó là:",
+    "options": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình bình hành"
+    ],
+    "answer": "Hình vuông",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường. Tứ giác đó là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có bốn góc vuông và bốn cạnh bằng nhau. Đó là:",
+    "options": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình bình hành"
+    ],
+    "answer": "Hình vuông",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường. Tứ giác đó là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có bốn góc vuông và bốn cạnh bằng nhau. Đó là:",
+    "options": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình bình hành"
+    ],
+    "answer": "Hình vuông",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường. Tứ giác đó là:",
+    "options": [
+      "Hình bình hành",
+      "Hình thang",
+      "Hình thoi",
+      "Hình chữ nhật"
+    ],
+    "answer": "Hình bình hành",
+    "level": "VDC"
+  },
+  {
+    "question": "Một tứ giác có bốn góc vuông và bốn cạnh bằng nhau. Đó là:",
+    "options": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình bình hành"
+    ],
+    "answer": "Hình vuông",
+    "level": "VDC"
   }
 ]
