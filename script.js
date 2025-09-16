@@ -14,10 +14,11 @@ let score = 0;
 let selectedAnswer = null;
 
 let timer = null;
-let timeLeft = 59;
+let timeLeft = 50;
 let totalDuration = 0; // giây
 
 // ========== ÂM THANH ==========
+// Khai báo âm thanh
 const snd = {
   click: new Audio("click.mp3"),
   correct: new Audio("correct.mp3"),
@@ -25,7 +26,28 @@ const snd = {
   timeout: new Audio("timeout.mp3"),
   win: new Audio("win.mp3")
 };
-Object.values(snd).forEach(a => { a.preload = "auto"; a.volume = .9; });
+
+// Đảm bảo preload
+Object.values(snd).forEach(a => {
+  a.preload = "auto";
+  a.volume = 1.0;   // tăng âm lượng
+});
+
+// Hàm phát âm
+function play(audio) {
+  if(audioOn && audio){
+    audio.currentTime = 0;
+    audio.play().catch(e => console.log("Âm thanh bị chặn:", e));
+  }
+}
+
+// Toggle âm lượng
+function toggleAudio(){
+  audioOn = !audioOn;
+  const symbol = audioOn ? "🔊" : "🔈";
+  document.querySelectorAll("#audioBtn,#audioBtnTop").forEach(b=> b.textContent = symbol);
+  if(audioOn){ play(snd.click); }   // test ngay khi bật
+}
 
 // ========== TIỆN ÍCH ==========
 const $ = s => document.querySelector(s);
