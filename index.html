@@ -1,1 +1,62 @@
-<!DOCTYPE html><html><head><title>Leo Rank</title></head><body>Trang chủ - Test</body></html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Toán 8 - Leo Rank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Đăng nhập -->
+  <div id="login-screen" class="screen">
+    <h1>🎮 Game Toán 8 - Leo Rank 🎮</h1>
+    <input type="text" id="fullname" placeholder="Họ và tên">
+    <select id="class">
+      <option value="">-- Chọn lớp --</option>
+      <option>8A1</option>
+      <option>8A2</option>
+      <option>8A3</option>
+      <option>8A4</option>
+      <option>8A5</option>
+      <option>8A6</option>
+      <option>8A7</option>
+    </select>
+    <input type="text" id="nickname" placeholder="Biệt danh">
+    <button onclick="login()">Bắt đầu</button>
+  </div>
+
+  <!-- Menu -->
+  <div id="menu-screen" class="screen hidden">
+    <h2>Xin chào <span id="user-nick"></span> 🎉</h2>
+    <div class="menu-buttons">
+      <button onclick="startPractice()">📝 Luyện tập</button>
+      <button onclick="startArena()">⚔️ Đấu trường</button>
+      <button onclick="showLeaderboard()">🏆 Bảng xếp hạng</button>
+      <button onclick="logout()">🚪 Đăng xuất</button>
+    </div>
+  </div>
+
+  <!-- Quiz -->
+  <div id="quiz-screen" class="screen hidden">
+    <div id="timer"></div>
+    <h3 id="question"></h3>
+    <div id="answers"></div>
+    <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
+  </div>
+
+  <!-- Kết quả -->
+  <div id="result-screen" class="screen hidden">
+    <h2>Kết quả 🎉</h2>
+    <p id="score-text"></p>
+    <button onclick="showMenu()">Về menu</button>
+  </div>
+
+  <!-- Bảng xếp hạng -->
+  <div id="leaderboard-screen" class="screen hidden">
+    <h2>🏆 Bảng xếp hạng</h2>
+    <table id="leaderboard"></table>
+    <button onclick="showMenu()">Về menu</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
