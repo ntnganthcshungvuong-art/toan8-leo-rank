@@ -1,170 +1,170 @@
-let currentUser = null;
+let currentUser = {};
 let questions = [];
 let currentIndex = 0;
 let score = 0;
 let timer;
-let duration = 59;
-let audioOn = true;
+let duration = 0;
+let selectedAnswer = null;
+let practiceMode = false;
 
-// Âm thanh
-const snd = {
-  click: new Audio("click.mp3"),
-  correct: new Audio("correct.mp3"),
-  wrong: new Audio("wrong.mp3"),
-  timeout: new Audio("timeout.mp3")
+const sounds = {
+  click: new Audio("sounds/click.mp3"),
+  correct: new Audio("sounds/correct.mp3"),
+  wrong: new Audio("sounds/wrong.mp3"),
+  timeout: new Audio("sounds/timeout.mp3")
 };
+let soundOn = true;
 
-function login(){
-  const name = document.getElementById("fullname").value.trim();
-  const cls = document.getElementById("classname").value;
-  const nick = document.getElementById("nickname").value.trim();
-  if(!name || !cls || !nick) { alert("Nhập đầy đủ thông tin!"); return; }
-  currentUser = {name, cls, nick};
-  document.getElementById("profile").textContent = `${name} - ${cls} (${nick})`;
-  showScreen("menuScreen");
+function playSound(name) {
+  if (soundOn) {
+    sounds[name].currentTime = 0;
+    sounds[name].play();
+  }
 }
 
-function logout(){ currentUser = null; showScreen("loginScreen"); }
+function toggleAudio() { soundOn = !soundOn; }
 
-function showMenu(){ showScreen("menuScreen"); }
-
-function showScreen(id){
-  document.querySelectorAll("section").forEach(s=>s.classList.add("hidden"));
-  document.getElementById(id).classList.remove("hidden");
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
 }
 
-function toggleAudio(){
-  audioOn = !audioOn;
-  document.getElementById("audioBtn").textContent = audioOn?"🔊":"🔈";
-  if(audioOn){ snd.click.play().catch(()=>{}); }
+function login() {
+  const fullname = document.getElementById("fullname").value.trim();
+  const classname = document.getElementById("class").value;
+  const nickname = document.getElementById("nickname").value.trim();
+  if (!fullname || !classname || !nickname) {
+    alert("Vui lòng nhập đầy đủ thông tin");
+    return;
+  }
+  currentUser = { fullname, classname, nickname };
+  document.getElementById("profile").innerText = `${fullname} (${classname}) - ${nickname}`;
+  showScreen("menu-screen");
 }
 
-function startPractice(){ loadQuestions("questions_mix13.json",10); }
-function startArena(){ loadQuestions("questions_mix13.json",20); }
-
-function loadQuestions(file, total){
-  fetch(file).then(r=>r.json()).then(data=>{
-    questions = shuffle(data).slice(0,total);
-    currentIndex=0; score=0;
-    showScreen("quizScreen");
-    showQuestion();
-  });
+function logout() {
+  currentUser = {};
+  showScreen("login-screen");
 }
 
-function showQuestion(){
-  const q = questions[currentIndex];
-  document.getElementById("questionText").innerHTML = q.question;
+async function loadQuestions() {
+  const res = await fetch("questions_mix13.json");
+  return res.json();
+}
+
+async function startPractice() {
+  practiceMode = true;
+  score = 0; duration = 0;
+  questions = await loadQuestions();
+  questions = shuffle(questions).slice(0,10);
+  currentIndex = 0;
+  showQuestion();
+  showScreen("quiz-screen");
+}
+
+async function startArena() {
+  practiceMode = false;
+  score = 0; duration = 0;
+  questions = await loadQuestions();
+  questions = shuffle(questions).slice(0,20);
+  currentIndex = 0;
+  showQuestion();
+  showScreen("quiz-screen");
+}
+
+function showQuestion() {
+  clearInterval(timer);
+  selectedAnswer = null;
+  let q = questions[currentIndex];
+  document.getElementById("question-box").innerHTML = `<h3>${q.question}</h3>`;
   const answersDiv = document.getElementById("answers");
-  answersDiv.innerHTML="";
-  q.options.forEach(opt=>{
-    const div=document.createElement("div");
-    div.className="answer";
-    div.textContent=opt;
-    div.onclick=()=>selectAnswer(div,opt,q.answer);
-    answersDiv.appendChild(div);
+  answersDiv.innerHTML = "";
+  q.options.forEach(opt => {
+    let btn = document.createElement("button");
+    btn.innerText = opt;
+    btn.onclick = () => { selectedAnswer = opt; playSound("click"); };
+    answersDiv.appendChild(btn);
   });
-  document.getElementById("nextBtn").disabled=true;
   startTimer();
 }
 
-let selectedAnswer=null;
-function selectAnswer(div,opt,correct){
-  document.querySelectorAll(".answer").forEach(a=>a.classList.remove("selected"));
-  div.classList.add("selected");
-  selectedAnswer={opt,correct};
-  document.getElementById("nextBtn").disabled=false;
-}
-
-function nextQuestion(){
-  clearInterval(timer);
-  if(selectedAnswer){
-    if(selectedAnswer.opt===selectedAnswer.correct){
-      score++; if(audioOn) snd.correct.play();
-    } else { if(audioOn) snd.wrong.play(); }
-  }
-  currentIndex++;
-  if(currentIndex<questions.length){ showQuestion(); }
-  else { finishQuiz(); }
-}
-
-function startTimer(){
-  let time=duration;
-  const bar=document.getElementById("timerBar");
-  bar.style.width="100%"; bar.style.background="green";
-  timer=setInterval(()=>{
+function startTimer() {
+  let time = 59;
+  const bar = document.getElementById("timer-bar");
+  timer = setInterval(() => {
+    duration++;
     time--;
-    bar.style.width=(time/duration*100)+"%";
-    if(time<20) bar.style.background="orange";
-    if(time<10) bar.style.background="red";
-    if(time<=0){
+    let width = (time/59)*100;
+    bar.style.width = width + "%";
+    bar.style.background = time<20 ? "red" : time<40 ? "orange" : "green";
+    if (time <= 0) {
       clearInterval(timer);
-      if(audioOn) snd.timeout.play();
+      playSound("timeout");
       nextQuestion();
     }
-  },1000);
+  }, 1000);
 }
 
-function finishQuiz(){
-  showScreen("resultScreen");
-  document.getElementById("resultText").textContent=`Điểm: ${score}/${questions.length}`;
-  // TODO: gửi API ở chế độ đấu trường
-}
-
-function showLeaderboard(){
-  showScreen("leaderboardScreen");
-  document.getElementById("leaderboardList").innerHTML="<li>Chức năng API</li>";
-}
-
-function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
-const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
-
-function finishQuiz(){
-  showScreen("resultScreen");
-  document.getElementById("resultText").textContent=`Điểm: ${score}/${questions.length}`;
-
-  // Nếu đang ở chế độ đấu trường thì gửi kết quả
-  if(questions.length === 20 && currentUser){
-    const payload = {
-      timestamp: new Date().toLocaleString("vi-VN"),
-      name: currentUser.name,
-      class: currentUser.cls,
-      nickname: currentUser.nick,
-      score: score,
-      total: questions.length,
-      duration: duration
-    };
-    fetch(API_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    })
-    .then(r=>r.json())
-    .then(d=>console.log("Gửi thành công",d))
-    .catch(e=>console.error("Lỗi gửi API",e));
+function nextQuestion() {
+  clearInterval(timer);
+  if (selectedAnswer && selectedAnswer === questions[currentIndex].answer) {
+    score++; playSound("correct");
+  } else if (selectedAnswer) {
+    playSound("wrong");
+  }
+  currentIndex++;
+  if (currentIndex < questions.length) {
+    showQuestion();
+  } else {
+    endQuiz();
   }
 }
 
-function showLeaderboard(){
-  showScreen("leaderboardScreen");
-  const list = document.getElementById("leaderboardList");
-  list.innerHTML = "<li>Đang tải...</li>";
+function endQuiz() {
+  const total = questions.length;
+  const points = ((score/total)*10).toFixed(2);
+  document.getElementById("score-text").innerText = `Bạn đúng ${score}/${total} → ${points} điểm`;
+  showScreen("result-screen");
 
-  fetch(API_URL)
-    .then(r=>r.json())
-    .then(data=>{
-      list.innerHTML="";
-      // lấy top 10
-      data.slice(0,10).forEach((p,i)=>{
-        const li=document.createElement("li");
-        li.textContent = `${i+1}. ${p.name} - ${p.class} (${p.nickname}) : ${p.score}đ`;
-        if(i===0) li.style.color="gold";
-        if(i===1) li.style.color="silver";
-        if(i===2) li.style.color="#cd7f32";
-        list.appendChild(li);
-      });
-    })
-    .catch(e=>{
-      list.innerHTML="<li>Lỗi tải bảng xếp hạng</li>";
-      console.error(e);
-    });
+  if (!practiceMode) {
+    submitResult(points, total);
+  }
+}
+
+async function submitResult(points, total) {
+  const payload = {
+    timestamp: new Date().toLocaleString(),
+    name: currentUser.fullname,
+    class: currentUser.classname,
+    nickname: currentUser.nickname,
+    score: points,
+    total: total,
+    duration: duration
+  };
+  await fetch("https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec", {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+}
+
+async function showLeaderboard() {
+  showScreen("leaderboard-screen");
+  const res = await fetch("https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec");
+  const data = await res.json();
+  const list = document.getElementById("leaderboard-list");
+  list.innerHTML = "";
+  data.slice(0,10).forEach((item, i) => {
+    let li = document.createElement("li");
+    li.innerText = `${i+1}. ${item.name} (${item.class}) - ${item.nickname}: ${item.score}`;
+    if (i===0) li.classList.add("top1");
+    if (i===1) li.classList.add("top2");
+    if (i===2) li.classList.add("top3");
+    list.appendChild(li);
+  });
+}
+
+function showMenu() { showScreen("menu-screen"); }
+
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5);
 }
