@@ -1,53 +1,48 @@
+// === Cấu hình API (giữ nguyên link của bạn) ===
 const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
 
-// Hàm load câu hỏi từ 2 chương
-async function loadQuestions() {
-  const chap1 = await fetch("questions_chap1.json").then(r => r.json());
-  const chap3 = await fetch("questions_chap3.json").then(r => r.json());
+// === Hàm load câu hỏi ===
+async function loadQuestions(set = "mix") {
+    let file = "questions_mix13.json";  // mặc định trộn I + III
+    if (set === "chap1") file = "questions_chap1.json";
+    else if (set === "chap3") file = "questions_chap3.json";
+    else if (set === "mix") file = "questions_mix13.json";
 
-  // gộp cả 2 chương
-  let allQuestions = [...chap1, ...chap3];
-
-  // xáo trộn và chọn 20 câu
-  allQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
-
-  return allQuestions;
-}
-  // ghép 2 chương lại
-}
-
-// Hàm chọn ngẫu nhiên theo rank
-function getQuestionsByRank(allQuestions, rank) {
-  let ratio;
-  switch (rank) {
-    case "Đồng":   ratio = {NB:0.7, TH:0.3, VD:0, VDC:0}; break;
-    case "Bạc":    ratio = {NB:0.6, TH:0.4, VD:0, VDC:0}; break;
-    case "Vàng":   ratio = {NB:0.5, TH:0.4, VD:0.1, VDC:0}; break;
-    case "Kim cương": ratio = {NB:0.4, TH:0.4, VD:0.2, VDC:0}; break;
-    case "Tinh anh":  ratio = {NB:0.3, TH:0.4, VD:0.2, VDC:0.1}; break;
-    case "Cao thủ":   ratio = {NB:0.2, TH:0.3, VD:0.2, VDC:0.3}; break;
-    default: ratio = {NB:0.5, TH:0.3, VD:0.2, VDC:0};
-  }
-
-  const pick = (arr, n) => arr.sort(() => 0.5 - Math.random()).slice(0, n);
-  const nb = pick(allQuestions.filter(q => q.level==="NB"), Math.round(20*ratio.NB));
-  const th = pick(allQuestions.filter(q => q.level==="TH"), Math.round(20*ratio.TH));
-  const vd = pick(allQuestions.filter(q => q.level==="VD"), Math.round(20*ratio.VD));
-  const vdc = pick(allQuestions.filter(q => q.level==="VDC"), Math.round(20*ratio.VDC));
-  return [...nb, ...th, ...vd, ...vdc].sort(() => 0.5 - Math.random());
+    try {
+        const res = await fetch(file);
+        const data = await res.json();
+        return shuffleArray(data); // trộn ngẫu nhiên
+    } catch (err) {
+        console.error("❌ Lỗi load câu hỏi:", err);
+        return [];
+    }
 }
 
-// Gửi điểm lên API
-async function sendScore(data) {
-  await fetch(API_URL, {
-    method: "POST",
-    body: JSON.stringify(data),
-    headers: {"Content-Type": "application/json"}
-  });
+// === Hàm bắt đầu đấu trường ===
+async function startArena(set = "mix") {
+    const allQuestions = await loadQuestions(set);
+    currentQuestions = allQuestions.slice(0, 20); // 20 câu
+    currentMode = "arena";
+    currentScore = 0;
+    currentIndex = 0;
+    showQuestion();
+    startTimer();
 }
 
-// Lấy BXH
-async function getRanking() {
-  const res = await fetch(`${API_URL}?action=getRanking`);
-  return await res.json();
+// === Hàm bắt đầu luyện tập ===
+async function startPractice(set = "mix") {
+    const allQuestions = await loadQuestions(set);
+    currentQuestions = allQuestions.slice(0, 10); // 10 câu
+    currentMode = "practice";
+    currentScore = 0;
+    currentIndex = 0;
+    showQuestion();
+    startTimer();
 }
+
+// === Hàm shuffle ngẫu nhiên ===
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
+// === Các hàm khác giữ nguyên: showQuestion(), checkAnswer(), startTimer(), submitScore(), loadLeaderboard() ...
