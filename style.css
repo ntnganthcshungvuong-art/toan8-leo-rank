@@ -1,61 +1,202 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background: linear-gradient(135deg, #ff9966, #ff5e62);
-  min-height: 100vh;
+/* Reset cơ bản */
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff9800, #ffc107, #4caf50);
+  background-size: 300% 300%;
+  animation: bgAnim 10s infinite alternate;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+@keyframes bgAnim {
+  0% { background-position: left top; }
+  100% { background-position: right bottom; }
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-info input, .user-info select {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  color: #333;
+}
+
+#logoutBtn {
+  padding: 8px 12px;
+  background: #e91e63;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.menu-buttons button {
+  flex: 1 1 40%;
+  margin: 8px;
+  padding: 14px;
+  background: #2196f3;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.menu-buttons button:hover {
+  transform: scale(1.05);
+  background: #1976d2;
+}
+
+/* Quiz */
+#quiz {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+#timerBar {
+  height: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: linear-gradient(to right, green, orange, red);
+  transition: width 1s linear;
+}
+
+#questionBox {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.option {
+  background: #fff;
+  color: #333;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+  transition: background 0.3s, transform 0.1s;
+}
+
+.option:hover {
+  background: #f1f1f1;
+}
+
+.option.selected {
+  background: #4caf50;
+  color: #fff;
+  transform: scale(0.98);
+}
+
+#nextBtn {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background: #ff5722;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Popup kết quả */
+#resultPopup {
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  max-width: 500px;
+}
+
+#resultPopup button {
+  margin-top: 10px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #2196f3;
   color: white;
 }
 
-.screen { display: none; padding: 20px; }
-.screen.active { display: block; }
-
-.login-form input, .login-form select {
-  display: block; margin: 10px auto; padding: 10px;
-  font-size: 16px; border-radius: 5px; border: none;
+/* Leaderboard */
+#leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-button {
-  padding: 12px 24px; font-size: 18px;
-  border: none; border-radius: 8px;
-  margin: 10px; cursor: pointer;
-  background: #4CAF50; color: white;
-  box-shadow: 0 4px #2e7d32;
-}
-button:hover { background: #45a049; }
-.logout-btn { background: #d32f2f; }
-
-#question-container {
-  margin: 20px auto; max-width: 600px;
+#leaderboard th, #leaderboard td {
+  padding: 10px;
+  text-align: center;
 }
 
-.question-card {
-  background: white; color: black;
-  border-radius: 8px; padding: 20px;
-  margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+#leaderboard tr:nth-child(1) { background: gold; color: black; font-weight: bold; }
+#leaderboard tr:nth-child(2) { background: silver; color: black; font-weight: bold; }
+#leaderboard tr:nth-child(3) { background: #cd7f32; color: black; font-weight: bold; }
+
+#leaderboard tr {
+  background: rgba(255,255,255,0.8);
+  color: #333;
 }
 
-.answer-card {
-  background: #f2f2f2; padding: 15px;
-  margin: 10px 0; border-radius: 6px;
-  cursor: pointer; font-size: 16px;
-  transition: transform 0.1s, background 0.2s;
-}
-.answer-card:hover { background: #e0e0e0; }
-.answer-card.selected { background: #81c784; font-weight: bold; transform: scale(0.98); }
-
-#timer-bar {
-  width: 100%; height: 10px;
-  background: #ddd; border-radius: 5px;
-  margin-bottom: 15px;
-}
-#timer-progress {
-  height: 100%; width: 100%;
-  background: green; border-radius: 5px;
+#leaderboard tr:nth-child(n+4) {
+  background: rgba(255,255,255,0.6);
 }
 
-#sound-toggle {
-  position: fixed; bottom: 10px; right: 10px;
-  padding: 10px; font-size: 20px;
-  border-radius: 50%; background: #333; color: white;
+/* Nút loa */
+#soundToggle {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
