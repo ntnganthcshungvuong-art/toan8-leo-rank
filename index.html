@@ -6,47 +6,68 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="login-screen" class="screen active">
-    <h1>Game Toán 8 - Leo Rank</h1>
-    <div class="login-form">
-      <input type="text" id="name" placeholder="Họ và tên">
-      <select id="class">
-        <option value="">Chọn lớp</option>
-        <option>8A1</option><option>8A2</option><option>8A3</option>
-        <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
+  <!-- Thanh trên cùng -->
+  <header>
+    <div class="user-info">
+      <input type="text" id="fullname" placeholder="Họ tên">
+      <select id="classSelect">
+        <option value="">LỚP</option>
+        <option>8A1</option>
+        <option>8A2</option>
+        <option>8A3</option>
+        <option>8A4</option>
+        <option>8A5</option>
+        <option>8A6</option>
+        <option>8A7</option>
       </select>
-      <input type="text" id="nickname" placeholder="Biệt danh">
-      <button onclick="login()">Vào Game</button>
+      <input type="text" id="nickname" placeholder="Nickname">
     </div>
-  </div>
+    <button id="logoutBtn" onclick="logout()">Đăng xuất</button>
+  </header>
 
-  <div id="menu-screen" class="screen">
-    <button onclick="startQuiz('practice')">Luyện Tập</button>
-    <button onclick="startQuiz('arena')">Đấu Trường</button>
-    <button onclick="showLeaderboard()">Bảng Xếp Hạng</button>
-    <button onclick="logout()" class="logout-btn">Đăng xuất</button>
-  </div>
+  <!-- Menu chính -->
+  <main id="menu">
+    <h1>🎮 Game Toán 8 - Leo Rank 🎮</h1>
+    <p>Chọn bộ đề bạn muốn làm:</p>
+    <div class="menu-buttons">
+      <button onclick="startArena('chap1')">Đấu Trường - Chương I</button>
+      <button onclick="startArena('chap3')">Đấu Trường - Chương III</button>
+      <button onclick="startArena('mix')">Đấu Trường - Trộn I+III</button>
+    </div>
+    <div class="menu-buttons">
+      <button onclick="startPractice('chap1')">Luyện Tập - Chương I</button>
+      <button onclick="startPractice('chap3')">Luyện Tập - Chương III</button>
+      <button onclick="startPractice('mix')">Luyện Tập - Trộn I+III</button>
+    </div>
+    <button onclick="loadLeaderboard()">📊 Bảng Xếp Hạng</button>
+  </main>
 
-  <div id="quiz-screen" class="screen">
-    <div id="timer-bar"><div id="timer-progress"></div></div>
-    <div id="question-container"></div>
-    <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
-  </div>
+  <!-- Khu vực Quiz -->
+  <section id="quiz" style="display:none;">
+    <div id="timerBar"></div>
+    <div id="questionBox"></div>
+    <div id="optionsBox"></div>
+    <button id="nextBtn" onclick="nextQuestion()">Câu tiếp</button>
+  </section>
 
-  <div id="result-screen" class="screen">
+  <!-- Popup kết quả -->
+  <section id="resultPopup" style="display:none;">
     <h2>Kết quả</h2>
-    <p id="result-text"></p>
-    <button onclick="goHome()">Về trang chủ</button>
-  </div>
+    <p id="resultText"></p>
+    <button onclick="backToMenu()">Về Trang Chủ</button>
+  </section>
 
-  <div id="leaderboard-screen" class="screen">
-    <h2>Bảng xếp hạng Top 10</h2>
-    <table id="leaderboard-table"></table>
-    <button onclick="goHome()">Về trang chủ</button>
-  </div>
-
-  <!-- Nút bật/tắt âm thanh -->
-  <button id="sound-toggle" onclick="toggleSound()">🔊</button>
+  <!-- Bảng xếp hạng -->
+  <section id="leaderboard" style="display:none;">
+    <h2>🏆 Top 10 Đấu Trường</h2>
+    <table>
+      <thead>
+        <tr><th>Hạng</th><th>Nickname</th><th>Lớp</th><th>Điểm</th><th>Thời gian</th></tr>
+      </thead>
+      <tbody id="leaderboardBody"></tbody>
+    </table>
+    <button onclick="backToMenu()">Về Trang Chủ</button>
+  </section>
 
   <script src="script.js"></script>
 </body>
