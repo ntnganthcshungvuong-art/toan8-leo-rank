@@ -1,80 +1,79 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+/* Banner chữ shimmer effect */
+.header-shimmer {
+  font-size: 32px;
+  font-weight: 900;
+  position: relative;
   color: #fff;
-  margin: 0;
-  padding: 0;
+  overflow: hidden;
+}
+.header-shimmer::before {
+  content: "🌟 Thử thách bản thân – Leo hạng ngay hôm nay 🌟";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: -100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.8), transparent);
+  animation: shimmer 3s infinite;
+}
+@keyframes shimmer {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: 100%; }
 }
 
-.screen {
-  display: none;
-  padding: 20px;
+/* Glow/border animation cho avatar */
+.avatar-frame.rank-gold {
+  animation: glowGold 4s infinite;
+}
+@keyframes glowGold {
+  0% { box-shadow: 0 0 8px gold; }
+  50% { box-shadow: 0 0 20px rgba(255,215,0,0.8); }
+  100% { box-shadow: 0 0 8px gold; }
 }
 
-.screen.active {
-  display: block;
+/* Nút ánh sáng lướt ngang shine */
+.btn-3d.shine {
+  position: relative;
+  overflow: hidden;
+}
+.btn-3d.shine::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -70%; 
+  width: 70%; height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.7), transparent);
+  transform: skewX(-20deg);
+  transition: none;
+  animation: shineMove 2.5s infinite;
+}
+@keyframes shineMove {
+  0% { left: -70%; }
+  50% { left: 120%; }
+  100% { left: 120%; }
 }
 
-input {
-  display: block;
-  margin: 10px auto;
-  padding: 10px;
-  width: 60%;
-  border-radius: 8px;
-  border: none;
+/* Card hover nhấp nhô */
+.mode-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 45px rgba(0,0,0,0.5);
 }
 
-button {
-  padding: 15px 25px;
-  margin: 10px;
-  border: none;
-  border-radius: 12px;
-  background: #ff6a00;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px #cc5500;
-  transition: all 0.2s;
+/* Popup mở rộng fade-in */
+.modal {
+  opacity: 0;
+  animation: fadeInModal 0.5s forwards;
+}
+@keyframes fadeInModal {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
 
-button:hover {
-  background: #ffa200;
-  transform: scale(1.05);
+/* Hiệu ứng chọn đáp án */
+.option.selected {
+  animation: bounceSelect 0.3s ease;
 }
-
-#timer-bar {
-  height: 20px;
-  background: green;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-.answer {
-  background: #fff;
-  color: #333;
-  padding: 15px;
-  margin: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.answer:hover {
-  background: #eee;
-  transform: scale(1.03);
-}
-
-.answer.selected {
-  background: #ffd54f;
-  font-weight: bold;
-}
-
-#sound-toggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 25px;
-  cursor: pointer;
+@keyframes bounceSelect {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
