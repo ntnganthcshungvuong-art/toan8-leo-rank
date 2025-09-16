@@ -1,202 +1,80 @@
-/* Reset cơ bản */
-* {
-  box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #fff;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
-body {
-  background: linear-gradient(135deg, #ff9800, #ffc107, #4caf50);
-  background-size: 300% 300%;
-  animation: bgAnim 10s infinite alternate;
-  color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.screen {
+  display: none;
+  padding: 20px;
+}
+
+.screen.active {
+  display: block;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
   padding: 10px;
-}
-
-@keyframes bgAnim {
-  0% { background-position: left top; }
-  100% { background-position: right bottom; }
-}
-
-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.user-info input, .user-info select {
-  padding: 8px;
-  margin-right: 5px;
-  border-radius: 6px;
+  width: 60%;
+  border-radius: 8px;
   border: none;
-  font-size: 16px;
-  color: #333;
 }
 
-#logoutBtn {
-  padding: 8px 12px;
-  background: #e91e63;
-  border: none;
-  border-radius: 6px;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-h1, h2 {
-  text-align: center;
-  margin-bottom: 15px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-}
-
-.menu-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 10px 0;
-}
-
-.menu-buttons button {
-  flex: 1 1 40%;
-  margin: 8px;
-  padding: 14px;
-  background: #2196f3;
+button {
+  padding: 15px 25px;
+  margin: 10px;
   border: none;
   border-radius: 12px;
+  background: #ff6a00;
+  color: #fff;
   font-size: 18px;
   font-weight: bold;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   cursor: pointer;
-  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0 4px #cc5500;
+  transition: all 0.2s;
 }
 
-.menu-buttons button:hover {
+button:hover {
+  background: #ffa200;
   transform: scale(1.05);
-  background: #1976d2;
 }
 
-/* Quiz */
-#quiz {
-  width: 100%;
-  max-width: 600px;
-  background: rgba(0,0,0,0.3);
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+#timer-bar {
+  height: 20px;
+  background: green;
+  margin: 10px;
+  border-radius: 10px;
 }
 
-#timerBar {
-  height: 12px;
-  border-radius: 6px;
-  margin-bottom: 12px;
-  background: linear-gradient(to right, green, orange, red);
-  transition: width 1s linear;
-}
-
-#questionBox {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.option {
+.answer {
   background: #fff;
   color: #333;
-  padding: 12px;
-  margin: 8px 0;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 18px;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
-  transition: background 0.3s, transform 0.1s;
-}
-
-.option:hover {
-  background: #f1f1f1;
-}
-
-.option.selected {
-  background: #4caf50;
-  color: #fff;
-  transform: scale(0.98);
-}
-
-#nextBtn {
-  margin-top: 15px;
-  padding: 12px;
-  width: 100%;
-  background: #ff5722;
-  border: none;
-  border-radius: 10px;
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Popup kết quả */
-#resultPopup {
-  background: rgba(0,0,0,0.8);
-  padding: 20px;
-  border-radius: 14px;
-  text-align: center;
-  max-width: 500px;
-}
-
-#resultPopup button {
-  margin-top: 10px;
-  padding: 12px 18px;
-  border: none;
+  padding: 15px;
+  margin: 8px;
   border-radius: 8px;
-  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.answer:hover {
+  background: #eee;
+  transform: scale(1.03);
+}
+
+.answer.selected {
+  background: #ffd54f;
   font-weight: bold;
-  cursor: pointer;
-  background: #2196f3;
-  color: white;
 }
 
-/* Leaderboard */
-#leaderboard table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-#leaderboard th, #leaderboard td {
-  padding: 10px;
-  text-align: center;
-}
-
-#leaderboard tr:nth-child(1) { background: gold; color: black; font-weight: bold; }
-#leaderboard tr:nth-child(2) { background: silver; color: black; font-weight: bold; }
-#leaderboard tr:nth-child(3) { background: #cd7f32; color: black; font-weight: bold; }
-
-#leaderboard tr {
-  background: rgba(255,255,255,0.8);
-  color: #333;
-}
-
-#leaderboard tr:nth-child(n+4) {
-  background: rgba(255,255,255,0.6);
-}
-
-/* Nút loa */
-#soundToggle {
+#sound-toggle {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
-  background: #333;
-  color: white;
-  padding: 10px;
-  border-radius: 50%;
-  font-size: 20px;
+  bottom: 20px;
+  right: 20px;
+  font-size: 25px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
