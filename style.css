@@ -96,3 +96,17 @@ tr:nth-child(even){background:rgba(255,255,255,.04)}
 .rank-2{background:linear-gradient(135deg,#e6e9f0,#eef1f5)}
 .rank-3{background:linear-gradient(135deg,#d1913c,#ffe98a)}
 .lb-avatar{width:36px;height:36px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 10px rgba(255,255,255,.4);object-fit:cover}
+.menu-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.menu-buttons button {
+  flex: 1 1 45%;
+  margin: 10px;
+  font-size: 20px;
+  padding: 15px;
+}
