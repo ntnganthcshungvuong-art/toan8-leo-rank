@@ -7,56 +7,67 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Đăng nhập -->
-  <section id="loginScreen">
-    <h2>Đăng nhập</h2>
-    <input id="fullname" type="text" placeholder="Họ và tên">
-    <select id="classname">
-      <option value="">--Chọn lớp--</option>
-      <option>8A1</option><option>8A2</option><option>8A3</option>
-      <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
-    </select>
-    <input id="nickname" type="text" placeholder="Biệt danh">
-    <button onclick="login()">Bắt đầu</button>
-  </section>
+  <!-- Màn hình đăng nhập -->
+  <div id="login-screen" class="screen active">
+    <div class="login-box">
+      <h2>Đăng nhập</h2>
+      <input id="fullname" type="text" placeholder="Họ và tên">
+      <select id="class">
+        <option value="">--Chọn lớp--</option>
+        <option>8A1</option>
+        <option>8A2</option>
+        <option>8A3</option>
+        <option>8A4</option>
+        <option>8A5</option>
+        <option>8A6</option>
+        <option>8A7</option>
+      </select>
+      <input id="nickname" type="text" placeholder="Biệt danh">
+      <button onclick="login()">Bắt đầu</button>
+      <button onclick="toggleAudio()">🔊 Âm thanh</button>
+    </div>
+  </div>
 
-  <!-- Menu -->
-  <section id="menuScreen" class="hidden">
-    <div class="topbar">
+  <!-- Trang chủ / Menu -->
+  <div id="menu-screen" class="screen">
+    <div class="top-bar">
+      <img id="avatar" src="avatars/basic.png" alt="avatar">
       <span id="profile"></span>
-      <button id="audioBtn" onclick="toggleAudio()">🔊</button>
       <button onclick="logout()">Đăng xuất</button>
+      <button onclick="toggleAudio()">🔊</button>
     </div>
-    <h2>Trang chủ</h2>
     <div class="menu-buttons">
-      <button onclick="startPractice()">Luyện Tập</button>
-      <button onclick="startArena()">Đấu Trường</button>
-      <button onclick="showLeaderboard()">Bảng xếp hạng</button>
+      <button class="menu-btn" onclick="startPractice()">Luyện Tập</button>
+      <button class="menu-btn" onclick="startArena()">Đấu Trường</button>
+      <button class="menu-btn" onclick="showLeaderboard()">Bảng xếp hạng</button>
     </div>
-  </section>
+    <div class="banner">
+      🎉 Trao thưởng vào ngày 11/11 🎉
+    </div>
+  </div>
 
-  <!-- Quiz -->
-  <section id="quizScreen" class="hidden">
-    <div id="timerBar"></div>
-    <h3 id="questionText"></h3>
+  <!-- Màn hình quiz -->
+  <div id="quiz-screen" class="screen">
+    <div id="timer-bar"></div>
+    <div id="question-box"></div>
     <div id="answers"></div>
-    <button id="nextBtn" onclick="nextQuestion()" disabled>Câu tiếp</button>
-  </section>
+    <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
+  </div>
 
   <!-- Kết quả -->
-  <section id="resultScreen" class="hidden">
+  <div id="result-screen" class="screen">
     <h2>Kết quả</h2>
-    <p id="resultText"></p>
-    <button onclick="showMenu()">Về Trang chủ</button>
-  </section>
+    <p id="score-text"></p>
+    <button onclick="showMenu()">Quay về menu</button>
+  </div>
 
   <!-- Bảng xếp hạng -->
-  <section id="leaderboardScreen" class="hidden">
-    <h2>Bảng xếp hạng</h2>
-    <ol id="leaderboardList"></ol>
-    <button onclick="showMenu()">Về Trang chủ</button>
-  </section>
+  <div id="leaderboard-screen" class="screen">
+    <h2>Top 10 Đấu Trường</h2>
+    <ul id="leaderboard-list"></ul>
+    <button onclick="showMenu()">Quay về menu</button>
+  </div>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
