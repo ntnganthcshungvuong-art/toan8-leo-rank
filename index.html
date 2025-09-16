@@ -1,2 +1,109 @@
-<!-- index.html demo -->
-<html><head><title>Game Toán 8 - Leo Rank</title></head><body>Trang chủ</body></html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Toán 8 - Leo Rank</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top bar with profile -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">𝓣8</div>
+      <div class="slogan header-shimmer">Thử thách bản thân – Leo hạng ngay hôm nay</div>
+    </div>
+    <div class="profile mini">
+      <img id="player-avatar" src="avatars/basic.png" class="avatar-frame" alt="avatar">
+      <div id="player-name" class="player-name"></div>
+      <button class="ghost-btn" id="logoutBtn" onclick="logout()">Đăng xuất</button>
+    </div>
+  </header>
+
+  <!-- LOGIN -->
+  <main id="login-screen" class="screen active">
+    <section class="login-card">
+      <h1>🎮 Game Toán 8 - Leo Rank</h1>
+      <div class="inputs">
+        <input id="fullname" type="text" placeholder="Họ và tên" />
+        <select id="className">
+          <option value="">-- Chọn lớp --</option>
+          <option>8A1</option><option>8A2</option><option>8A3</option><option>8A4</option>
+          <option>8A5</option><option>8A6</option><option>8A7</option>
+        </select>
+        <input id="nickname" type="text" placeholder="Biệt danh" />
+      </div>
+      <button class="btn-3d shine gold" onclick="login()">Bắt đầu</button>
+      <p class="hint">Dữ liệu sẽ lưu trên thiết bị để lần sau không cần nhập.</p>
+    </section>
+  </main>
+
+  <!-- HOME -->
+  <main id="menu-screen" class="screen">
+    <section class="stage">
+      <section class="mode-card left">
+        <h2>🎯 Luyện Tập</h2>
+        <p>Làm 10 câu ngẫu nhiên (Trộn Ch.I + Ch.III), 59s/câu, chấm ngay, có động viên.</p>
+        <button class="btn-3d shine" onclick="startPractice()">Bắt đầu Luyện tập</button>
+      </section>
+
+      <section class="center-art">
+        <div class="glass">
+          <h1>Leo Rank – Nhận Avatar Xịn</h1>
+          <p>Hoàn thành trận để tích điểm, mở khóa khung viền & avatar theo cấp.</p>
+        </div>
+      </section>
+
+      <section class="mode-card right">
+        <h2>⚔️ Đấu Trường</h2>
+        <p>Thi 20 câu, tính điểm thang 10, gửi lên BXH. 1% cơ hội nhận Quà Hiếm!</p>
+        <button class="btn-3d shine gold" onclick="startArena()">Vào Đấu Trường</button>
+      </section>
+
+      <section class="leaderboard">
+        <button class="ghost-btn" onclick="showRanking()">🏆 Xem Bảng Xếp Hạng</button>
+        <div id="ranking" class="ranking"></div>
+      </section>
+    </section>
+  </main>
+
+  <!-- QUIZ -->
+  <main id="quiz-screen" class="screen">
+    <div class="quiz-wrap">
+      <div class="quiz-head">
+        <div id="timerText" class="timer-text">59s</div>
+        <div class="timer-rail"><div id="timerBar" class="timer-fill"></div></div>
+      </div>
+      <div id="questionBox" class="question-box"></div>
+      <div id="optionsBox" class="options-grid"></div>
+      <div class="quiz-actions">
+        <button id="nextBtn" class="ghost-btn" onclick="nextQuestion()" disabled>Câu tiếp ➜</button>
+        <button class="ghost-btn" onclick="backHome()">Về menu</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- RESULT MODAL -->
+  <div id="resultModal" class="modal hidden">
+    <div class="modal-card">
+      <h2>Kết quả</h2>
+      <p id="resultText"></p>
+      <div id="luckyBox" class="lucky hidden"></div>
+      <div class="modal-actions">
+        <button class="btn-3d" onclick="backHome()">Về trang chủ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUDIO -->
+  <audio id="sfx-click" src="sounds/click.mp3" preload="auto"></audio>
+  <audio id="sfx-right" src="sounds/correct.mp3" preload="auto"></audio>
+  <audio id="sfx-wrong" src="sounds/wrong.mp3" preload="auto"></audio>
+  <audio id="sfx-timeout" src="sounds/timeout.mp3" preload="auto"></audio>
+  <audio id="sfx-win" src="sounds/win.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
