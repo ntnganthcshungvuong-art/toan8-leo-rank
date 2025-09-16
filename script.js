@@ -354,4 +354,10 @@ document.addEventListener("keydown", (e)=>{
   if(document.getElementById("login-screen").classList.contains("active") && e.key==="Enter"){
     login();
   }
+  document.addEventListener("touchmove", function (event) {
+  if (window.scrollY === 0 && event.touches[0].clientY > 50) {
+    event.preventDefault();
+  }
+}, { passive: false });
+
 });
