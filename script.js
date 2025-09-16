@@ -1,363 +1,170 @@
-// ========== CẤU HÌNH ==========
-const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
-const QUESTION_FILE = "questions_chap1.json"; // Luôn dùng bộ Chương I như yêu cầu
-
-// ========== TRẠNG THÁI ==========
 let currentUser = null;
-let audioOn = true;
-let isArena = false;
-
-let allQuestions = [];
 let questions = [];
-let idx = 0;
+let currentIndex = 0;
 let score = 0;
-let selectedAnswer = null;
+let timer;
+let duration = 59;
+let audioOn = true;
 
-let timer = null;
-let timeLeft = 50;
-let totalDuration = 0; // giây
-
-// ========== ÂM THANH ==========
-// Khai báo âm thanh
+// Âm thanh
 const snd = {
   click: new Audio("click.mp3"),
   correct: new Audio("correct.mp3"),
   wrong: new Audio("wrong.mp3"),
-  timeout: new Audio("timeout.mp3"),
-  win: new Audio("win.mp3")
+  timeout: new Audio("timeout.mp3")
 };
 
-// Đảm bảo preload
-Object.values(snd).forEach(a => {
-  a.preload = "auto";
-  a.volume = 1.0;   // tăng âm lượng
-});
-
-// Hàm phát âm
-function play(audio) {
-  if(audioOn && audio){
-    audio.currentTime = 0;
-    audio.play().catch(e => console.log("Âm thanh bị chặn:", e));
-  }
-}
-
-// Toggle âm lượng
-function toggleAudio(){
-  audioOn = !audioOn;
-  const symbol = audioOn ? "🔊" : "🔈";
-  document.querySelector("#audioBtn").textContent = symbol;
-  if(audioOn){
-    snd.click.play().catch(e=>console.log("Âm thanh cần thao tác chạm:", e));
-  }
-}
-
-}
-
-// ========== TIỆN ÍCH ==========
-const $ = s => document.querySelector(s);
-function show(id){
-  document.querySelectorAll(".screen").forEach(el => el.classList.remove("active"));
-  document.querySelectorAll(".screen").forEach(el => el.style.display = "none");
-  const el = document.getElementById(id);
-  el.style.display = "block";
-  el.classList.add("active");
-}
-function play(audio){ if(audioOn) { try { audio.currentTime = 0; audio.play(); } catch(e){} } }
-function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-function supify(s){ return s.replace(/\^(\d+)/g,'<sup>$1</sup>'); } // 2^3 -> 2<sup>3</sup>
-
-// Countdown đến 11/11 12:00
-(function initCountdown(){
-  const target = new Date(new Date().getFullYear(), 10, 11, 12, 0, 0); // 11/11 12:00
-  function tick(){
-    const now = new Date();
-    const diff = Math.max(0, target - now);
-    const day = Math.ceil(diff / (1000*60*60*24));
-    $("#countdownText").textContent = `⏳ Còn ${day} ngày nữa sẽ trao thưởng TOP 10 (12:00 trưa 11/11). Quyết chiến thôi!`;
-  }
-  tick(); setInterval(tick, 3600*1000);
-})();
-
-// ========== ĐĂNG NHẬP ==========
-(function restoreProfile(){
-  const saved = localStorage.getItem("toan8_profile");
-  if(saved){
-    currentUser = JSON.parse(saved);
-    updateProfileUI();
-    show("menu-screen");
-  }
-})();
-
 function login(){
-  play(snd.click);
-  const fullname = $("#fullname").value.trim();
-  const classname = $("#class").value;
-  const nickname = $("#nickname").value.trim();
-  if(!fullname || !classname || !nickname){
-    alert("Vui lòng nhập đủ Họ tên – Lớp – Biệt danh");
-    return;
-  }
-  // người mới có avatar human cơ bản
-  currentUser = { name: fullname, class: classname, nickname, points: (currentUser?.points||0), avatar: currentUser?.avatar || "basic.png" };
-  localStorage.setItem("toan8_profile", JSON.stringify(currentUser));
-  updateProfileUI();
-  show("menu-screen");
+  const name = document.getElementById("fullname").value.trim();
+  const cls = document.getElementById("classname").value;
+  const nick = document.getElementById("nickname").value.trim();
+  if(!name || !cls || !nick) { alert("Nhập đầy đủ thông tin!"); return; }
+  currentUser = {name, cls, nick};
+  document.getElementById("profile").textContent = `${name} - ${cls} (${nick})`;
+  showScreen("menuScreen");
 }
 
-function logout(){
-  play(snd.click);
-  localStorage.removeItem("toan8_profile");
-  currentUser = null;
-  show("login-screen");
+function logout(){ currentUser = null; showScreen("loginScreen"); }
+
+function showMenu(){ showScreen("menuScreen"); }
+
+function showScreen(id){
+  document.querySelectorAll("section").forEach(s=>s.classList.add("hidden"));
+  document.getElementById(id).classList.remove("hidden");
 }
 
-function updateProfileUI(){
-  if(!currentUser) return;
-  $("#playerName").textContent = `${currentUser.name} – ${currentUser.class}`;
-  $("#playerNick").textContent = `Nick: ${currentUser.nickname}`;
-  $("#playerAvatar").src = currentUser.avatar || "basic.png";
-  $("#playerRank").textContent = rankName(currentUser.points || 0);
-}
-
-// ========== AUDIO ==========
 function toggleAudio(){
   audioOn = !audioOn;
-  $("#audioBtn").textContent = audioOn ? "🔊" : "🔈";
-  const top = $("#audioBtnTop");
-  if(top) top.textContent = audioOn ? "🔊" : "🔈";
+  document.getElementById("audioBtn").textContent = audioOn?"🔊":"🔈";
+  if(audioOn){ snd.click.play().catch(()=>{}); }
 }
 
-// ========== RANK & AVATAR ==========
-function rankName(points){
-  if(points >= 300) return "Thách Đấu";
-  if(points >= 250) return "Cao Thủ II";
-  if(points >= 200) return "Cao Thủ I";
-  if(points >= 150) return "Tinh Anh";
-  if(points >= 120) return "Kim Cương";
-  if(points >= 80)  return "Vàng";
-  if(points >= 40)  return "Bạc";
-  return "Đồng";
-}
-function avatarByPoints(points){
-  if(points >= 300) return "legend.png";
-  if(points >= 250) return "master.png";
-  if(points >= 200) return "elite.png";
-  if(points >= 150) return "diamond.png";
-  if(points >= 120) return "diamond.png";
-  if(points >= 80)  return "gold.png";
-  if(points >= 40)  return "silver.png";
-  if(points >= 10)  return "bac.png";
-  return "dong.png";
-}
+function startPractice(){ loadQuestions("questions_mix13.json",10); }
+function startArena(){ loadQuestions("questions_mix13.json",20); }
 
-// ========== TẢI CÂU HỎI ==========
-async function loadQuestions(){
-  if(allQuestions.length) return allQuestions;
-  const res = await fetch(QUESTION_FILE);
-  const data = await res.json();
-  allQuestions = data.map(q => ({
-    question: supify(q.question),
-    options: q.options.map(o => supify(o)),
-    answer: supify(q.answer),
-    level: q.level || "NB"
-  }));
-  return allQuestions;
-}
-
-// ========== CHẾ ĐỘ ==========
-async function startPractice(){
-  play(snd.click);
-  isArena = false;
-  await loadQuestions();
-  questions = shuffle([...allQuestions]).slice(0, 10);
-  beginQuiz();
-}
-
-async function startArena(){
-  play(snd.click);
-  isArena = true;
-  await loadQuestions();
-  questions = shuffle([...allQuestions]).slice(0, 20);
-  beginQuiz();
-}
-
-function beginQuiz(){
-  idx = 0; score = 0; selectedAnswer = null; timeLeft = 59; totalDuration = 0;
-  updateProgress();
-  show("quiz-screen");
-  renderQuestion();
-  startTimer();
-}
-
-// ========== HIỂN THỊ CÂU HỎI ==========
-function renderQuestion(){
-  const q = questions[idx];
-  $("#questionText").innerHTML = q.question;
-  const ans = $("#answers");
-  ans.innerHTML = "";
-  q.options.forEach(opt => {
-    const el = document.createElement("div");
-    el.className = "answer";
-    el.innerHTML = opt;
-    el.onclick = () => {
-      play(snd.click);
-      selectedAnswer = opt;
-      document.querySelectorAll(".answer").forEach(a => a.classList.remove("selected"));
-      el.classList.add("selected");
-    };
-    ans.appendChild(el);
+function loadQuestions(file, total){
+  fetch(file).then(r=>r.json()).then(data=>{
+    questions = shuffle(data).slice(0,total);
+    currentIndex=0; score=0;
+    showScreen("quizScreen");
+    showQuestion();
   });
 }
 
-function updateProgress(){
-  $("#progressText").textContent = `Câu ${idx+1}/${questions.length}`;
+function showQuestion(){
+  const q = questions[currentIndex];
+  document.getElementById("questionText").innerHTML = q.question;
+  const answersDiv = document.getElementById("answers");
+  answersDiv.innerHTML="";
+  q.options.forEach(opt=>{
+    const div=document.createElement("div");
+    div.className="answer";
+    div.textContent=opt;
+    div.onclick=()=>selectAnswer(div,opt,q.answer);
+    answersDiv.appendChild(div);
+  });
+  document.getElementById("nextBtn").disabled=true;
+  startTimer();
 }
 
-// ========== TIMER 59s ==========
-function startTimer(){
-  clearInterval(timer);
-  timeLeft = 59;
-  updateTimerUI();
-  timer = setInterval(()=>{
-    timeLeft--; totalDuration++;
-    updateTimerUI();
-    if(timeLeft <= 0){
-      play(snd.timeout);
-      commitAnswer(null);
-    }
-  }, 1000);
+let selectedAnswer=null;
+function selectAnswer(div,opt,correct){
+  document.querySelectorAll(".answer").forEach(a=>a.classList.remove("selected"));
+  div.classList.add("selected");
+  selectedAnswer={opt,correct};
+  document.getElementById("nextBtn").disabled=false;
 }
 
-function updateTimerUI(){
-  $("#timerText").textContent = `${timeLeft}s`;
-  const w = Math.max(0, (timeLeft/59)*100);
-  const bar = $("#timerBar");
-  bar.style.right = (100 - w) + "%";
-  if(timeLeft <= 10) bar.style.background = "#ff3b3b";
-  else if(timeLeft <= 20) bar.style.background = "#ffa53b";
-  else bar.style.background = "#27e88d";
-}
-
-// ========== CÂU TIẾP ==========
 function nextQuestion(){
-  if(selectedAnswer === null){
-    alert("Bạn chưa chọn đáp án!");
-    return;
-  }
-  commitAnswer(selectedAnswer);
-}
-
-function commitAnswer(ans){
   clearInterval(timer);
-  const correct = questions[idx].answer;
-  if(ans && ans === correct){ score++; play(snd.correct); }
-  else if(ans){ play(snd.wrong); }
-  else { /* timeout đã play âm */ }
-
-  idx++;
-  if(idx < questions.length){
-    selectedAnswer = null;
-    updateProgress();
-    renderQuestion();
-    startTimer();
-  } else {
-    finishQuiz();
+  if(selectedAnswer){
+    if(selectedAnswer.opt===selectedAnswer.correct){
+      score++; if(audioOn) snd.correct.play();
+    } else { if(audioOn) snd.wrong.play(); }
   }
+  currentIndex++;
+  if(currentIndex<questions.length){ showQuestion(); }
+  else { finishQuiz(); }
 }
 
-// ========== KẾT THÚC ==========
+function startTimer(){
+  let time=duration;
+  const bar=document.getElementById("timerBar");
+  bar.style.width="100%"; bar.style.background="green";
+  timer=setInterval(()=>{
+    time--;
+    bar.style.width=(time/duration*100)+"%";
+    if(time<20) bar.style.background="orange";
+    if(time<10) bar.style.background="red";
+    if(time<=0){
+      clearInterval(timer);
+      if(audioOn) snd.timeout.play();
+      nextQuestion();
+    }
+  },1000);
+}
+
 function finishQuiz(){
-  clearInterval(timer);
-  show("result-screen");
-  const total = questions.length;
-  const score10 = (score/total*10).toFixed(1);
-  $("#resultText").innerHTML = `Bạn đúng <b>${score}</b>/<b>${total}</b> câu → <b>${score10}</b> điểm`;
-
-  let lucky = false;
-  if(isArena){
-    play(snd.win);
-    // Lucky 1%
-    if(Math.random() < 0.01){ lucky = true; currentUser.avatar = "rare.png"; }
-    // cộng điểm rank: mỗi câu đúng = +1
-    currentUser.points = (currentUser.points||0) + score;
-    if(!lucky){ currentUser.avatar = avatarByPoints(currentUser.points); }
-    localStorage.setItem("toan8_profile", JSON.stringify(currentUser));
-    updateProfileUI();
-    // gửi API
-    sendResult(score10, totalDuration);
-  }
-  $("#luckyText").classList.toggle("hidden", !lucky);
+  showScreen("resultScreen");
+  document.getElementById("resultText").textContent=`Điểm: ${score}/${questions.length}`;
+  // TODO: gửi API ở chế độ đấu trường
 }
 
-// ========== API ==========
-async function sendResult(score10, durationSec){
-  const payload = {
-    timestamp: new Date().toLocaleString('vi-VN'),
-    name: currentUser?.name || "",
-    class: currentUser?.class || "",
-    nickname: currentUser?.nickname || "",
-    score: Number(score10),
-    duration: durationSec
-  };
-  try{
-    await fetch(API_URL, {
+function showLeaderboard(){
+  showScreen("leaderboardScreen");
+  document.getElementById("leaderboardList").innerHTML="<li>Chức năng API</li>";
+}
+
+function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
+const API_URL = "https://script.google.com/macros/s/AKfycbwyht9uRhyek_sQ0g-fNxr82TCY-AEEyFvgJkMwjmabSUGC3UW4I2X0KpuhlLF6NMJa/exec";
+
+function finishQuiz(){
+  showScreen("resultScreen");
+  document.getElementById("resultText").textContent=`Điểm: ${score}/${questions.length}`;
+
+  // Nếu đang ở chế độ đấu trường thì gửi kết quả
+  if(questions.length === 20 && currentUser){
+    const payload = {
+      timestamp: new Date().toLocaleString("vi-VN"),
+      name: currentUser.name,
+      class: currentUser.cls,
+      nickname: currentUser.nick,
+      score: score,
+      total: questions.length,
+      duration: duration
+    };
+    fetch(API_URL, {
       method: "POST",
-      headers: {"Content-Type":"application/json"},
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload)
+    })
+    .then(r=>r.json())
+    .then(d=>console.log("Gửi thành công",d))
+    .catch(e=>console.error("Lỗi gửi API",e));
+  }
+}
+
+function showLeaderboard(){
+  showScreen("leaderboardScreen");
+  const list = document.getElementById("leaderboardList");
+  list.innerHTML = "<li>Đang tải...</li>";
+
+  fetch(API_URL)
+    .then(r=>r.json())
+    .then(data=>{
+      list.innerHTML="";
+      // lấy top 10
+      data.slice(0,10).forEach((p,i)=>{
+        const li=document.createElement("li");
+        li.textContent = `${i+1}. ${p.name} - ${p.class} (${p.nickname}) : ${p.score}đ`;
+        if(i===0) li.style.color="gold";
+        if(i===1) li.style.color="silver";
+        if(i===2) li.style.color="#cd7f32";
+        list.appendChild(li);
+      });
+    })
+    .catch(e=>{
+      list.innerHTML="<li>Lỗi tải bảng xếp hạng</li>";
+      console.error(e);
     });
-  }catch(e){
-    console.error("Send API error", e);
-  }
 }
-
-async function showLeaderboard(){
-  show("leaderboard-screen");
-  const body = $("#lbBody");
-  body.innerHTML = `<tr><td colspan="6">Đang tải...</td></tr>`;
-  try{
-    const res = await fetch(API_URL + "?action=getRanking");
-    const rows = await res.json();
-    body.innerHTML = "";
-    rows.slice(0,10).forEach((r,i)=>{
-      const tr = document.createElement("tr");
-      if(i===0) tr.classList.add("rank-1");
-      if(i===1) tr.classList.add("rank-2");
-      if(i===2) tr.classList.add("rank-3");
-      const av = document.createElement("img");
-      av.src = guessAvatarFromScore(r.score);
-      av.className = "lb-avatar";
-      const avTd = document.createElement("td");
-      avTd.appendChild(av);
-      tr.innerHTML = `<td>${i+1}</td>`;
-      tr.appendChild(avTd);
-      tr.innerHTML += `<td>${r.name||""}</td><td>${r.class||""}</td><td>${r.nickname||""}</td><td>${r.score||""}</td>`;
-      body.appendChild(tr);
-    });
-  }catch(e){
-    body.innerHTML = `<tr><td colspan="6">Không tải được BXH</td></tr>`;
-  }
-}
-
-function guessAvatarFromScore(score){
-  const s = Number(score||0);
-  if(s>=9.5) return "gold.png";
-  if(s>=8.0)  return "silver.png";
-  if(s>=6.5)  return "bac.png";
-  return "dong.png";
-}
-
-// ========== ĐIỀU HƯỚNG ==========
-function showMenu(){ updateProfileUI(); show("menu-screen"); }
-
-// Enter = Bắt đầu ở màn Login
-document.addEventListener("keydown", (e)=>{
-  if(document.getElementById("login-screen").classList.contains("active") && e.key==="Enter"){
-    login();
-  }
-  document.addEventListener("touchmove", function (event) {
-  if (window.scrollY === 0 && event.touches[0].clientY > 50) {
-    event.preventDefault();
-  }
-}, { passive: false });
-
-});
