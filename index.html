@@ -9,58 +9,57 @@
 <body>
   <!-- Đăng nhập -->
   <div id="loginScreen" class="screen active">
-    <h2>Đăng nhập</h2>
-    <input id="fullname" placeholder="Họ và tên">
-    <select id="class">
-      <option value="">Chọn lớp</option>
-      <option>8A1</option>
-      <option>8A2</option>
-      <option>8A3</option>
-      <option>8A4</option>
-      <option>8A5</option>
-      <option>8A6</option>
-      <option>8A7</option>
-    </select>
-    <input id="nickname" placeholder="Biệt danh">
-    <button onclick="login()">BẮT ĐẦU</button>
+    <div class="login-card">
+      <h2>Đăng nhập</h2>
+      <input id="fullname" placeholder="Họ và tên" class="input-box">
+      <select id="class" class="input-box">
+        <option value="">-- Chọn lớp --</option>
+        <option>8A1</option><option>8A2</option><option>8A3</option>
+        <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
+      </select>
+      <input id="nickname" placeholder="Biệt danh" class="input-box">
+      <button class="btn-main" onclick="login()">BẮT ĐẦU</button>
+    </div>
   </div>
 
   <!-- Menu -->
   <div id="menuScreen" class="screen">
     <div class="topbar">
-      <img id="avatar" src="avatars/basic.png" alt="avatar">
+      <img id="avatar" src="basic.png" alt="avatar">
       <span id="userInfo"></span>
       <button onclick="logout()">Đăng xuất</button>
       <button onclick="toggleAudio()">🔊</button>
     </div>
     <h2>Trang chủ</h2>
     <div class="menu-buttons">
-      <button onclick="startPractice()">Luyện tập</button>
-      <button onclick="startArena()">Đấu Trường</button>
-      <button onclick="showLeaderboard()">Bảng xếp hạng</button>
+      <button class="btn-card" onclick="startPractice()">Luyện tập</button>
+      <button class="btn-card" onclick="startArena()">Đấu Trường</button>
+      <button class="btn-card" onclick="showLeaderboard()">Bảng xếp hạng</button>
     </div>
   </div>
 
   <!-- Quiz -->
   <div id="quizScreen" class="screen">
     <div id="timerBar"></div>
-    <div id="questionBox" class="answer question-box"></div>
+    <div id="questionBox" class="card question-box"></div>
     <div id="answers"></div>
-    <button id="nextBtn" onclick="nextQuestion()">Câu tiếp</button>
+    <button id="nextBtn" class="btn-main" onclick="nextQuestion()">Câu tiếp</button>
   </div>
 
   <!-- Kết quả -->
   <div id="resultScreen" class="screen">
-    <h2>Kết quả</h2>
-    <div id="resultText"></div>
-    <button onclick="showMenu()">Về trang chủ</button>
+    <div class="card">
+      <h2>Kết quả</h2>
+      <div id="resultText"></div>
+      <button class="btn-main" onclick="showMenu()">Về trang chủ</button>
+    </div>
   </div>
 
   <!-- BXH -->
   <div id="leaderboardScreen" class="screen">
     <h2>Bảng xếp hạng Top 10</h2>
     <table id="leaderboardTable"></table>
-    <button onclick="showMenu()">Về trang chủ</button>
+    <button class="btn-main" onclick="showMenu()">Về trang chủ</button>
   </div>
 
   <script src="script.js" defer></script>
