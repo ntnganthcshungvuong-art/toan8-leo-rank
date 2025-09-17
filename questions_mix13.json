@@ -1,640 +1,8414 @@
-[
-  {
-    "question": "Giá trị của 2<sup>3</sup> bằng:",
-    "options": [
-      "4",
-      "6",
-      "8",
-      "9"
-    ],
-    "answer": "8",
-    "level": "NB"
-  },
-  {
-    "question": "Khai triển (x + y)<sup>2</sup> bằng:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup>",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "2x<sup>2</sup> + y<sup>2</sup>",
-      "x<sup>2</sup> + xy + y<sup>2</sup>"
-    ],
-    "answer": "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 5x<sup>2</sup>y là:",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "answer": "3",
-    "level": "NB"
-  },
-  {
-    "question": "Kết quả (a - b)<sup>2</sup> là:",
-    "options": [
-      "a<sup>2</sup> - 2ab + b<sup>2</sup>",
-      "a<sup>2</sup> - b<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>",
-      "2a<sup>2</sup> - b<sup>2</sup>"
-    ],
-    "answer": "a<sup>2</sup> - 2ab + b<sup>2</sup>",
-    "level": "TH"
-  },
-  {
-    "question": "Tổng các góc trong tứ giác là:",
-    "options": [
-      "90°",
-      "180°",
-      "270°",
-      "360°"
-    ],
-    "answer": "360°",
-    "level": "NB"
-  },
-  {
-    "question": "Hình bình hành có các cạnh đối:",
-    "options": [
-      "Vuông góc",
-      "Song song",
-      "Bằng nhau và song song",
-      "Không liên hệ"
-    ],
-    "answer": "Bằng nhau và song song",
-    "level": "TH"
-  },
-  {
-    "question": "(x - 1)(x + 1) = ",
-    "options": [
-      "x<sup>2</sup> - 1",
-      "x<sup>2</sup> + 1",
-      "x<sup>2</sup> - 2x + 1",
-      "x<sup>2</sup> + 2x + 1"
-    ],
-    "answer": "x<sup>2</sup> - 1",
-    "level": "NB"
-  },
-  {
-    "question": "Đơn thức nào có hệ số là -7?",
-    "options": [
-      "-7x",
-      "x - 7",
-      "7 - x",
-      "-x - 7"
-    ],
-    "answer": "-7x",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thang cân có:",
-    "options": [
-      "Hai cạnh bên bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Cả hai đúng",
-      "Cả hai sai"
-    ],
-    "answer": "Cả hai đúng",
-    "level": "TH"
-  },
-  {
-    "question": "Giá trị của đa thức 2x<sup>2</sup> - 3x + 1 tại x=2 là:",
-    "options": [
-      "3",
-      "5",
-      "7",
-      "9"
-    ],
-    "answer": "7",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  },
-  {
-    "question": "Bậc của đơn thức 3x<sup>m</sup>y<sup>n</sup> là:",
-    "options": [
-      "m + n",
-      "m - n",
-      "mn",
-      "m + n + 1"
-    ],
-    "answer": "m + n",
-    "level": "TH"
-  },
-  {
-    "question": "Hình chữ nhật có số trục đối xứng là:",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "answer": "2",
-    "level": "NB"
-  },
-  {
-    "question": "Hiệu hai bình phương: a<sup>2</sup> - b<sup>2</sup> =",
-    "options": [
-      "(a-b)(a+b)",
-      "(a+b)<sup>2</sup>",
-      "(a-b)<sup>2</sup>",
-      "a<sup>2</sup> + b<sup>2</sup>"
-    ],
-    "answer": "(a-b)(a+b)",
-    "level": "NB"
-  },
-  {
-    "question": "(x + y + z) khi bình phương:",
-    "options": [
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>",
-      "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-      "x<sup>2</sup> + 2xy + y<sup>2</sup>",
-      "Không câu nào"
-    ],
-    "answer": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2xy + 2xz + 2yz",
-    "level": "TH"
-  },
-  {
-    "question": "Tứ giác có bốn góc vuông là:",
-    "options": [
-      "Hình thang",
-      "Hình bình hành",
-      "Hình chữ nhật",
-      "Hình thoi"
-    ],
-    "answer": "Hình chữ nhật",
-    "level": "NB"
-  },
-  {
-    "question": "Hình thoi có:",
-    "options": [
-      "Bốn cạnh bằng nhau",
-      "Tất cả các góc bằng nhau",
-      "Hai đường chéo bằng nhau",
-      "Có một góc vuông"
-    ],
-    "answer": "Bốn cạnh bằng nhau",
-    "level": "TH"
-  }
-]
+{
+  "Bai1": [
+    {
+      "q": "Bậc của đơn thức 7x^2y^3 là?",
+      "a": "5",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 3x^2y^2 là?",
+      "a": "3",
+      "options": [
+        "6",
+        "0",
+        "3",
+        "7"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 3x^3y^3:",
+      "a": "2x^3y^3",
+      "options": [
+        "7x^4y^3",
+        "2x^5",
+        "5x^3y^4",
+        "2x^3y^3"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 5x^1y^3 tại x=1, y=3.",
+      "a": "135",
+      "options": [
+        "134",
+        "137",
+        "135",
+        "136"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 9x^2y^1 là?",
+      "a": "3",
+      "options": [
+        "2",
+        "9",
+        "4",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 9x^3y^3 là?",
+      "a": "9",
+      "options": [
+        "10",
+        "0",
+        "9",
+        "18"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 9x^1y^1:",
+      "a": "2x^1y^1",
+      "options": [
+        "2x^1y^2",
+        "7x^3",
+        "2x^1y^1",
+        "9x^2y^1"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 3x^1y^3 tại x=1, y=3.",
+      "a": "81",
+      "options": [
+        "83",
+        "80",
+        "82",
+        "81"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 2x^2y^1 là?",
+      "a": "3",
+      "options": [
+        "2",
+        "4",
+        "7",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -3x^1y^1 là?",
+      "a": "-3",
+      "options": [
+        "3",
+        "-3",
+        "0",
+        "-6"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 9x^1y^3:",
+      "a": "-1x^1y^3",
+      "options": [
+        "-1x^1y^3",
+        "9x^3",
+        "9x^2y^3",
+        "3x^1y^4"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 4x^1y^2 tại x=2, y=1.",
+      "a": "8",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "9"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 9x^3y^1 là?",
+      "a": "4",
+      "options": [
+        "9",
+        "5",
+        "4",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -5x^3y^3 là?",
+      "a": "-5",
+      "options": [
+        "0",
+        "5",
+        "-10",
+        "-5"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 5x^3y^2:",
+      "a": "-5x^3y^2",
+      "options": [
+        "9x^4y^2",
+        "6x^3y^3",
+        "9x^5",
+        "-5x^3y^2"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 4x^3y^2 tại x=3, y=3.",
+      "a": "972",
+      "options": [
+        "974",
+        "971",
+        "973",
+        "972"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 7x^2y^3 là?",
+      "a": "5",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -3x^1y^2 là?",
+      "a": "-3",
+      "options": [
+        "0",
+        "-3",
+        "3",
+        "-6"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 6x^3y^1:",
+      "a": "2x^3y^1",
+      "options": [
+        "2x^3y^1",
+        "6x^5",
+        "3x^3y^2",
+        "8x^4y^1"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 2x^3y^3 tại x=2, y=1.",
+      "a": "16",
+      "options": [
+        "17",
+        "15",
+        "16",
+        "18"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 4x^1y^3 là?",
+      "a": "4",
+      "options": [
+        "5",
+        "9",
+        "3",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 4x^2 là?",
+      "a": "4",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "0"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 3x^3y^1:",
+      "a": "-1x^3y^1",
+      "options": [
+        "6x^3y^2",
+        "9x^4y^1",
+        "6x^5",
+        "-1x^3y^1"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 3x^1y^1 tại x=3, y=3.",
+      "a": "27",
+      "options": [
+        "27",
+        "26",
+        "28",
+        "29"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 3x^3y^3 là?",
+      "a": "6",
+      "options": [
+        "7",
+        "9",
+        "5",
+        "6"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 9x^2 là?",
+      "a": "9",
+      "options": [
+        "9",
+        "0",
+        "5",
+        "18"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 5x^3y^1:",
+      "a": "-3x^3y^1",
+      "options": [
+        "9x^3y^2",
+        "6x^4y^1",
+        "6x^5",
+        "-3x^3y^1"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 3x^1y^2 tại x=3, y=1.",
+      "a": "9",
+      "options": [
+        "9",
+        "11",
+        "10",
+        "8"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 2x^2y^3 là?",
+      "a": "5",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 5x^4 là?",
+      "a": "5",
+      "options": [
+        "0",
+        "8",
+        "5",
+        "10"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 7x^2y^2:",
+      "a": "-3x^2y^2",
+      "options": [
+        "7x^2y^3",
+        "5x^3y^2",
+        "9x^4",
+        "-3x^2y^2"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 2x^1y^2 tại x=3, y=3.",
+      "a": "54",
+      "options": [
+        "56",
+        "54",
+        "53",
+        "55"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 5x^2y^1 là?",
+      "a": "3",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 2x^3y^1 là?",
+      "a": "2",
+      "options": [
+        "2",
+        "0",
+        "7",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 3x^3y^3:",
+      "a": "-1x^3y^3",
+      "options": [
+        "4x^4y^3",
+        "-1x^3y^3",
+        "7x^3y^4",
+        "6x^5"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 4x^3y^2 tại x=3, y=1.",
+      "a": "108",
+      "options": [
+        "107",
+        "109",
+        "110",
+        "108"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 5x^1y^2 là?",
+      "a": "3",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -9x^4y^1 là?",
+      "a": "-9",
+      "options": [
+        "0",
+        "-9",
+        "9",
+        "-18"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 5x^1y^3:",
+      "a": "-1x^1y^3",
+      "options": [
+        "-1x^1y^3",
+        "3x^2y^3",
+        "7x^1y^4",
+        "4x^3"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 4x^2y^1 tại x=3, y=1.",
+      "a": "36",
+      "options": [
+        "37",
+        "36",
+        "35",
+        "38"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Vì sao 2x^3y^3 và -5x^3y^3 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Giá trị bằng nhau",
+        "Cùng phần biến",
+        "Cùng hệ số",
+        "Đều dương"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 2x^3 và 2x^4 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Phụ thuộc x",
+        "Có",
+        "Không xác định",
+        "Không"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^1y^2 là:",
+      "a": "3",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "8"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^2y^2 và -5x^2y^2 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng phần biến",
+        "Cùng hệ số",
+        "Đều dương",
+        "Giá trị bằng nhau"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 2x^4 và 2x^5 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không xác định",
+        "Không",
+        "Có",
+        "Phụ thuộc x"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^1y^3 là:",
+      "a": "4",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "4"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^2y^2 và -5x^2y^2 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Đều dương",
+        "Cùng hệ số",
+        "Giá trị bằng nhau",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^5 và 4x^6 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Phụ thuộc x",
+        "Không xác định",
+        "Không",
+        "Có"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^3y^3 là:",
+      "a": "6",
+      "options": [
+        "9",
+        "3",
+        "0",
+        "6"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^3y^3 và -5x^3y^3 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Giá trị bằng nhau",
+        "Cùng hệ số",
+        "Đều dương",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 2x^4 và 2x^5 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không xác định",
+        "Không",
+        "Có",
+        "Phụ thuộc x"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^1y^3 là:",
+      "a": "4",
+      "options": [
+        "3",
+        "0",
+        "4",
+        "1"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^2y^2 và -5x^2y^2 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng hệ số",
+        "Cùng phần biến",
+        "Giá trị bằng nhau",
+        "Đều dương"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 3x^5 và 3x^6 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không",
+        "Có",
+        "Không xác định",
+        "Phụ thuộc x"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^1y^2 là:",
+      "a": "3",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^1y^1 và -5x^1y^1 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng hệ số",
+        "Đều dương",
+        "Giá trị bằng nhau",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^6 và 4x^7 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Phụ thuộc x",
+        "Có",
+        "Không xác định",
+        "Không"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^1y^3 là:",
+      "a": "4",
+      "options": [
+        "8",
+        "1",
+        "4",
+        "3"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^2y^2 và -5x^2y^2 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng hệ số",
+        "Đều dương",
+        "Giá trị bằng nhau",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^6 và 4x^7 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không xác định",
+        "Không",
+        "Có",
+        "Phụ thuộc x"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^2y^2 là:",
+      "a": "4",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "8"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^1y^1 và -5x^1y^1 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Giá trị bằng nhau",
+        "Cùng hệ số",
+        "Đều dương",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^5 và 4x^6 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không xác định",
+        "Có",
+        "Không",
+        "Phụ thuộc x"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^2y^3 là:",
+      "a": "5",
+      "options": [
+        "5",
+        "2",
+        "6",
+        "3"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^3y^3 và -5x^3y^3 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng phần biến",
+        "Cùng hệ số",
+        "Đều dương",
+        "Giá trị bằng nhau"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^6 và 4x^7 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không xác định",
+        "Phụ thuộc x",
+        "Không",
+        "Có"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^2y^3 là:",
+      "a": "5",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "5"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^3y^3 và -5x^3y^3 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Giá trị bằng nhau",
+        "Cùng phần biến",
+        "Cùng hệ số",
+        "Đều dương"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^6 và 4x^7 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Có",
+        "Không",
+        "Không xác định",
+        "Phụ thuộc x"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^3y^2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "5"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 3x và rộng 4y là:",
+      "a": "12xy",
+      "options": [
+        "7xy",
+        "12x+y",
+        "12xy",
+        "12x^2y^2"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 2x là:",
+      "a": "8x^3",
+      "options": [
+        "8x^3",
+        "8x^2",
+        "4x^2",
+        "6x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=3x và t=2y là:",
+      "a": "6xy",
+      "options": [
+        "5xy",
+        "6x^2y",
+        "6xy",
+        "6x+y"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 2x và rộng 2y là:",
+      "a": "4xy",
+      "options": [
+        "4xy",
+        "4x^2y^2",
+        "10",
+        "4x+y"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 3x là:",
+      "a": "27x^3",
+      "options": [
+        "9x^2",
+        "10",
+        "27x^3",
+        "27x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=5x và t=3y là:",
+      "a": "15xy",
+      "options": [
+        "15x^2y",
+        "8xy",
+        "15x+y",
+        "15xy"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 4x và rộng 3y là:",
+      "a": "12xy",
+      "options": [
+        "12x+y",
+        "7xy",
+        "12xy",
+        "12x^2y^2"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 3x là:",
+      "a": "27x^3",
+      "options": [
+        "9x^2",
+        "0",
+        "27x^3",
+        "27x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=3x và t=3y là:",
+      "a": "9xy",
+      "options": [
+        "9x^2y",
+        "9xy",
+        "6xy",
+        "9x+y"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 4x và rộng 5y là:",
+      "a": "20xy",
+      "options": [
+        "20xy",
+        "20x^2y^2",
+        "9xy",
+        "20x+y"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 2x là:",
+      "a": "8x^3",
+      "options": [
+        "6x^2",
+        "8x^2",
+        "8x^3",
+        "4x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=3x và t=2y là:",
+      "a": "6xy",
+      "options": [
+        "5xy",
+        "6xy",
+        "6x^2y",
+        "6x+y"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 4x và rộng 3y là:",
+      "a": "12xy",
+      "options": [
+        "12x^2y^2",
+        "12x+y",
+        "7xy",
+        "12xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 2x là:",
+      "a": "8x^3",
+      "options": [
+        "6x^2",
+        "4x^2",
+        "8x^3",
+        "8x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=2x và t=3y là:",
+      "a": "6xy",
+      "options": [
+        "6xy",
+        "6x^2y",
+        "5xy",
+        "6x+y"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 5x và rộng 5y là:",
+      "a": "25xy",
+      "options": [
+        "25xy",
+        "25x+y",
+        "25x^2y^2",
+        "10xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 2x là:",
+      "a": "8x^3",
+      "options": [
+        "6x^2",
+        "4x^2",
+        "8x^3",
+        "8x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=2x và t=2y là:",
+      "a": "4xy",
+      "options": [
+        "4x+y",
+        "4x^2y",
+        "3",
+        "4xy"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 5x và rộng 3y là:",
+      "a": "15xy",
+      "options": [
+        "15x^2y^2",
+        "15xy",
+        "15x+y",
+        "8xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 3x là:",
+      "a": "27x^3",
+      "options": [
+        "9x^2",
+        "27x^3",
+        "2",
+        "27x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 27.",
+      "a": "x=±3",
+      "options": [
+        "x=3",
+        "x=-3",
+        "x=±3",
+        "x=±4"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Chỉ x lẻ",
+        "Sai",
+        "Chỉ x chẵn",
+        "Đúng"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 27.",
+      "a": "x=±3",
+      "options": [
+        "x=±3",
+        "x=±4",
+        "x=-3",
+        "x=3"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Sai",
+        "Chỉ x chẵn",
+        "Đúng",
+        "Chỉ x lẻ"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 12.",
+      "a": "x=±2",
+      "options": [
+        "x=±3",
+        "x=±2",
+        "x=2",
+        "x=-2"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Đúng",
+        "Sai",
+        "Chỉ x lẻ",
+        "Chỉ x chẵn"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 75.",
+      "a": "x=±5",
+      "options": [
+        "x=5",
+        "x=±6",
+        "x=-5",
+        "x=±5"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Chỉ x lẻ",
+        "Sai",
+        "Chỉ x chẵn",
+        "Đúng"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 147.",
+      "a": "x=±7",
+      "options": [
+        "x=7",
+        "x=-7",
+        "x=±7",
+        "x=±8"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Chỉ x lẻ",
+        "Đúng",
+        "Chỉ x chẵn",
+        "Sai"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    }
+  ],
+  "Bai2": [
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "x^-1 + 3",
+        "2/x + 1",
+        "√x + 2",
+        "2x^2 + 3x - 5"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^2 - 3x^1 + 1 là:",
+      "a": "2",
+      "options": [
+        "10",
+        "3",
+        "2",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "5",
+        "-3",
+        "0"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2/x + 1",
+        "2x^2 + 3x - 5",
+        "x^-1 + 3",
+        "√x + 2"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^4 - 3x^3 + 1 là:",
+      "a": "4",
+      "options": [
+        "3",
+        "5",
+        "1",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "5",
+        "2",
+        "0",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2/x + 1",
+        "√x + 2",
+        "2x^2 + 3x - 5",
+        "x^-1 + 3"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^2 - 3x^1 + 1 là:",
+      "a": "2",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "0",
+        "5",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "x^-1 + 3",
+        "2/x + 1",
+        "2x^2 + 3x - 5",
+        "√x + 2"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "-3",
+        "5",
+        "0"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2x^2 + 3x - 5",
+        "√x + 2",
+        "2/x + 1",
+        "x^-1 + 3"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "0",
+        "2",
+        "-3",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2x^2 + 3x - 5",
+        "√x + 2",
+        "2/x + 1",
+        "x^-1 + 3"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "0",
+        "5",
+        "2",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "x^-1 + 3",
+        "√x + 2",
+        "2/x + 1",
+        "2x^2 + 3x - 5"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "-3",
+        "5",
+        "0",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2/x + 1",
+        "x^-1 + 3",
+        "2x^2 + 3x - 5",
+        "√x + 2"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^2 - 3x^1 + 1 là:",
+      "a": "2",
+      "options": [
+        "3",
+        "9",
+        "2",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "-3",
+        "2",
+        "0",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "√x + 2",
+        "2/x + 1",
+        "2x^2 + 3x - 5",
+        "x^-1 + 3"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^2 - 3x^1 + 1 là:",
+      "a": "2",
+      "options": [
+        "1",
+        "8",
+        "3",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "5",
+        "-3",
+        "0",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2x^2 + 3x - 5",
+        "2/x + 1",
+        "√x + 2",
+        "x^-1 + 3"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "-3",
+        "5",
+        "0"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^3 + x + 1",
+        "x + 2025",
+        "2x^2 + 5",
+        "x^4 - x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "7 - 3x + 2x^3",
+        "2x^3 - 3x + 7",
+        "2x - 3x^3 + 7",
+        "-3x + 7 + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2",
+        "3x^2 + 4",
+        "4",
+        "3x + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^4 - x + 1",
+        "2x^2 + 5",
+        "x + 2025",
+        "x^3 + x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "-3x + 7 + 2x^3",
+        "2x - 3x^3 + 7",
+        "2x^3 - 3x + 7",
+        "7 - 3x + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "4",
+        "3x^2 + 4",
+        "3x + 4",
+        "3x^2"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "2x^2 + 5",
+        "x^4 - x + 1",
+        "x^3 + x + 1",
+        "x + 2025"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "7 - 3x + 2x^3",
+        "2x^3 - 3x + 7",
+        "-3x + 7 + 2x^3",
+        "2x - 3x^3 + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "4",
+        "3x^2",
+        "3x + 4",
+        "3x^2 + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^4 - x + 1",
+        "2x^2 + 5",
+        "x^3 + x + 1",
+        "x + 2025"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "-3x + 7 + 2x^3",
+        "7 - 3x + 2x^3",
+        "2x - 3x^3 + 7",
+        "2x^3 - 3x + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2 + 4",
+        "4",
+        "3x + 4",
+        "3x^2"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^4 - x + 1",
+        "2x^2 + 5",
+        "x + 2025",
+        "x^3 + x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "7 - 3x + 2x^3",
+        "2x - 3x^3 + 7",
+        "-3x + 7 + 2x^3",
+        "2x^3 - 3x + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "4",
+        "3x^2",
+        "3x^2 + 4",
+        "3x + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "2x^2 + 5",
+        "x^3 + x + 1",
+        "x + 2025",
+        "x^4 - x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "7 - 3x + 2x^3",
+        "2x^3 - 3x + 7",
+        "2x - 3x^3 + 7",
+        "-3x + 7 + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2",
+        "3x^2 + 4",
+        "4",
+        "3x + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^3 + x + 1",
+        "2x^2 + 5",
+        "x + 2025",
+        "x^4 - x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "2x - 3x^3 + 7",
+        "2x^3 - 3x + 7",
+        "7 - 3x + 2x^3",
+        "-3x + 7 + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2 + 4",
+        "3x + 4",
+        "4",
+        "3x^2"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "2x^2 + 5",
+        "x^4 - x + 1",
+        "x^3 + x + 1",
+        "x + 2025"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "7 - 3x + 2x^3",
+        "2x^3 - 3x + 7",
+        "2x - 3x^3 + 7",
+        "-3x + 7 + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x + 4",
+        "4",
+        "3x^2",
+        "3x^2 + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "2x^2 + 5",
+        "x^4 - x + 1",
+        "x^3 + x + 1",
+        "x + 2025"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "2x^3 - 3x + 7",
+        "-3x + 7 + 2x^3",
+        "7 - 3x + 2x^3",
+        "2x - 3x^3 + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2 + 4",
+        "4",
+        "3x + 4",
+        "3x^2"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "2x^2 + 5",
+        "x^3 + x + 1",
+        "x + 2025",
+        "x^4 - x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "2x - 3x^3 + 7",
+        "7 - 3x + 2x^3",
+        "-3x + 7 + 2x^3",
+        "2x^3 - 3x + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2 + 4",
+        "3x^2",
+        "3x + 4",
+        "4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Tính giá trị đa thức 4x^2 - 3x + 2 tại x=2.",
+      "a": "12",
+      "options": [
+        "13",
+        "14",
+        "11",
+        "12"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "9",
+        "6",
+        "-1",
+        "8"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 5x^2 - 3x + 2 tại x=3.",
+      "a": "38",
+      "options": [
+        "40",
+        "39",
+        "38",
+        "37"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "8",
+        "9",
+        "6",
+        "-1"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 5x^2 - 3x + 2 tại x=-1.",
+      "a": "10",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "12"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "6",
+        "-1",
+        "9",
+        "8"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 4x^2 - 3x + 2 tại x=3.",
+      "a": "29",
+      "options": [
+        "29",
+        "28",
+        "30",
+        "31"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "6",
+        "9",
+        "-1",
+        "8"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 5x^2 - 3x + 2 tại x=0.",
+      "a": "2",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "-1",
+        "6",
+        "9",
+        "8"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 2x^2 - 3x + 2 tại x=2.",
+      "a": "4",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "3"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "9",
+        "-1",
+        "6",
+        "8"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 2x^2 - 3x + 2 tại x=-1.",
+      "a": "7",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "6",
+        "9",
+        "-1",
+        "8"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 3x^2 - 3x + 2 tại x=-1.",
+      "a": "8",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "9"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "-1"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 5x^2 - 3x + 2 tại x=-2.",
+      "a": "28",
+      "options": [
+        "29",
+        "30",
+        "27",
+        "28"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "6",
+        "9",
+        "8",
+        "-1"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 3x^2 - 3x + 2 tại x=-2.",
+      "a": "20",
+      "options": [
+        "21",
+        "20",
+        "22",
+        "19"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "-1",
+        "6",
+        "8",
+        "9"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tìm m để đa thức 4x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=1",
+        "m=-4",
+        "Không tồn tại",
+        "m=0"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "Không tồn tại",
+        "m=-1",
+        "m=0",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "Không tồn tại",
+        "m=-1",
+        "m=0",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=1",
+        "m=0",
+        "m=-1",
+        "Không tồn tại"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=1",
+        "m=-1",
+        "Không tồn tại",
+        "m=0"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 2x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=-2",
+        "Không tồn tại",
+        "m=0",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 4x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=-4",
+        "Không tồn tại",
+        "m=0",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 2x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=0",
+        "m=-2",
+        "m=1",
+        "Không tồn tại"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 4x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=0",
+        "Không tồn tại",
+        "m=1",
+        "m=-4"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=-1",
+        "m=0",
+        "m=1",
+        "Không tồn tại"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    }
+  ],
+  "Bai3": [
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "3x^2 + 4x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "-2x - 6",
+        "8x - 6",
+        "2x + 2",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 + 2x",
+        "5x^2 - 2x",
+        "x^2",
+        "5x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "3x^2 + 2x",
+        "3x^2 + 4x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "-2x - 6",
+        "2x + 2",
+        "8x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2",
+        "5x^2 + 2x",
+        "x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x^2 - x",
+        "3x^2 + 4x",
+        "3x^2 + 2x",
+        "x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "-2x - 6",
+        "8x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "x^2",
+        "5x^2",
+        "5x^2 - 2x",
+        "5x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "x^2 + 2x",
+        "3x^2 + 4x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x - 6",
+        "8x - 6",
+        "2x + 2",
+        "-2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "x^2",
+        "5x^2 - 2x",
+        "5x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x^2 - x",
+        "3x^2 + 4x",
+        "3x^2 + 2x",
+        "x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x - 6",
+        "2x + 2",
+        "8x - 6",
+        "-2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2",
+        "x^2",
+        "5x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 2x",
+        "3x^2 + 4x",
+        "x^2 + 2x",
+        "x^2 + 2x^2 - x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "2x - 6",
+        "-2x - 6",
+        "8x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "5x^2 + 2x",
+        "x^2",
+        "5x^2 - 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "3x^2 + 4x",
+        "x^2 + 2x^2 - x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "8x - 6",
+        "-2x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "5x^2 + 2x",
+        "5x^2 - 2x",
+        "x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "3x^2 + 4x",
+        "x^2 + 2x^2 - x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "8x - 6",
+        "2x + 2",
+        "-2x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2",
+        "x^2",
+        "5x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x^2 - x",
+        "3x^2 + 2x",
+        "3x^2 + 4x",
+        "x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "-2x - 6",
+        "2x + 2",
+        "8x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2 + 2x",
+        "5x^2",
+        "x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "x^2 + 2x",
+        "3x^2 + 4x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x - 6",
+        "2x + 2",
+        "8x - 6",
+        "-2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "5x^2 + 2x",
+        "x^2",
+        "5x^2 - 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "3x^2 + 2x",
+        "3x^2 + 4x",
+        "x^2 + 2x^2 - x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "-2x - 6",
+        "8x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "x^2",
+        "5x^2",
+        "5x^2 - 2x",
+        "5x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "3x^2 + 4x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "-2x - 6",
+        "2x + 2",
+        "2x - 6",
+        "8x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "x^2",
+        "5x^2 + 2x",
+        "5x^2 - 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x^2 - x",
+        "3x^2 + 2x",
+        "x^2 + 2x",
+        "3x^2 + 4x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "8x - 6",
+        "-2x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "5x^2 + 2x",
+        "5x^2 - 2x",
+        "x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 4x",
+        "x^2 + 2x^2 - x",
+        "x^2 + 2x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "4x",
+        "7x^2",
+        "x^3",
+        "7x"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "a^2 + 2",
+        "2a + 2",
+        "2a^2 + 4a + 2",
+        "2a^2 + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "x + 3",
+        "-x - 3",
+        "3 - x^2",
+        "-x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "4x",
+        "7x",
+        "7x^2",
+        "x^3"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "a^2 + 2",
+        "2a^2 + 2",
+        "2a + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "x + 3",
+        "-x + 3",
+        "-x - 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "x^3",
+        "7x^2",
+        "4x",
+        "7x"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 2",
+        "a^2 + 2",
+        "2a^2 + 4a + 2",
+        "2a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "-x + 3",
+        "3 - x^2",
+        "x + 3",
+        "-x - 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "4x",
+        "x^3",
+        "7x",
+        "7x^2"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 4a + 2",
+        "2a^2 + 2",
+        "2a + 2",
+        "a^2 + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "-x - 3",
+        "x + 3",
+        "-x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x",
+        "7x^2",
+        "4x",
+        "x^3"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 4a + 2",
+        "2a + 2",
+        "a^2 + 2",
+        "2a^2 + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "x + 3",
+        "-x - 3",
+        "-x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "4x",
+        "x^3",
+        "7x",
+        "7x^2"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "a^2 + 2",
+        "2a + 2",
+        "2a^2 + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "-x - 3",
+        "x + 3",
+        "-x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x^2",
+        "4x",
+        "7x",
+        "x^3"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 2",
+        "2a + 2",
+        "a^2 + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "x + 3",
+        "-x + 3",
+        "-x - 3",
+        "3 - x^2"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x^2",
+        "7x",
+        "4x",
+        "x^3"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a + 2",
+        "2a^2 + 2",
+        "a^2 + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "-x - 3",
+        "x + 3",
+        "-x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x",
+        "7x^2",
+        "x^3",
+        "4x"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 2",
+        "a^2 + 2",
+        "2a^2 + 4a + 2",
+        "2a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "-x + 3",
+        "x + 3",
+        "-x - 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x",
+        "7x^2",
+        "x^3",
+        "4x"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "a^2 + 2",
+        "2a^2 + 2",
+        "2a + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "-x - 3",
+        "x + 3",
+        "-x + 3",
+        "3 - x^2"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 6",
+        "2x + 5",
+        "2x + 10",
+        "x^2 + 5x + 6"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x - 3",
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x + 3",
+        "x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 10",
+        "2x + 6",
+        "2x + 5",
+        "x^2 + 5x + 6"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x + 3",
+        "3x^2 - 2x - 3",
+        "x^2 - 2x - 3",
+        "3x^2 + 4x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 5",
+        "2x + 6",
+        "2x + 10",
+        "x^2 + 5x + 6"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x - 3",
+        "x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 + 4x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 5",
+        "x^2 + 5x + 6",
+        "2x + 6",
+        "2x + 10"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x + 3",
+        "x^2 - 2x - 3",
+        "3x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "x^2 + 5x + 6",
+        "2x + 6",
+        "2x + 5",
+        "2x + 10"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "x^2 - 2x - 3",
+        "3x^2 + 4x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 6",
+        "x^2 + 5x + 6",
+        "2x + 10",
+        "2x + 5"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 + 4x - 3",
+        "x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 10",
+        "2x + 6",
+        "x^2 + 5x + 6",
+        "2x + 5"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 5",
+        "2x + 6",
+        "2x + 10",
+        "x^2 + 5x + 6"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 + 4x - 3",
+        "x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 5",
+        "x^2 + 5x + 6",
+        "2x + 6",
+        "2x + 10"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x - 3",
+        "x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 + 4x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 10",
+        "2x + 6",
+        "x^2 + 5x + 6",
+        "2x + 5"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x - 3",
+        "x^2 - 2x - 3",
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x + 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=-1",
+        "k=1",
+        "k=0",
+        "Mọi k"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=0",
+        "k=-1",
+        "k=1",
+        "Mọi k"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=1",
+        "Mọi k",
+        "k=-1",
+        "k=0"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=-1",
+        "k=1",
+        "k=0",
+        "Mọi k"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "Mọi k",
+        "k=1",
+        "k=-1",
+        "k=0"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=1",
+        "k=-1",
+        "Mọi k",
+        "k=0"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "Mọi k",
+        "k=-1",
+        "k=1",
+        "k=0"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=1",
+        "k=-1",
+        "k=0",
+        "Mọi k"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "Mọi k",
+        "k=1",
+        "k=0",
+        "k=-1"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=-1",
+        "k=1",
+        "Mọi k",
+        "k=0"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    }
+  ],
+  "Bai4": [
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 5",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - x + 1",
+        "x^2 + 1",
+        "x^2 - 1",
+        "x^2 + x - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + x - 1",
+        "x^2 - 1",
+        "x^2 - x + 1",
+        "x^2 + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 9",
+        "x^2 + 3x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + x - 1",
+        "x^2 + 1",
+        "x^2 - 1",
+        "x^2 - x + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 6",
+        "x^2 + 6x + 5",
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 5"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - x + 1",
+        "x^2 + 1",
+        "x^2 - 1",
+        "x^2 + x - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 3x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + x - 1",
+        "x^2 - x + 1",
+        "x^2 - 1",
+        "x^2 + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9x + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + 1",
+        "x^2 + x - 1",
+        "x^2 - 1",
+        "x^2 - x + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - x + 1",
+        "x^2 - 1",
+        "x^2 + 1",
+        "x^2 + x - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 3x + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5",
+        "x^2 + 3x + 2",
+        "x^2 + 6x + 5"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + x - 1",
+        "x^2 + 1",
+        "x^2 - x + 1",
+        "x^2 - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9x + 9",
+        "x^2 + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 6x + 5"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + x - 1",
+        "x^2 - x + 1",
+        "x^2 + 1",
+        "x^2 - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9x + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 6x + 9",
+        "x^2 + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + 1",
+        "x^2 - x + 1",
+        "x^2 + x - 1",
+        "x^2 - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 3x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - x + 1",
+        "x^2 + x - 1",
+        "x^2 - 1",
+        "x^2 + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 3x + 9",
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - 1",
+        "x^2 + x - 1",
+        "x^2 + 1",
+        "x^2 - x + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 3x + 9",
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 5",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - x + 1",
+        "x^2 - 1",
+        "x^2 + x - 1",
+        "x^2 + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 6",
+        "x^2 + 6x + 5",
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 5"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 - 8y + 16",
+        "y^2 + 8y + 16",
+        "y^2 - 4y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 5x + 3",
+        "2x^2 + 6x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 7x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "2xy",
+        "x^2 + y^2",
+        "x^2 - 2xy + y^2",
+        "x^2 - y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 + 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 5x + 3",
+        "2x^2 + 7x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 6x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 - y^2",
+        "x^2 + y^2",
+        "x^2 - 2xy + y^2",
+        "2xy"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16",
+        "y^2 - 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "x^2 + 7x + 3",
+        "2x^2 + 6x + 3",
+        "2x^2 + 7x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "2xy",
+        "x^2 - 2xy + y^2",
+        "x^2 + y^2",
+        "x^2 - y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 - 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 7x + 3",
+        "2x^2 + 5x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 6x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "x^2 - y^2",
+        "x^2 - 2xy + y^2",
+        "2xy"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 + 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16",
+        "y^2 - 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 6x + 3",
+        "2x^2 + 7x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "2xy",
+        "x^2 + y^2",
+        "x^2 - y^2",
+        "x^2 - 2xy + y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16",
+        "y^2 - 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 6x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 7x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "x^2 - y^2",
+        "2xy",
+        "x^2 - 2xy + y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 - 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 7x + 3",
+        "2x^2 + 5x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 6x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "2xy",
+        "x^2 - y^2",
+        "x^2 - 2xy + y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16",
+        "y^2 + 8y + 16",
+        "y^2 - 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "x^2 + 7x + 3",
+        "2x^2 + 5x + 3",
+        "2x^2 + 6x + 3",
+        "2x^2 + 7x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "2xy",
+        "x^2 - y^2",
+        "x^2 - 2xy + y^2",
+        "x^2 + y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 - 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "x^2 + 7x + 3",
+        "2x^2 + 7x + 3",
+        "2x^2 + 6x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "2xy",
+        "x^2 + y^2",
+        "x^2 - y^2",
+        "x^2 - 2xy + y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 - 4y + 16",
+        "y^2 + 8y + 16",
+        "y^2 - 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 6x + 3",
+        "2x^2 + 5x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 7x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 - 2xy + y^2",
+        "2xy",
+        "x^2 + y^2",
+        "x^2 - y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 10x - 3",
+        "x^2 + 7x - 15",
+        "2x^2 - 7x - 15",
+        "2x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 - 7x - 15",
+        "x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 2x^2 + 2x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "x^2 + 7x - 15",
+        "2x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 - 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 + 7x - 15",
+        "2x^2 - 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 7x - 15",
+        "x^2 + 7x - 15",
+        "2x^2 - 7x - 15",
+        "2x^2 + 10x - 3"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + 2x^2 + 2x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 10x - 3",
+        "2x^2 - 7x - 15",
+        "x^2 + 7x - 15",
+        "2x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + 3x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 - 7x - 15",
+        "2x^2 + 10x - 3",
+        "x^2 + 7x - 15",
+        "2x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "x^2 + 7x - 15",
+        "2x^2 - 7x - 15",
+        "2x^2 + 7x - 15",
+        "2x^2 + 10x - 3"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "x^2 + 7x - 15",
+        "2x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 - 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 10x - 3",
+        "x^2 + 7x - 15",
+        "2x^2 + 7x - 15",
+        "2x^2 - 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "2xy",
+        "x^2 - y^2",
+        "0",
+        "4xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Sai",
+        "Đúng",
+        "Chỉ đúng với x nguyên",
+        "Chỉ đúng với x>0"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "x^2 - y^2",
+        "2xy",
+        "0",
+        "4xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Đúng",
+        "Chỉ đúng với x nguyên",
+        "Sai",
+        "Chỉ đúng với x>0"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "2xy",
+        "x^2 - y^2",
+        "0",
+        "4xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Sai",
+        "Chỉ đúng với x>0",
+        "Chỉ đúng với x nguyên",
+        "Đúng"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "4xy",
+        "x^2 - y^2",
+        "0",
+        "2xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Chỉ đúng với x>0",
+        "Chỉ đúng với x nguyên",
+        "Sai",
+        "Đúng"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "0",
+        "x^2 - y^2",
+        "2xy",
+        "4xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Đúng",
+        "Chỉ đúng với x>0",
+        "Chỉ đúng với x nguyên",
+        "Sai"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    }
+  ],
+  "Bai5": [
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2x^2",
+        "2",
+        "3x",
+        "2x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y",
+        "y^2",
+        "2y^2",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4ab^3",
+        "4a^2b^2",
+        "4a^3b"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "3x",
+        "2x",
+        "2",
+        "2x^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y^2",
+        "y^2",
+        "2y",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "4a^2b^2",
+        "6a^3b",
+        "4ab^3",
+        "4a^3b"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "2x^2",
+        "2x",
+        "3x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "5y^2",
+        "2y",
+        "2y^2",
+        "y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4a^3b",
+        "4ab^3",
+        "4a^2b^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "2x",
+        "3x",
+        "2x^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y^2",
+        "y^2",
+        "5y^2",
+        "2y"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "4a^2b^2",
+        "4a^3b",
+        "4ab^3",
+        "6a^3b"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "3x",
+        "2x",
+        "2x^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y",
+        "y^2",
+        "2y^2",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "4ab^3",
+        "6a^3b",
+        "4a^2b^2",
+        "4a^3b"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "3x",
+        "2",
+        "2x^2",
+        "2x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "5y^2",
+        "2y",
+        "y^2",
+        "2y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4ab^3",
+        "4a^3b",
+        "4a^2b^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "3x",
+        "2x",
+        "2x^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y",
+        "y^2",
+        "2y^2",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4a^3b",
+        "4ab^3",
+        "4a^2b^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "3x",
+        "2x^2",
+        "2x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y^2",
+        "2y",
+        "5y^2",
+        "y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4ab^3",
+        "4a^3b",
+        "4a^2b^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "2x^2",
+        "2x",
+        "3x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "y^2",
+        "2y^2",
+        "2y",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4a^2b^2",
+        "4a^3b",
+        "4ab^3"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "3x",
+        "2x^2",
+        "2x",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "y^2",
+        "2y",
+        "2y^2",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4a^2b^2",
+        "4a^3b",
+        "4ab^3"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "3x",
+        "2x^2",
+        "2",
+        "2x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y^2",
+        "2y",
+        "y^2",
+        "5y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "4a^2b^2",
+        "4a^3b",
+        "4ab^3",
+        "6a^3b"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2",
+        "2x^2",
+        "2x",
+        "3x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y",
+        "y^2",
+        "5y^2",
+        "2y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "6a^3b",
+        "4a^3b",
+        "4a^2b^2",
+        "4ab^3"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "2x^2",
+        "2",
+        "2x",
+        "3x"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "Tính (10y^3)/(5y)",
+      "a": "2y^2",
+      "options": [
+        "2y",
+        "2y^2",
+        "5y^2",
+        "y^2"
+      ],
+      "level": "NB",
+      "hint": "10/5=2, 3-1=2."
+    },
+    {
+      "q": "Tính (8a^4b^2)/(2ab)",
+      "a": "4a^3b",
+      "options": [
+        "4a^3b",
+        "6a^3b",
+        "4ab^3",
+        "4a^2b^2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số, trừ số mũ từng biến."
+    },
+    {
+      "q": "Tính (6x^2)/ (3x)",
+      "a": "2x",
+      "options": [
+        "3x",
+        "2x^2",
+        "2x",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Chia hệ số và trừ số mũ x: 6/3, 2-1."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2x",
+        "x^2 + 2x",
+        "x - 2x^2",
+        "x^2 - 2"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2y + 1",
+        "2 + 1/y",
+        "2y^2 + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 + 2x",
+        "x^2 - 2",
+        "x - 2x^2",
+        "x^2 - 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y^2 + 1",
+        "2 + 1/y",
+        "2y + 1",
+        "2y + 3y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2",
+        "x^2 + 2x",
+        "x - 2x^2",
+        "x^2 - 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2 + 1/y",
+        "2y + 1",
+        "2y + 3y",
+        "2y^2 + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x - 2x^2",
+        "x^2 + 2x",
+        "x^2 - 2x",
+        "x^2 - 2"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y^2 + 1",
+        "2 + 1/y",
+        "2y + 3y",
+        "2y + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2",
+        "x^2 + 2x",
+        "x - 2x^2",
+        "x^2 - 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2y + 1",
+        "2 + 1/y",
+        "2y^2 + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2x",
+        "x^2 - 2",
+        "x^2 + 2x",
+        "x - 2x^2"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y^2 + 1",
+        "2 + 1/y",
+        "2y + 1",
+        "2y + 3y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x - 2x^2",
+        "x^2 - 2",
+        "x^2 - 2x",
+        "x^2 + 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2y + 1",
+        "2 + 1/y",
+        "2y^2 + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2x",
+        "x^2 + 2x",
+        "x^2 - 2",
+        "x - 2x^2"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2 + 1/y",
+        "2y^2 + 1",
+        "2y + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2x",
+        "x^2 + 2x",
+        "x^2 - 2",
+        "x - 2x^2"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y^2 + 1",
+        "2y + 3y",
+        "2y + 1",
+        "2 + 1/y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2",
+        "x^2 - 2x",
+        "x - 2x^2",
+        "x^2 + 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2 + 1/y",
+        "2y^2 + 1",
+        "2y + 1"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 + 2x",
+        "x^2 - 2x",
+        "x^2 - 2",
+        "x - 2x^2"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2y^2 + 1",
+        "2y + 1",
+        "2 + 1/y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2",
+        "x^2 - 2x",
+        "x - 2x^2",
+        "x^2 + 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 1",
+        "2y^2 + 1",
+        "2y + 3y",
+        "2 + 1/y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2x",
+        "x^2 - 2",
+        "x - 2x^2",
+        "x^2 + 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2y + 1",
+        "2y^2 + 1",
+        "2 + 1/y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 - 2",
+        "x^2 - 2x",
+        "x - 2x^2",
+        "x^2 + 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 1",
+        "2y^2 + 1",
+        "2y + 3y",
+        "2 + 1/y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(x^3 - 2x^2)/x =",
+      "a": "x^2 - 2x",
+      "options": [
+        "x^2 + 2x",
+        "x - 2x^2",
+        "x^2 - 2",
+        "x^2 - 2x"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử cho x."
+    },
+    {
+      "q": "(6y^2 + 3y)/(3y) =",
+      "a": "2y + 1",
+      "options": [
+        "2y + 3y",
+        "2y + 1",
+        "2y^2 + 1",
+        "2 + 1/y"
+      ],
+      "level": "TH",
+      "hint": "Chia từng hạng tử, rút gọn."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2y - 2x",
+        "4x^2 - 2x",
+        "4x - 2",
+        "2x^2 - x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3a^2b^2 + 1",
+        "a^2b^2 + 1",
+        "3ab^2 + 1",
+        "3ab^2 + b"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2y - 2x",
+        "4x^2 - 2x",
+        "4x - 2",
+        "2x^2 - x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3a^2b^2 + 1",
+        "a^2b^2 + 1",
+        "3ab^2 + b",
+        "3ab^2 + 1"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2 - 2x",
+        "2x^2 - x",
+        "4x - 2",
+        "4x^2y - 2x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3ab^2 + b",
+        "3a^2b^2 + 1",
+        "3ab^2 + 1",
+        "a^2b^2 + 1"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "2x^2 - x",
+        "4x - 2",
+        "4x^2y - 2x",
+        "4x^2 - 2x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "a^2b^2 + 1",
+        "3ab^2 + b",
+        "3ab^2 + 1",
+        "3a^2b^2 + 1"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x - 2",
+        "4x^2 - 2x",
+        "4x^2y - 2x",
+        "2x^2 - x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3ab^2 + 1",
+        "3ab^2 + b",
+        "a^2b^2 + 1",
+        "3a^2b^2 + 1"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2 - 2x",
+        "2x^2 - x",
+        "4x^2y - 2x",
+        "4x - 2"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "a^2b^2 + 1",
+        "3a^2b^2 + 1",
+        "3ab^2 + 1",
+        "3ab^2 + b"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2 - 2x",
+        "2x^2 - x",
+        "4x^2y - 2x",
+        "4x - 2"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "a^2b^2 + 1",
+        "3ab^2 + 1",
+        "3ab^2 + b",
+        "3a^2b^2 + 1"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2 - 2x",
+        "4x^2y - 2x",
+        "4x - 2",
+        "2x^2 - x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3ab^2 + 1",
+        "a^2b^2 + 1",
+        "3a^2b^2 + 1",
+        "3ab^2 + b"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x - 2",
+        "4x^2y - 2x",
+        "4x^2 - 2x",
+        "2x^2 - x"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3a^2b^2 + 1",
+        "a^2b^2 + 1",
+        "3ab^2 + b",
+        "3ab^2 + 1"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "(12x^3y - 6x^2y)/(3xy) =",
+      "a": "4x^2 - 2x",
+      "options": [
+        "4x^2y - 2x",
+        "4x^2 - 2x",
+        "2x^2 - x",
+        "4x - 2"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử cho 3xy."
+    },
+    {
+      "q": "(9a^2b^3 + 3ab)/(3ab) =",
+      "a": "3ab^2 + 1",
+      "options": [
+        "3ab^2 + 1",
+        "3a^2b^2 + 1",
+        "a^2b^2 + 1",
+        "3ab^2 + b"
+      ],
+      "level": "VD",
+      "hint": "Chia từng hạng tử."
+    },
+    {
+      "q": "Điều kiện để (x^2 + 2x)/x xác định là:",
+      "a": "x ≠ 0",
+      "options": [
+        "x ≠ 1",
+        "x ≠ 0",
+        "x ≥ 0",
+        "x > 0"
+      ],
+      "level": "VC",
+      "hint": "Mẫu x → không được bằng 0."
+    },
+    {
+      "q": "Rút gọn (a^3b^2 - a^2b)/(ab)",
+      "a": "a^2b - a",
+      "options": [
+        "a^2b - a",
+        "a^2b^2 - a^2",
+        "ab - 1",
+        "a^2 - b"
+      ],
+      "level": "VC",
+      "hint": "Chia từng hạng tử cho ab."
+    },
+    {
+      "q": "Điều kiện để (x^2 + 2x)/x xác định là:",
+      "a": "x ≠ 0",
+      "options": [
+        "x > 0",
+        "x ≥ 0",
+        "x ≠ 0",
+        "x ≠ 1"
+      ],
+      "level": "VC",
+      "hint": "Mẫu x → không được bằng 0."
+    },
+    {
+      "q": "Rút gọn (a^3b^2 - a^2b)/(ab)",
+      "a": "a^2b - a",
+      "options": [
+        "a^2b - a",
+        "ab - 1",
+        "a^2b^2 - a^2",
+        "a^2 - b"
+      ],
+      "level": "VC",
+      "hint": "Chia từng hạng tử cho ab."
+    },
+    {
+      "q": "Điều kiện để (x^2 + 2x)/x xác định là:",
+      "a": "x ≠ 0",
+      "options": [
+        "x ≥ 0",
+        "x ≠ 0",
+        "x ≠ 1",
+        "x > 0"
+      ],
+      "level": "VC",
+      "hint": "Mẫu x → không được bằng 0."
+    },
+    {
+      "q": "Rút gọn (a^3b^2 - a^2b)/(ab)",
+      "a": "a^2b - a",
+      "options": [
+        "a^2 - b",
+        "a^2b - a",
+        "ab - 1",
+        "a^2b^2 - a^2"
+      ],
+      "level": "VC",
+      "hint": "Chia từng hạng tử cho ab."
+    },
+    {
+      "q": "Điều kiện để (x^2 + 2x)/x xác định là:",
+      "a": "x ≠ 0",
+      "options": [
+        "x > 0",
+        "x ≥ 0",
+        "x ≠ 0",
+        "x ≠ 1"
+      ],
+      "level": "VC",
+      "hint": "Mẫu x → không được bằng 0."
+    },
+    {
+      "q": "Rút gọn (a^3b^2 - a^2b)/(ab)",
+      "a": "a^2b - a",
+      "options": [
+        "a^2b - a",
+        "a^2b^2 - a^2",
+        "ab - 1",
+        "a^2 - b"
+      ],
+      "level": "VC",
+      "hint": "Chia từng hạng tử cho ab."
+    },
+    {
+      "q": "Điều kiện để (x^2 + 2x)/x xác định là:",
+      "a": "x ≠ 0",
+      "options": [
+        "x ≠ 0",
+        "x ≥ 0",
+        "x > 0",
+        "x ≠ 1"
+      ],
+      "level": "VC",
+      "hint": "Mẫu x → không được bằng 0."
+    },
+    {
+      "q": "Rút gọn (a^3b^2 - a^2b)/(ab)",
+      "a": "a^2b - a",
+      "options": [
+        "a^2 - b",
+        "ab - 1",
+        "a^2b^2 - a^2",
+        "a^2b - a"
+      ],
+      "level": "VC",
+      "hint": "Chia từng hạng tử cho ab."
+    }
+  ],
+  "TongHop": [
+    {
+      "q": "Bậc của đơn thức 7x^3y^1 là?",
+      "a": "4",
+      "options": [
+        "5",
+        "3",
+        "10",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -3x^2y^2 là?",
+      "a": "-3",
+      "options": [
+        "3",
+        "0",
+        "-3",
+        "-6"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 7x^3y^2:",
+      "a": "6x^3y^2",
+      "options": [
+        "6x^5",
+        "5x^3y^3",
+        "8x^4y^2",
+        "6x^3y^2"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 5x^2y^3 tại x=1, y=1.",
+      "a": "5",
+      "options": [
+        "7",
+        "6",
+        "4",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 8x^3y^2 là?",
+      "a": "5",
+      "options": [
+        "5",
+        "9",
+        "6",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -7x^1 là?",
+      "a": "-7",
+      "options": [
+        "-14",
+        "-7",
+        "7",
+        "0"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 4x^3y^2:",
+      "a": "-1x^3y^2",
+      "options": [
+        "-1x^3y^2",
+        "2x^5",
+        "9x^4y^2",
+        "7x^3y^3"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 5x^1y^2 tại x=1, y=3.",
+      "a": "45",
+      "options": [
+        "46",
+        "45",
+        "47",
+        "44"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 5x^3y^1 là?",
+      "a": "4",
+      "options": [
+        "10",
+        "4",
+        "3",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 2x^4y^1 là?",
+      "a": "2",
+      "options": [
+        "0",
+        "5",
+        "2",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 7x^3y^1:",
+      "a": "-3x^3y^1",
+      "options": [
+        "-3x^3y^1",
+        "6x^3y^2",
+        "8x^5",
+        "4x^4y^1"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 4x^2y^2 tại x=1, y=3.",
+      "a": "36",
+      "options": [
+        "36",
+        "35",
+        "37",
+        "38"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 7x^1y^3 là?",
+      "a": "4",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức -3x^3y^3 là?",
+      "a": "-3",
+      "options": [
+        "-6",
+        "3",
+        "0",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 9x^3y^3:",
+      "a": "2x^3y^3",
+      "options": [
+        "5x^3y^4",
+        "6x^5",
+        "2x^3y^3",
+        "2x^4y^3"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 2x^2y^3 tại x=2, y=3.",
+      "a": "216",
+      "options": [
+        "218",
+        "216",
+        "217",
+        "215"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Bậc của đơn thức 4x^3y^3 là?",
+      "a": "6",
+      "options": [
+        "5",
+        "6",
+        "9",
+        "7"
+      ],
+      "level": "NB",
+      "hint": "Bậc = tổng số mũ biến."
+    },
+    {
+      "q": "Hệ số của đơn thức 5x^2 là?",
+      "a": "5",
+      "options": [
+        "0",
+        "10",
+        "5",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Hệ số là số đứng trước phần biến."
+    },
+    {
+      "q": "Chọn đơn thức đồng dạng với 9x^2y^3:",
+      "a": "-5x^2y^3",
+      "options": [
+        "3x^4",
+        "9x^2y^4",
+        "2x^3y^3",
+        "-5x^2y^3"
+      ],
+      "level": "NB",
+      "hint": "Đồng dạng nếu có cùng phần biến (cùng biến, cùng số mũ)."
+    },
+    {
+      "q": "Tính giá trị đơn thức 3x^3y^3 tại x=2, y=1.",
+      "a": "24",
+      "options": [
+        "23",
+        "26",
+        "25",
+        "24"
+      ],
+      "level": "NB",
+      "hint": "Thay giá trị x,y vào đơn thức rồi tính."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2/x + 1",
+        "√x + 2",
+        "x^-1 + 3",
+        "2x^2 + 3x - 5"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^2 - 3x^1 + 1 là:",
+      "a": "2",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "8"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "5",
+        "2",
+        "0",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2/x + 1",
+        "√x + 2",
+        "2x^2 + 3x - 5",
+        "x^-1 + 3"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "5",
+        "0",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "2x^2 + 3x - 5",
+        "√x + 2",
+        "x^-1 + 3",
+        "2/x + 1"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^4 - 3x^3 + 1 là:",
+      "a": "4",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "3"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "0",
+        "2",
+        "5",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "√x + 2",
+        "x^-1 + 3",
+        "2/x + 1",
+        "2x^2 + 3x - 5"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^3 - 3x^2 + 1 là:",
+      "a": "3",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "0",
+        "-3",
+        "5"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Biểu thức nào là đa thức một biến x?",
+      "a": "2x^2 + 3x - 5",
+      "options": [
+        "x^-1 + 3",
+        "2x^2 + 3x - 5",
+        "2/x + 1",
+        "√x + 2"
+      ],
+      "level": "NB",
+      "hint": "Đa thức không có số mũ âm, phân thức hay căn bậc."
+    },
+    {
+      "q": "Bậc của đa thức x^4 - 3x^3 + 1 là:",
+      "a": "4",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "1"
+      ],
+      "level": "NB",
+      "hint": "Bậc là số mũ lớn nhất của biến."
+    },
+    {
+      "q": "Đa thức 3x^2 - 2x + 7 có bao nhiêu số hạng?",
+      "a": "3",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "level": "NB",
+      "hint": "Các hạng tử phân tách bởi + hoặc -."
+    },
+    {
+      "q": "Hệ số của x^2 trong đa thức 5x^2 - 3x + 2 là:",
+      "a": "5",
+      "options": [
+        "2",
+        "5",
+        "0",
+        "-3"
+      ],
+      "level": "NB",
+      "hint": "Hệ số đi kèm x^2."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "3x^2 + 4x",
+        "3x^2 + 2x",
+        "x^2 + 2x^2 - x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "8x - 6",
+        "-2x - 6",
+        "2x + 2",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2 + 2x",
+        "x^2",
+        "5x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x^2 - x",
+        "3x^2 + 4x",
+        "3x^2 + 2x",
+        "x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "-2x - 6",
+        "2x - 6",
+        "8x - 6",
+        "2x + 2"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2",
+        "5x^2 + 2x",
+        "x^2",
+        "5x^2 - 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "3x^2 + 4x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "-2x - 6",
+        "8x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 + 2x",
+        "x^2",
+        "5x^2",
+        "5x^2 - 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 4x",
+        "x^2 + 2x^2 - x",
+        "x^2 + 2x",
+        "3x^2 + 2x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x - 6",
+        "2x + 2",
+        "-2x - 6",
+        "8x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 + 2x",
+        "x^2",
+        "5x^2",
+        "5x^2 - 2x"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 4x",
+        "3x^2 + 2x",
+        "x^2 + 2x",
+        "x^2 + 2x^2 - x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "8x - 6",
+        "2x + 2",
+        "-2x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2",
+        "5x^2 + 2x",
+        "x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "3x^2 + 2x",
+        "x^2 + 2x^2 - x",
+        "x^2 + 2x",
+        "3x^2 + 4x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x + 2",
+        "8x - 6",
+        "-2x - 6",
+        "2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Rút gọn 2x^2 - x + 3x^2 + x",
+      "a": "5x^2",
+      "options": [
+        "5x^2 - 2x",
+        "5x^2",
+        "5x^2 + 2x",
+        "x^2"
+      ],
+      "level": "NB",
+      "hint": "Hệ số -x và +x triệt tiêu."
+    },
+    {
+      "q": "Tính (x^2 + 3x) + (2x^2 - x) =",
+      "a": "3x^2 + 2x",
+      "options": [
+        "x^2 + 2x",
+        "3x^2 + 2x",
+        "3x^2 + 4x",
+        "x^2 + 2x^2 - x"
+      ],
+      "level": "NB",
+      "hint": "Cộng hệ số của các hạng tử đồng dạng."
+    },
+    {
+      "q": "Tính (5x - 2) - (3x + 4) =",
+      "a": "2x - 6",
+      "options": [
+        "2x - 6",
+        "2x + 2",
+        "8x - 6",
+        "-2x - 6"
+      ],
+      "level": "NB",
+      "hint": "Đổi dấu đa thức thứ hai rồi cộng."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + 1",
+        "x^2 - x + 1",
+        "x^2 + x - 1",
+        "x^2 - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + 1",
+        "x^2 + x - 1",
+        "x^2 - 1",
+        "x^2 - x + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 5",
+        "x^2 + 3x + 2",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + 1",
+        "x^2 + x - 1",
+        "x^2 - x + 1",
+        "x^2 - 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 3x + 9",
+        "x^2 + 6x + 9",
+        "x^2 + 9",
+        "x^2 + 9x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 3x + 2",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 5",
+        "x^2 + 5x + 6"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - 1",
+        "x^2 + x - 1",
+        "x^2 - x + 1",
+        "x^2 + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - 1",
+        "x^2 + x - 1",
+        "x^2 + 1",
+        "x^2 - x + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 9",
+        "x^2 + 3x + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 6x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 5x + 6",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 - x + 1",
+        "x^2 - 1",
+        "x^2 + x - 1",
+        "x^2 + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một tổng: (x + 3)^2",
+      "a": "x^2 + 6x + 9",
+      "options": [
+        "x^2 + 6x + 9",
+        "x^2 + 9x + 9",
+        "x^2 + 9",
+        "x^2 + 3x + 9"
+      ],
+      "level": "NB",
+      "hint": "(a+b)^2=a^2+2ab+b^2."
+    },
+    {
+      "q": "Tính (x + 2)(x + 3)",
+      "a": "x^2 + 5x + 6",
+      "options": [
+        "x^2 + 5x + 6",
+        "x^2 + 5x + 5",
+        "x^2 + 6x + 5",
+        "x^2 + 3x + 2"
+      ],
+      "level": "NB",
+      "hint": "Nhân phân phối hoặc FOIL."
+    },
+    {
+      "q": "Tính (x - 1)(x + 1)",
+      "a": "x^2 - 1",
+      "options": [
+        "x^2 + 1",
+        "x^2 + x - 1",
+        "x^2 - 1",
+        "x^2 - x + 1"
+      ],
+      "level": "NB",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Vì sao 2x^2y^2 và -5x^2y^2 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Đều dương",
+        "Giá trị bằng nhau",
+        "Cùng phần biến",
+        "Cùng hệ số"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 3x^4 và 3x^5 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Có",
+        "Phụ thuộc x",
+        "Không xác định",
+        "Không"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^2y^1 là:",
+      "a": "3",
+      "options": [
+        "10",
+        "3",
+        "1",
+        "2"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^2y^2 và -5x^2y^2 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Đều dương",
+        "Cùng hệ số",
+        "Cùng phần biến",
+        "Giá trị bằng nhau"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^5 và 4x^6 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Phụ thuộc x",
+        "Không xác định",
+        "Không",
+        "Có"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^2y^1 là:",
+      "a": "3",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "6"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^1y^1 và -5x^1y^1 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Giá trị bằng nhau",
+        "Đều dương",
+        "Cùng phần biến",
+        "Cùng hệ số"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^6 và 4x^7 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Phụ thuộc x",
+        "Có",
+        "Không",
+        "Không xác định"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^1y^2 là:",
+      "a": "3",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "3"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^3y^3 và -5x^3y^3 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng hệ số",
+        "Đều dương",
+        "Giá trị bằng nhau",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 4x^6 và 4x^7 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không xác định",
+        "Phụ thuộc x",
+        "Không",
+        "Có"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^3y^1 là:",
+      "a": "4",
+      "options": [
+        "7",
+        "1",
+        "3",
+        "4"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Vì sao 2x^1y^1 và -5x^1y^1 là đồng dạng?",
+      "a": "Cùng phần biến",
+      "options": [
+        "Cùng hệ số",
+        "Giá trị bằng nhau",
+        "Đều dương",
+        "Cùng phần biến"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng nếu cùng phần biến (kể cả khác hệ số)."
+    },
+    {
+      "q": "Đơn thức 3x^4 và 3x^5 có đồng dạng không?",
+      "a": "Không",
+      "options": [
+        "Không",
+        "Phụ thuộc x",
+        "Không xác định",
+        "Có"
+      ],
+      "level": "TH",
+      "hint": "Khác số mũ → khác phần biến → không đồng dạng."
+    },
+    {
+      "q": "Bậc của đơn thức x^3y^3 là:",
+      "a": "6",
+      "options": [
+        "3",
+        "9",
+        "2",
+        "6"
+      ],
+      "level": "TH",
+      "hint": "Bậc = tổng số mũ."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x + 2025",
+        "x^4 - x + 1",
+        "2x^2 + 5",
+        "x^3 + x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "2x - 3x^3 + 7",
+        "-3x + 7 + 2x^3",
+        "7 - 3x + 2x^3",
+        "2x^3 - 3x + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2 + 4",
+        "3x^2",
+        "3x + 4",
+        "4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^4 - x + 1",
+        "x + 2025",
+        "2x^2 + 5",
+        "x^3 + x + 1"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "-3x + 7 + 2x^3",
+        "2x^3 - 3x + 7",
+        "2x - 3x^3 + 7",
+        "7 - 3x + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "4",
+        "3x^2 + 4",
+        "3x^2",
+        "3x + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^3 + x + 1",
+        "2x^2 + 5",
+        "x^4 - x + 1",
+        "x + 2025"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "2x^3 - 3x + 7",
+        "-3x + 7 + 2x^3",
+        "7 - 3x + 2x^3",
+        "2x - 3x^3 + 7"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "4",
+        "3x^2 + 4",
+        "3x + 4",
+        "3x^2"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^3 + x + 1",
+        "x^4 - x + 1",
+        "2x^2 + 5",
+        "x + 2025"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "2x - 3x^3 + 7",
+        "-3x + 7 + 2x^3",
+        "2x^3 - 3x + 7",
+        "7 - 3x + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "4",
+        "3x^2",
+        "3x + 4",
+        "3x^2 + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Đa thức nào có bậc cao hơn?",
+      "a": "x^4 - x + 1",
+      "options": [
+        "x^3 + x + 1",
+        "x^4 - x + 1",
+        "x + 2025",
+        "2x^2 + 5"
+      ],
+      "level": "TH",
+      "hint": "So bậc = số mũ lớn nhất."
+    },
+    {
+      "q": "Đa thức 2x^3 - 3x + 7 sắp xếp theo lũy thừa giảm dần là:",
+      "a": "2x^3 - 3x + 7",
+      "options": [
+        "-3x + 7 + 2x^3",
+        "2x^3 - 3x + 7",
+        "2x - 3x^3 + 7",
+        "7 - 3x + 2x^3"
+      ],
+      "level": "TH",
+      "hint": "Giảm dần theo số mũ: x^3, x^2, x, hằng số."
+    },
+    {
+      "q": "Đa thức 3x^2 + 0x + 4 bằng với:",
+      "a": "3x^2 + 4",
+      "options": [
+        "3x^2",
+        "3x^2 + 4",
+        "4",
+        "3x + 4"
+      ],
+      "level": "TH",
+      "hint": "0x = 0, bỏ đi."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "x^3",
+        "7x^2",
+        "4x",
+        "7x"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 2",
+        "a^2 + 2",
+        "2a + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "-x - 3",
+        "-x + 3",
+        "3 - x^2",
+        "x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "x^3",
+        "7x",
+        "4x",
+        "7x^2"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 4a + 2",
+        "2a + 2",
+        "a^2 + 2",
+        "2a^2 + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "-x + 3",
+        "3 - x^2",
+        "x + 3",
+        "-x - 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x",
+        "4x",
+        "x^3",
+        "7x^2"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a + 2",
+        "2a^2 + 2",
+        "a^2 + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "3 - x^2",
+        "x + 3",
+        "-x + 3",
+        "-x - 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "4x",
+        "x^3",
+        "7x",
+        "7x^2"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 2",
+        "2a^2 + 4a + 2",
+        "a^2 + 2",
+        "2a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "-x + 3",
+        "3 - x^2",
+        "-x - 3",
+        "x + 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Hạng tử đồng dạng với 4x^2 là:",
+      "a": "7x^2",
+      "options": [
+        "7x^2",
+        "7x",
+        "4x",
+        "x^3"
+      ],
+      "level": "TH",
+      "hint": "Đồng dạng: cùng biến, cùng số mũ."
+    },
+    {
+      "q": "(a^2 - 2a + 1) + (a^2 + 2a + 1) =",
+      "a": "2a^2 + 2",
+      "options": [
+        "2a^2 + 2",
+        "2a + 2",
+        "a^2 + 2",
+        "2a^2 + 4a + 2"
+      ],
+      "level": "TH",
+      "hint": "Cộng từng hạng tử đồng dạng."
+    },
+    {
+      "q": "Đổi dấu đa thức (x - 3) ta được:",
+      "a": "-x + 3",
+      "options": [
+        "-x + 3",
+        "3 - x^2",
+        "x + 3",
+        "-x - 3"
+      ],
+      "level": "TH",
+      "hint": "Đổi dấu mọi hạng tử."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 + 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 6x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 7x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "2xy",
+        "x^2 - 2xy + y^2",
+        "x^2 - y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 - 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 6x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 7x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "x^2 - 2xy + y^2",
+        "x^2 - y^2",
+        "2xy"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 + 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 - 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "x^2 + 7x + 3",
+        "2x^2 + 6x + 3",
+        "2x^2 + 5x + 3",
+        "2x^2 + 7x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "2xy",
+        "x^2 - 2xy + y^2",
+        "x^2 - y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 16",
+        "y^2 + 8y + 16",
+        "y^2 - 8y + 16",
+        "y^2 - 4y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 7x + 3",
+        "2x^2 + 6x + 3",
+        "x^2 + 7x + 3",
+        "2x^2 + 5x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 - 2xy + y^2",
+        "x^2 + y^2",
+        "x^2 - y^2",
+        "2xy"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Bình phương một hiệu: (y - 4)^2",
+      "a": "y^2 - 8y + 16",
+      "options": [
+        "y^2 - 8y + 16",
+        "y^2 - 4y + 16",
+        "y^2 - 16",
+        "y^2 + 8y + 16"
+      ],
+      "level": "TH",
+      "hint": "(a-b)^2=a^2-2ab+b^2."
+    },
+    {
+      "q": "(2x + 1)(x + 3)",
+      "a": "2x^2 + 7x + 3",
+      "options": [
+        "2x^2 + 6x + 3",
+        "2x^2 + 5x + 3",
+        "2x^2 + 7x + 3",
+        "x^2 + 7x + 3"
+      ],
+      "level": "TH",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "(x + y)(x - y)",
+      "a": "x^2 - y^2",
+      "options": [
+        "x^2 + y^2",
+        "2xy",
+        "x^2 - 2xy + y^2",
+        "x^2 - y^2"
+      ],
+      "level": "TH",
+      "hint": "Hiệu hai bình phương."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 4x và rộng 2y là:",
+      "a": "8xy",
+      "options": [
+        "8x^2y^2",
+        "8x+y",
+        "6xy",
+        "8xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 2x là:",
+      "a": "8x^3",
+      "options": [
+        "8x^2",
+        "6x^2",
+        "4x^2",
+        "8x^3"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=4x và t=2y là:",
+      "a": "8xy",
+      "options": [
+        "8xy",
+        "6xy",
+        "8x^2y",
+        "8x+y"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 2x và rộng 3y là:",
+      "a": "6xy",
+      "options": [
+        "5xy",
+        "6x+y",
+        "6x^2y^2",
+        "6xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 2x là:",
+      "a": "8x^3",
+      "options": [
+        "4x^2",
+        "8x^2",
+        "6x^2",
+        "8x^3"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=4x và t=2y là:",
+      "a": "8xy",
+      "options": [
+        "8xy",
+        "8x+y",
+        "6xy",
+        "8x^2y"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 2x và rộng 4y là:",
+      "a": "8xy",
+      "options": [
+        "6xy",
+        "8x^2y^2",
+        "8x+y",
+        "8xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Thể tích hình lập phương cạnh 3x là:",
+      "a": "27x^3",
+      "options": [
+        "27x^2",
+        "27x^3",
+        "9",
+        "9x^2"
+      ],
+      "level": "VD",
+      "hint": "V = (cạnh)^3."
+    },
+    {
+      "q": "Quãng đường s với v=2x và t=2y là:",
+      "a": "4xy",
+      "options": [
+        "4x+y",
+        "4x^2y",
+        "8",
+        "4xy"
+      ],
+      "level": "VD",
+      "hint": "s = v × t."
+    },
+    {
+      "q": "Diện tích hình chữ nhật có dài 3x và rộng 2y là:",
+      "a": "6xy",
+      "options": [
+        "6x+y",
+        "5xy",
+        "6x^2y^2",
+        "6xy"
+      ],
+      "level": "VD",
+      "hint": "S = dài × rộng."
+    },
+    {
+      "q": "Tính giá trị đa thức 3x^2 - 3x + 2 tại x=3.",
+      "a": "20",
+      "options": [
+        "19",
+        "21",
+        "20",
+        "22"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "-1",
+        "8",
+        "9",
+        "6"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 5x^2 - 3x + 2 tại x=0.",
+      "a": "2",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "-1"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 5x^2 - 3x + 2 tại x=-2.",
+      "a": "28",
+      "options": [
+        "29",
+        "28",
+        "27",
+        "30"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "8",
+        "6",
+        "-1",
+        "9"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 3x^2 - 3x + 2 tại x=0.",
+      "a": "2",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "-1",
+        "8",
+        "6",
+        "9"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Tính giá trị đa thức 4x^2 - 3x + 2 tại x=3.",
+      "a": "29",
+      "options": [
+        "29",
+        "28",
+        "30",
+        "31"
+      ],
+      "level": "VD",
+      "hint": "Thay x vào và tính."
+    },
+    {
+      "q": "Nếu P(x)=x^2 - 1, thì P(3) là:",
+      "a": "8",
+      "options": [
+        "9",
+        "-1",
+        "8",
+        "6"
+      ],
+      "level": "VD",
+      "hint": "P(3)=3^2 - 1."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 6",
+        "2x + 10",
+        "x^2 + 5x + 6",
+        "2x + 5"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "x^2 - 2x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 6",
+        "x^2 + 5x + 6",
+        "2x + 10",
+        "2x + 5"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 - 2x + 3",
+        "3x^2 - 2x - 3",
+        "3x^2 + 4x - 3",
+        "x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 5",
+        "x^2 + 5x + 6",
+        "2x + 6",
+        "2x + 10"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "x^2 - 2x - 3",
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "2x + 10",
+        "x^2 + 5x + 6",
+        "2x + 5",
+        "2x + 6"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 - 2x - 3",
+        "x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Chu vi hình chữ nhật có các cạnh (x+2) và (x+3) là:",
+      "a": "2x + 10",
+      "options": [
+        "x^2 + 5x + 6",
+        "2x + 10",
+        "2x + 5",
+        "2x + 6"
+      ],
+      "level": "VD",
+      "hint": "P=2(a+b)=2(x+2+x+3)."
+    },
+    {
+      "q": "Rút gọn (2x^2 - 3x + 1) + (x^2 + x - 4)",
+      "a": "3x^2 - 2x - 3",
+      "options": [
+        "3x^2 + 4x - 3",
+        "3x^2 - 2x + 3",
+        "3x^2 - 2x - 3",
+        "x^2 - 2x - 3"
+      ],
+      "level": "VD",
+      "hint": "Cộng hệ số theo từng bậc."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 - 7x - 15",
+        "x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 - 7x - 15",
+        "2x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 7x - 15",
+        "x^2 + 7x - 15",
+        "2x^2 + 10x - 3",
+        "2x^2 - 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 + 7x - 15",
+        "2x^2 - 7x - 15",
+        "2x^2 + 10x - 3",
+        "x^2 + 7x - 15"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + x^2 + x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 3x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tính (2x - 3)(x + 5)",
+      "a": "2x^2 + 7x - 15",
+      "options": [
+        "2x^2 - 7x - 15",
+        "x^2 + 7x - 15",
+        "2x^2 + 7x - 15",
+        "2x^2 + 10x - 3"
+      ],
+      "level": "VD",
+      "hint": "Nhân phân phối từng hạng."
+    },
+    {
+      "q": "Tính (x + 2)(x^2 + x + 1)",
+      "a": "x^3 + 3x^2 + 3x + 2",
+      "options": [
+        "x^3 + 3x^2 + 3x + 2",
+        "x^3 + 2x^2 + 2x + 2",
+        "x^3 + 3x^2 + x + 2",
+        "x^3 + x^2 + x + 2"
+      ],
+      "level": "VD",
+      "hint": "Nhân đa thức bậc 1 với bậc 2."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 12.",
+      "a": "x=±2",
+      "options": [
+        "x=±2",
+        "x=-2",
+        "x=2",
+        "x=±3"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Chỉ x chẵn",
+        "Sai",
+        "Chỉ x lẻ",
+        "Đúng"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 147.",
+      "a": "x=±7",
+      "options": [
+        "x=±7",
+        "x=±8",
+        "x=7",
+        "x=-7"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "x(x+1)(x+2) chia hết cho 6 với mọi x nguyên?",
+      "a": "Đúng",
+      "options": [
+        "Chỉ x lẻ",
+        "Sai",
+        "Đúng",
+        "Chỉ x chẵn"
+      ],
+      "level": "VC",
+      "hint": "Ba số nguyên liên tiếp luôn có bội 2 và bội 3."
+    },
+    {
+      "q": "Tìm x (nguyên) để 3x^2 = 108.",
+      "a": "x=±6",
+      "options": [
+        "x=6",
+        "x=±6",
+        "x=-6",
+        "x=±7"
+      ],
+      "level": "VC",
+      "hint": "Giải 3x^2 = 3·m^2 ⇒ x^2 = m^2 ⇒ x=±m."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "Không tồn tại",
+        "m=-1",
+        "m=1",
+        "m=0"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 3x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "Không tồn tại",
+        "m=-3",
+        "m=1",
+        "m=0"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 2x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "Không tồn tại",
+        "m=0",
+        "m=-2",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 1x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "m=-1",
+        "Không tồn tại",
+        "m=0",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm m để đa thức 3x + m bằng 0 với mọi x?",
+      "a": "Không tồn tại",
+      "options": [
+        "Không tồn tại",
+        "m=-3",
+        "m=0",
+        "m=1"
+      ],
+      "level": "VC",
+      "hint": "Đa thức đồng 0 phải có mọi hệ số đều 0. {a}≠0."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=-1",
+        "Mọi k",
+        "k=0",
+        "k=1"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=0",
+        "Mọi k",
+        "k=1",
+        "k=-1"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=0",
+        "k=-1",
+        "Mọi k",
+        "k=1"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "Mọi k",
+        "k=0",
+        "k=-1",
+        "k=1"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Tìm k để (x^2 + kx + 1) + (x^2 - kx + 1) = 2x^2 + 2",
+      "a": "Mọi k",
+      "options": [
+        "k=-1",
+        "k=0",
+        "k=1",
+        "Mọi k"
+      ],
+      "level": "VC",
+      "hint": "Hai hạng kx và -kx triệt tiêu với mọi k."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "4xy",
+        "x^2 - y^2",
+        "2xy",
+        "0"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Đúng",
+        "Sai",
+        "Chỉ đúng với x nguyên",
+        "Chỉ đúng với x>0"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "0",
+        "x^2 - y^2",
+        "2xy",
+        "4xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    },
+    {
+      "q": "Chứng minh (x - 1)(x + 1)(x^2 + 1) = x^4 - 1",
+      "a": "Đúng",
+      "options": [
+        "Chỉ đúng với x>0",
+        "Chỉ đúng với x nguyên",
+        "Đúng",
+        "Sai"
+      ],
+      "level": "VC",
+      "hint": "Nhân từng cặp: (x^2-1)(x^2+1)=x^4-1."
+    },
+    {
+      "q": "Rút gọn (x + y)^2 - (x - y)^2",
+      "a": "4xy",
+      "options": [
+        "x^2 - y^2",
+        "2xy",
+        "0",
+        "4xy"
+      ],
+      "level": "VC",
+      "hint": "Dùng hằng đẳng thức, kết quả 4xy."
+    }
+  ]
+}
