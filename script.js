@@ -171,3 +171,39 @@ document.getElementById("btn-start").addEventListener("click", () => {
   document.getElementById("playerNick").textContent = nick;
   switchScreen("menu-screen");
 });
+// ================== EVENT BINDINGS ==================
+window.addEventListener("DOMContentLoaded", () => {
+  const btnPractice = document.getElementById("btn-practice");
+  const btnArena = document.getElementById("btn-arena");
+  const btnLeaderboard = document.getElementById("btn-leaderboard");
+  const btnHome = document.getElementById("btn-home");
+  const btnLbBack = document.getElementById("btn-lb-back");
+  const btnBackMenu = document.getElementById("btn-back-menu");
+  const btnStart = document.getElementById("btn-start");
+
+  if (btnPractice) btnPractice.addEventListener("click", () => startQuiz("practice"));
+  if (btnArena) btnArena.addEventListener("click", () => startQuiz("arena"));
+  if (btnLeaderboard) btnLeaderboard.addEventListener("click", () => {
+    loadLeaderboard();
+    switchScreen("leaderboard-screen");
+  });
+  if (btnHome) btnHome.addEventListener("click", () => switchScreen("menu-screen"));
+  if (btnLbBack) btnLbBack.addEventListener("click", () => switchScreen("menu-screen"));
+  if (btnBackMenu) btnBackMenu.addEventListener("click", () => switchScreen("menu-screen"));
+
+  if (btnStart) btnStart.addEventListener("click", () => {
+    const name = document.getElementById("fullname").value;
+    const clazz = document.getElementById("classname").value;
+    const nick = document.getElementById("nickname").value;
+    if (!name || !clazz || !nick) {
+      alert("Vui lòng nhập đầy đủ thông tin!");
+      return;
+    }
+    localStorage.setItem("fullname", name);
+    localStorage.setItem("classname", clazz);
+    localStorage.setItem("nickname", nick);
+    document.getElementById("playerName").textContent = `${name} (${clazz})`;
+    document.getElementById("playerNick").textContent = nick;
+    switchScreen("menu-screen");
+  });
+});
