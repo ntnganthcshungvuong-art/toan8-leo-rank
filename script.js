@@ -314,17 +314,19 @@ function showMenu(){ updateProfileUI(); show("menu-screen"); }
 
 // ========= SỰ KIỆN =========
 window.addEventListener("DOMContentLoaded", ()=>{
-  $("#btn-start").addEventListener("click", login);
-  $("#btn-logout").addEventListener("click", logout);
-  $("#btn-audio-login").addEventListener("click", toggleAudio);
-  $("#btn-audio-top").addEventListener("click", toggleAudio);
+  document.getElementById("btn-start").addEventListener("click", login);
+  document.getElementById("btn-logout").addEventListener("click", logout);
+  document.getElementById("btn-audio-login").addEventListener("click", toggleAudio);
+  document.getElementById("btn-audio-top").addEventListener("click", toggleAudio);
 
-  $("#btn-practice").addEventListener("click", startPractice);
-  $("#btn-arena").addEventListener("click", startArena);
-  $("#btn-leaderboard").addEventListener("click", showLeaderboard);
+  document.getElementById("btn-practice").addEventListener("click", startPractice);
+  document.getElementById("btn-arena").addEventListener("click", startArena);
+  document.getElementById("btn-leaderboard").addEventListener("click", showLeaderboard);
 
-  $("#btn-home").addEventListener("click", showMenu);
-  $("#btn-back-menu").addEventListener("click", showMenu);
-  $("#btn-lb-back").addEventListener("click", showMenu);
-  $("#nextBtn").addEventListener("click", nextQuestion);
+  document.getElementById("btn-home").addEventListener("click", showMenu);
+  document.getElementById("btn-back-menu").addEventListener("click", showMenu);
+  document.getElementById("btn-lb-back").addEventListener("click", showMenu);
+  document.getElementById("nextBtn").addEventListener("click", nextQuestion);
+});
+
 });
