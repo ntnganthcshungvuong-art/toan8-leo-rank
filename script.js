@@ -19,6 +19,12 @@ const sounds = {
   win: new Audio("win.mp3")
 };
 
+Object.values(sounds).forEach(s => {
+  s.load(); // nạp sẵn
+});
+
+};
+
 // ========== HÀM HỖ TRỢ ==========
 function playSound(type) {
   if (soundOn && sounds[type]) {
@@ -29,7 +35,14 @@ function playSound(type) {
 
 function toggleAudio() {
   soundOn = !soundOn;
-  alert(soundOn ? "Âm thanh: BẬT" : "Âm thanh: TẮT");
+  if (soundOn) {
+    alert("Âm thanh: BẬT");
+    playSound("click"); // test phát tiếng ngay
+  } else {
+    alert("Âm thanh: TẮT");
+  }
+}
+
 }
 
 function saveUser(user) {
@@ -52,9 +65,10 @@ function updateProfileUI() {
 
 // ========== ĐĂNG NHẬP / ĐĂNG XUẤT ==========
 function login() {
-  const name = document.getElementById("name").value.trim();
-  const cls = document.getElementById("class").value;
+  const name = document.getElementById("fullname").value.trim();
+  const cls = document.getElementById("classname").value;
   const nickname = document.getElementById("nickname").value.trim();
+
 
   if (!name || !cls || !nickname) {
     alert("Vui lòng nhập đủ thông tin!");
