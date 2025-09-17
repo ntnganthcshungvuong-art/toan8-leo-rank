@@ -6,38 +6,41 @@ let score=0, timer=null, timeLeft=59, mode="practice", audioOn=true;
 const $=id=>document.querySelector(id);
 
 const snd={
-  click:new Audio("sounds/click.mp3"),
-  correct:new Audio("sounds/correct.mp3"),
-  wrong:new Audio("sounds/wrong.mp3"),
-  timeout:new Audio("sounds/timeout.mp3")
+  click:new Audio("click.mp3"),
+  correct:new Audio("correct.mp3"),
+  wrong:new Audio("wrong.mp3"),
+  timeout:new Audio("timeout.mp3")
 };
 
 function play(a){ if(audioOn){a.currentTime=0; a.play();} }
 function toggleAudio(){audioOn=!audioOn; alert("Âm thanh "+(audioOn?"bật":"tắt"));}
 
-function supify(s){
-  return (s||"").replace(/([a-zA-Z0-9\)])\^(\d+)/g,'$1<sup>$2</sup>');
-}
+function supify(s){return (s||"").replace(/([a-zA-Z0-9\)])\^(\d+)/g,'$1<sup>$2</sup>');}
 
-function show(id){
-  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
-  $(id).classList.add("active");
-}
+function show(id){document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));$(id).classList.add("active");}
 
 function login(){
   const fullname=$("#fullname").value.trim();
   const clazz=$("#class").value;
   const nickname=$("#nickname").value.trim();
   if(!fullname||!clazz||!nickname){alert("Nhập đủ thông tin!");return;}
-  currentUser={fullname,clazz,nickname};
+  currentUser={fullname,clazz,nickname,score:0};
   $("#userInfo").innerText=`${fullname} - ${clazz} (${nickname})`;
+  updateAvatar(0);
   show("#menuScreen");
 }
-
 function logout(){currentUser=null;show("#loginScreen");}
 
+function updateAvatar(score){
+  let img="basic.png";
+  if(score>=50) img="bac.png";
+  if(score>=100) img="gold.png";
+  if(score>=150) img="diamond.png";
+  $("#avatar").src=img;
+}
+
 async function loadQuestions(){
-  const res=await fetch("questions_mix13.json");
+  const res=await fetch("questions_chap1.json");
   return await res.json();
 }
 
@@ -54,7 +57,8 @@ async function startArena(){
 
 function nextQuestion(){
   if(currentIndex>0){
-    if(selectedAnswer===questions[currentIndex-1].answer) {score++;}
+    if(selectedAnswer===questions[currentIndex-1].answer){score++;play(snd.correct);}
+    else play(snd.wrong);
   }
   if(currentIndex>=questions.length){endQuiz();return;}
   const q=questions[currentIndex];
@@ -66,12 +70,8 @@ function nextQuestion(){
     el.innerHTML=supify(opt);
     el.onclick=()=>{
       play(snd.click);
-      if(el.classList.contains("selected")){
-        el.classList.remove("selected");selectedAnswer=null;
-      } else {
-        document.querySelectorAll("#answers .answer").forEach(a=>a.classList.remove("selected"));
-        el.classList.add("selected");selectedAnswer=opt;
-      }
+      document.querySelectorAll("#answers .answer").forEach(a=>a.classList.remove("selected"));
+      el.classList.add("selected");selectedAnswer=opt;
     };
     box.appendChild(el);
   });
@@ -96,15 +96,14 @@ function endQuiz(){
   $("#resultText").innerText=text;
   show("#resultScreen");
   if(mode==="arena"){submitResult(score,total);}
+  updateAvatar(score);
 }
 
 function showMenu(){show("#menuScreen");}
 
 async function submitResult(sc,total){
-  const payload={fullname:currentUser.fullname,clazz:currentUser.clazz,nickname:currentUser.nickname,score:(sc/total*10).toFixed(1),total:total,timestamp:new Date().toLocaleString()};
-  try{
-    await fetch(API_URL,{method:"POST",body:JSON.stringify(payload)});
-  }catch(e){console.error(e);}
+  const payload={fullname:currentUser.fullname,clazz:currentUser.clazz,nickname:currentUser.nickname,score:(sc/total*10).toFixed(1)};
+  try{await fetch(API_URL,{method:"POST",body:JSON.stringify(payload)});}catch(e){console.error(e);}
 }
 
 async function showLeaderboard(){
