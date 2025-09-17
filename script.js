@@ -120,6 +120,11 @@ async function loadQuestions(){
   if(allQuestions.length) return allQuestions;
   const res = await fetch(QUESTION_FILE);
   const data = await res.json();
+questions = [];
+for (let key in data) {
+  questions = questions.concat(data[key]);
+}
+
   // chuẩn hóa: {question, options[], answer, level}
   allQuestions = data.map(q => ({
     question: supify(q.question),
