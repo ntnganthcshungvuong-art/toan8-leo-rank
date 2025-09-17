@@ -1,66 +1,124 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Toán 8 - Leo Rank</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Đăng nhập -->
-  <div id="loginScreen" class="screen active">
-    <div class="login-card">
-      <h2>Đăng nhập</h2>
-      <input id="fullname" placeholder="Họ và tên" class="input-box">
-      <select id="class" class="input-box">
-        <option value="">-- Chọn lớp --</option>
-        <option>8A1</option><option>8A2</option><option>8A3</option>
-        <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
-      </select>
-      <input id="nickname" placeholder="Biệt danh" class="input-box">
-      <button class="btn-main" onclick="login()">BẮT ĐẦU</button>
-    </div>
-  </div>
+  <!-- ========== LOGIN ========== -->
+  <section id="login-screen" class="screen active">
+    <div class="card glass login-card">
+      <h1 class="brand">🎮 TOÁN 8 – LEO RANK</h1>
+      <p class="sub">Học vui như game – leo rank nhận avatar xịn!</p>
 
-  <!-- Menu -->
-  <div id="menuScreen" class="screen">
-    <div class="topbar">
-      <img id="avatar" src="basic.png" alt="avatar">
-      <span id="userInfo"></span>
-      <button onclick="logout()">Đăng xuất</button>
-      <button onclick="toggleAudio()">🔊</button>
-    </div>
-    <h2>Trang chủ</h2>
-    <div class="menu-buttons">
-      <button class="btn-card" onclick="startPractice()">Luyện tập</button>
-      <button class="btn-card" onclick="startArena()">Đấu Trường</button>
-      <button class="btn-card" onclick="showLeaderboard()">Bảng xếp hạng</button>
-    </div>
-  </div>
+      <div class="input-row">
+        <input id="fullname" class="input" placeholder="Họ và tên" />
+        <select id="classname" class="input">
+          <option value="">— LỚP (8A1–8A7) —</option>
+          <option>8A1</option><option>8A2</option><option>8A3</option>
+          <option>8A4</option><option>8A5</option><option>8A6</option><option>8A7</option>
+        </select>
+        <input id="nickname" class="input" placeholder="Biệt danh" />
+      </div>
 
-  <!-- Quiz -->
-  <div id="quizScreen" class="screen">
-    <div id="timerBar"></div>
-    <div id="questionBox" class="card question-box"></div>
-    <div id="answers"></div>
-    <button id="nextBtn" class="btn-main" onclick="nextQuestion()">Câu tiếp</button>
-  </div>
-
-  <!-- Kết quả -->
-  <div id="resultScreen" class="screen">
-    <div class="card">
-      <h2>Kết quả</h2>
-      <div id="resultText"></div>
-      <button class="btn-main" onclick="showMenu()">Về trang chủ</button>
+      <div class="actions">
+        <button id="btn-start" class="btn btn-3d btn-primary">BẮT ĐẦU</button>
+        <button id="btn-audio-login" class="btn btn-small">🔊</button>
+      </div>
+      <p class="hint">Thông tin sẽ lưu trên máy để lần sau tự điền. Có thể Đăng xuất khi đổi người chơi.</p>
     </div>
-  </div>
+  </section>
 
-  <!-- BXH -->
-  <div id="leaderboardScreen" class="screen">
-    <h2>Bảng xếp hạng Top 10</h2>
-    <table id="leaderboardTable"></table>
-    <button class="btn-main" onclick="showMenu()">Về trang chủ</button>
-  </div>
+  <!-- ========== MENU ========== -->
+  <section id="menu-screen" class="screen">
+    <header class="topbar glass">
+      <div class="profile">
+        <div class="avatar-wrap">
+          <img id="playerAvatar" class="avatar" src="basic.png" alt="avatar"/>
+          <span id="rankGlow" class="rank-glow"></span>
+        </div>
+        <div class="pinfo">
+          <div id="playerName" class="pname"></div>
+          <div id="playerNick" class="pnick"></div>
+          <div class="badges">
+            <span id="playerRank" class="badge">Đồng</span>
+            <span id="playerPos" class="badge dim">#– trên BXH</span>
+          </div>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button id="btn-audio-top" class="btn btn-small">🔊</button>
+        <button id="btn-logout" class="btn btn-small">Đăng xuất</button>
+      </div>
+    </header>
+
+    <main class="menu-grid">
+      <div class="menu-left">
+        <button id="btn-practice" class="btn btn-3d btn-mode btn-blue">
+          📝 Luyện Tập
+          <span class="desc">10 câu – phản hồi động viên</span>
+        </button>
+      </div>
+      <div class="menu-right">
+        <button id="btn-arena" class="btn btn-3d btn-mode btn-red">
+          ⚔️ Đấu Trường
+          <span class="desc">20 câu – tính điểm & leo rank</span>
+        </button>
+      </div>
+      <div class="menu-center">
+        <button id="btn-leaderboard" class="btn btn-3d btn-secondary">🏆 Bảng xếp hạng</button>
+      </div>
+      <div class="menu-banner">
+        <div class="marquee"><span id="countdownText">⏳ …</span></div>
+      </div>
+    </main>
+  </section>
+
+  <!-- ========== QUIZ ========== -->
+  <section id="quiz-screen" class="screen">
+    <div class="quiz-top">
+      <button id="btn-home" class="btn btn-small">🏠 Menu</button>
+      <div id="timerWrap"><div id="timerBar"></div><div id="timerText">59s</div></div>
+      <div id="progressText" class="progress">Câu 1/10</div>
+    </div>
+
+    <div class="card glass quiz-card">
+      <div id="questionBox" class="answer question-box"></div>
+      <div id="answers" class="answers"></div>
+    </div>
+
+    <div class="actions">
+      <button id="nextBtn" class="btn btn-3d btn-primary">Câu tiếp ➜</button>
+    </div>
+  </section>
+
+  <!-- ========== RESULT ========== -->
+  <section id="result-screen" class="screen">
+    <div class="card glass result-card">
+      <h2>KẾT QUẢ</h2>
+      <div id="resultText" class="result-text"></div>
+      <div id="luckyText" class="lucky hidden">🎁 Bạn trúng <b>Lucky Event</b> 1% – mở khóa avatar hiếm & thưởng rank!</div>
+      <div class="actions">
+        <button id="btn-back-menu" class="btn btn-3d btn-secondary">Về trang chủ</button>
+      </div>
+    </div>
+  </section>
+
+    <!-- ========== LEADERBOARD ========== -->
+  <section id="leaderboard-screen" class="screen">
+    <div class="card glass lb-card">
+      <h2>TOP 10</h2>
+      <table class="lb">
+        <thead><tr><th>Hạng</th><th>Avatar</th><th>Tên</th><th>Lớp</th><th>Nick</th><th>Điểm</th></tr></thead>
+        <tbody id="lbBody"></tbody>
+      </table>
+      <div class="actions">
+        <button id="btn-lb-back" class="btn btn-3d btn-secondary">Về trang chủ</button>
+      </div>
+    </div>
+  </section>
 
   <script src="script.js" defer></script>
 </body>
