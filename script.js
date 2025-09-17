@@ -328,5 +328,28 @@ window.addEventListener("DOMContentLoaded", ()=>{
   document.getElementById("btn-lb-back").addEventListener("click", showMenu);
   document.getElementById("nextBtn").addEventListener("click", nextQuestion);
 });
+// Kết nối các nút với hàm
+window.addEventListener("DOMContentLoaded", () => {
+  // Đăng nhập / Đăng xuất
+  document.getElementById("btn-start")?.addEventListener("click", login);
+  document.getElementById("btn-logout")?.addEventListener("click", logout);
+
+  // Âm thanh
+  document.getElementById("btn-audio-login")?.addEventListener("click", toggleAudio);
+  document.getElementById("btn-audio-top")?.addEventListener("click", toggleAudio);
+
+  // Menu chính
+  document.getElementById("btn-practice")?.addEventListener("click", startPractice);
+  document.getElementById("btn-arena")?.addEventListener("click", startArena);
+  document.getElementById("btn-leaderboard")?.addEventListener("click", showLeaderboard);
+
+  // Quay lại
+  document.getElementById("btn-home")?.addEventListener("click", showMenu);
+  document.getElementById("btn-back-menu")?.addEventListener("click", showMenu);
+  document.getElementById("btn-lb-back")?.addEventListener("click", showMenu);
+
+  // Quiz
+  document.getElementById("nextBtn")?.addEventListener("click", nextQuestion);
+});
 
 });
